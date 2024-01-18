@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EB-8001-6308D8B0A6BF">
+	<DocumentID>8C1645B9-0967-A1EB-8001-6308D8B066BF</DocumentID>
+	<Name>8C1645B9-0967-A1EB-8001-6308D8B066BF</Name>
+	<Description>clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-26T14:48:55.835</CreationDate>
+	<Notes/>
+	<Text>clause</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EB-8001-6308D8AFE6BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

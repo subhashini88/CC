@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E8-AF56-64C97DE4A4D7">
+	<DocumentID>9890969C-5774-A1E8-AF56-64C97DE464D7</DocumentID>
+	<Name>9890969C-5774-A1E8-AF56-64C97DE464D7</Name>
+	<Description>term</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-09-21T04:49:42.711</CreationDate>
+	<Notes/>
+	<DefaultText>term</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E8-AF56-64C97DE4E4D7"
+		/>
+	</Translations>
+</TextIdentifier>

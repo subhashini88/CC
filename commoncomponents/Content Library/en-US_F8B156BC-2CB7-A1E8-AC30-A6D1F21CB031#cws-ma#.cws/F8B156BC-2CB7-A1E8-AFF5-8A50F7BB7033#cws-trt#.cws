@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AFF5-8A50F7BBB033">
+	<DocumentID>F8B156BC-2CB7-A1E8-AFF5-8A50F7BB7033</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AFF5-8A50F7BB7033</Name>
+	<Description>Clause activity flow</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-24T09:49:00.881</CreationDate>
+	<Notes/>
+	<Text>Clause activity flow</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AFF5-8A50F7BAF033"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AFF0-C5F220853033">
+	<DocumentID>F8B156BC-2CB7-A1E8-AFF0-C5F22084F033</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AFF0-C5F22084F033</Name>
+	<Description>Disable edit clause</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-24T06:33:54.701</CreationDate>
+	<Notes/>
+	<Text>Disable edit clause</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AFF0-C5F220847033"
+		/>
+	</TextIdentifier>
+</TranslatedText>

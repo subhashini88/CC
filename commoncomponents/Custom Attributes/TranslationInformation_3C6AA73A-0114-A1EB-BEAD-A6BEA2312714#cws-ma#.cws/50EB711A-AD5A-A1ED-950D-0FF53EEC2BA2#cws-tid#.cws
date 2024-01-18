@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-950D-0FF53EEC6BA2">
+	<DocumentID>50EB711A-AD5A-A1ED-950D-0FF53EEC2BA2</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-950D-0FF53EEC2BA2</Name>
+	<Description>GetGCProcessRequiredProps</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-25T07:45:22.947</CreationDate>
+	<Notes/>
+	<DefaultText>GetGCProcessRequiredProps</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1ED-950D-0FF53EECABA2"
+		/>
+	</Translations>
+</TextIdentifier>

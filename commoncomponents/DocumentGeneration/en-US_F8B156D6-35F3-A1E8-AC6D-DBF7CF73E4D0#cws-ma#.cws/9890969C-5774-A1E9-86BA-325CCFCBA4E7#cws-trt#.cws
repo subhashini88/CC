@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E9-86BA-325CCFCBE4E7">
+	<DocumentID>9890969C-5774-A1E9-86BA-325CCFCBA4E7</DocumentID>
+	<Name>9890969C-5774-A1E9-86BA-325CCFCBA4E7</Name>
+	<Description>Is document verified</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2019-01-18T06:19:30.239</CreationDate>
+	<Notes/>
+	<Text>Is document verified</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E9-86BA-325CCFCB24E7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

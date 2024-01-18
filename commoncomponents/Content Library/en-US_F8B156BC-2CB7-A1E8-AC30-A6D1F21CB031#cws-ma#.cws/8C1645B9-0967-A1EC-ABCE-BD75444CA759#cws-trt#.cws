@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EC-ABCE-BD75444CE759">
+	<DocumentID>8C1645B9-0967-A1EC-ABCE-BD75444CA759</DocumentID>
+	<Name>8C1645B9-0967-A1EC-ABCE-BD75444CA759</Name>
+	<Description>Copy rules and conditional content ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-29T08:35:12.929</CreationDate>
+	<Notes/>
+	<Text>Copy rules and conditional content ?</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EC-ABCE-BD75444C2759"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,21 @@
+<MessageBundle xmlns=""
+	id="com.opentext.apps.commoncomponents.contentlibrary.Messages">
+	<Message id="webserviceFailureReadTemplate">
+		<MessageText>Impossible de récupérer les détails du modèle. Contactez
+			l'administrateur.</MessageText>
+		<Description>Unable to retrieve the template details. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="MissingDocLayoutForTemplate">
+		<MessageText>Aucune disposition de document n'est associée à ce
+			modèle.</MessageText>
+		<Description>No document layout is associated with this template.
+		</Description>
+	</Message>
+	<Message id="webserviceFailureGetTemplateDetails">
+		<MessageText>Impossible de récupérer le résumé du modèle. Contactez
+			l'administrateur.</MessageText>
+		<Description>Unable to retrieve the template summary. Contact the
+			administrator.</Description>
+	</Message>
+</MessageBundle>

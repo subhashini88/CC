@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/orgmembers.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../js/organizationsummary_Services.js"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <!-- <script src="../js/orgchart.js"></script> -->
+</head>
+
+<style>
+
+</style>
+
+<body class="cc-ltr">
+    <div class="au-target results-grid cards-layout contact-template">
+        <div class="table-container au-target">
+            <div class="table-container au-target">
+                <div class="table-sub-container">
+                    <div class="au-target rg-table">
+                        <div class="au-target grid-viewport">
+                            <div class="au-target rg-table-row rg-table-row-first rg-table-row-odd">
+                                <div
+                                    class="au-target rg-table-row-item focusable fixed-width row-select rg-table-row-item-col-1 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        <div class="au-target checkbox-off grid-select-column"></div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-image sortable grid-align-left image-text rg-table-row-item-col-2 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "1"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-name sortable grid-align-left rg-table-row-item-col-3 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "conauthor-org@CCPartition"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-title sortable grid-align-left rg-table-row-item-col-4 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="au-target rg-table-row rg-table-row-first rg-table-row-odd">
+                                <div
+                                    class="au-target rg-table-row-item focusable fixed-width row-select rg-table-row-item-col-1 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        <div class="au-target checkbox-off grid-select-column"></div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-image sortable grid-align-left image-text rg-table-row-item-col-2 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "1"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-name sortable grid-align-left rg-table-row-item-col-3 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "conauthor-org@CCPartition"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-title sortable grid-align-left rg-table-row-item-col-4 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="au-target rg-table-row rg-table-row-first rg-table-row-odd">
+                                <div
+                                    class="au-target rg-table-row-item focusable fixed-width row-select rg-table-row-item-col-1 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        <div class="au-target checkbox-off grid-select-column"></div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-image sortable grid-align-left image-text rg-table-row-item-col-2 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "1"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-name sortable grid-align-left rg-table-row-item-col-3 rg-table-row-item-col-odd">
+                                    <div class="rg-table-row-item-content au-target">
+                                        "conauthor-org@CCPartition"
+                                    </div>
+                                </div>
+                                <div
+                                    class="au-target rg-table-row-item focusable contact-title sortable grid-align-left rg-table-row-item-col-4 rg-table-row-item-col-even">
+                                    <div class="rg-table-row-item-content au-target">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

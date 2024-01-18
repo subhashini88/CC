@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B679-BD72B8843167">
+	<DocumentID>F8E4E399-CF40-A1ED-B679-BD72B883F167</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B679-BD72B883F167</Name>
+	<Description>NAME_VLIDATION_ERROR : The name of attribute {item.Properties.Name} is invalid. Names must be composed of letters, numbers, underscores. Names must begin with letter or an underscore</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-13T10:36:08.472</CreationDate>
+	<Notes/>
+	<DefaultText>NAME_VLIDATION_ERROR : The name of attribute {item.Properties.Name} is invalid. Names must be composed of letters, numbers, underscores. Names must begin with letter or an underscore</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B679-BD72B8847167"
+		/>
+	</Translations>
+</TextIdentifier>

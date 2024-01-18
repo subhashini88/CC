@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-AC65-FE8BE97A086E">
+	<DocumentID>C4D98747-A6D9-A1E8-AC65-FE8BE979C86E</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-AC65-FE8BE979C86E</Name>
+	<Description>Add document waring message</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T06:56:16.588</CreationDate>
+	<Notes/>
+	<Text>Add document waring message</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC65-FE8BE979486E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

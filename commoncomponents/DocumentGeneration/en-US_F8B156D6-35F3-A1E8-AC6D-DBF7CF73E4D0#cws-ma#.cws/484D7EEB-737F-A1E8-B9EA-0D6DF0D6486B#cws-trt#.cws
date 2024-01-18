@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1E8-B9EA-0D6DF0D6886B">
+	<DocumentID>484D7EEB-737F-A1E8-B9EA-0D6DF0D6486B</DocumentID>
+	<Name>484D7EEB-737F-A1E8-B9EA-0D6DF0D6486B</Name>
+	<Description>Preview Exists?</Description>
+	<CreatedBy>sai goutham</CreatedBy>
+	<CreationDate>2018-11-14T01:04:23.894</CreationDate>
+	<Notes/>
+	<Text>Preview Exists?</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1E8-B9EA-0D6DF0D5C86B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

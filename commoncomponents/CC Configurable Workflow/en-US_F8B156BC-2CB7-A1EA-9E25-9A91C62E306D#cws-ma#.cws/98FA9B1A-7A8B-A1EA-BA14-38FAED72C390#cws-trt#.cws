@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-BA14-38FAED730390">
+	<DocumentID>98FA9B1A-7A8B-A1EA-BA14-38FAED72C390</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-BA14-38FAED72C390</Name>
+	<Description>DeleteActivityList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-08-27T10:57:15.92</CreationDate>
+	<Notes/>
+	<Text>DeleteActivityList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-BA14-38FAED724390"
+		/>
+	</TextIdentifier>
+</TranslatedText>

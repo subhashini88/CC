@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-847A-757229D3835B">
+	<DocumentID>3C6AA735-2F3B-A1EA-847A-757229D3435B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-847A-757229D3435B</Name>
+	<Description>Are you sure you want to cancel the changes?</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T14:19:17.487</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure you want to cancel the changes?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1EA-847A-757229D3C35B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-686292F27068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-686292F0F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-686292EFB068"
+		/>
+	</Translations>
+</TextIdentifier>

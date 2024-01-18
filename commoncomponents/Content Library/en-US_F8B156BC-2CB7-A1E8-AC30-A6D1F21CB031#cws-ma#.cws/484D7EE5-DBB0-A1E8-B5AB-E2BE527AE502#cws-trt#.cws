@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B5AB-E2BE527B2502">
+	<DocumentID>484D7EE5-DBB0-A1E8-B5AB-E2BE527AE502</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B5AB-E2BE527AE502</Name>
+	<Description>T</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-23T10:38:58.785</CreationDate>
+	<Notes/>
+	<Text>T</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B5AB-E2BE527A6502"
+		/>
+	</TextIdentifier>
+</TranslatedText>

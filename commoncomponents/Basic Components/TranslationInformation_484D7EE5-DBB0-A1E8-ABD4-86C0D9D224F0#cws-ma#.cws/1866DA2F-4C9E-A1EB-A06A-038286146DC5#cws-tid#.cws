@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-A06A-03828614ADC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-A06A-038286146DC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-A06A-038286146DC5</Name>
+	<Description>Cost center id already exists.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-10T13:56:01.291</CreationDate>
+	<Notes/>
+	<DefaultText>Cost center id already exists.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EB-A06A-03828614EDC5"
+		/>
+	</Translations>
+</TextIdentifier>

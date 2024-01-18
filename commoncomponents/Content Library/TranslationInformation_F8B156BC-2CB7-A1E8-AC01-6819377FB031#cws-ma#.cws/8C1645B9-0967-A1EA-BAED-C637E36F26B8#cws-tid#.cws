@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BAED-C637E36F66B8">
+	<DocumentID>8C1645B9-0967-A1EA-BAED-C637E36F26B8</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BAED-C637E36F26B8</Name>
+	<Description>before nested clause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-01T02:47:42.578</CreationDate>
+	<Notes/>
+	<DefaultText>before nested clause</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EA-BAED-C637E36FA6B8"
+		/>
+	</Translations>
+</TextIdentifier>

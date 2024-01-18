@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rules list</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+	<link rel="stylesheet" href="../css/templateruleslist.css">
+	<script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+	<script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+	<script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+	<script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+	<script src="../js/templateruleslist.js" type="text/javascript"></script>
+</head>
+
+<body class="cc-ltr">
+
+	<div id="internalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;padding-top:15% !important;">
+        <p data-translatable="true">Rules cannot be displayed for the Internal party document template type.</p>
+    </div>
+	
+	<div id="externalPartyDocumentType" class="col-xs-12 defaultInfo" style="display: none;padding-top:15% !important;">
+        <p data-translatable="true">Rules cannot be displayed for the External party document template type.</p>
+    </div>
+	
+	<div id="div_listContainer" class="col-md-12 cc-parent-container">
+		<div id="div_ruleListFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+			<div id="div_filterPanel" class="panel panel-default">
+				<div class="panel-heading">
+					<button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilterOnRulesList(this)"
+						id="btn_applyFilter" data-translatable="true"><span
+							data-translatable="true">Apply</span></button>
+					<button class="btn btn-default cc-text-button" onclick="ClearRulesListFilter()" id="btn_clearFilter"
+						data-translatable="true"><span data-translatable="true">Clear</span></button>
+				</div>
+				<div id="div_filterPanelBody" class="panel-body" style="padding: 0px;">
+					<div class="container">
+						<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_ruleNameFilter"
+							aria-expanded="false" aria-controls="name_Filter">
+							<label data-translatable="true">Name</label>
+							<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+						</span>
+						<div class="cc-filter-body" id="div_ruleNameFilter">
+							<div class="form-group">
+								<select id="select_ruleNameFilterOperator" class="form-control cc-select" disabled>
+									<option value="" data-translatable="true">--Select--</option>
+									<option value="EQUALTO">Equal to</option>
+									<option value="RANGE">Range</option>
+									<option value="NOTEQUALTO">Not equal to</option>
+									<option value="CONTAINS" selected data-translatable="true">Contains</option>
+									<option value="EMPTY">Empty</option>
+									<option value="NOTEMPTY">Not empty</option>
+									<option value="ANYOF">Any of(;)</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<input class="form-control" id="input_ruleNameFilter"></input>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_ruleDescriptionFilter"
+							aria-expanded="false" aria-controls="name_Filter">
+							<label data-translatable="true">Description</label>
+							<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+						</span>
+						<div class="cc-filter-body" id="div_ruleDescriptionFilter">
+							<div class="form-group">
+								<select id="select_ruleDescriptionFilterOperator" class="form-control cc-select"
+									disabled>
+									<option value="" data-translatable="true">--Select--</option>
+									<option value="EQUALTO">Equal to</option>
+									<option value="RANGE">Range</option>
+									<option value="NOTEQUALTO">Not equal to</option>
+									<option value="CONTAINS" selected data-translatable="true">Contains</option>
+									<option value="EMPTY">Empty</option>
+									<option value="NOTEMPTY">Not empty</option>
+									<option value="ANYOF">Any of(;)</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<input class="form-control" id="input_ruleDescriptionFilter"></input>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_ruleTypeFilter"
+							aria-expanded="false" aria-controls="name_Filter">
+							<label data-translatable="true">Type</label>
+							<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+						</span>
+						<div class="cc-filter-body" id="div_ruleTypeFilter">
+							<div class="form-group">
+								<select id="select_ruleTypeFilterOperator" class="form-control cc-select" disabled>
+									<option value="" data-translatable="true">--Select--</option>
+									<option value="EQUALTO">Equal to</option>
+									<option value="RANGE">Range</option>
+									<option value="NOTEQUALTO">Not equal to</option>
+									<option value="CONTAINS" selected data-translatable="true">Contains</option>
+									<option value="EMPTY">Empty</option>
+									<option value="NOTEMPTY">Not empty</option>
+									<option value="ANYOF">Any of(;)</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<input class="form-control" id="input_ruleTypeFilter"></input>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<span class="cc-filter-header" apps-toggle="expanded" data-target="#div_ruleCreatedByFilter"
+							aria-expanded="false" aria-controls="name_Filter">
+							<label data-translatable="true">Created by</label>
+							<img src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+						</span>
+						<div class="cc-filter-body" id="div_ruleCreatedByFilter">
+							<div class="form-group">
+								<select id="select_ruleCreatedByFilterOperator" class="form-control cc-select" disabled>
+									<option value="" data-translatable="true">--Select--</option>
+									<option value="EQUALTO">Equal to</option>
+									<option value="RANGE">Range</option>
+									<option value="NOTEQUALTO">Not equal to</option>
+									<option value="CONTAINS" selected data-translatable="true">Contains</option>
+									<option value="EMPTY">Empty</option>
+									<option value="NOTEMPTY">Not empty</option>
+									<option value="ANYOF">Any of(;)</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<input class="form-control" id="input_ruleCreatedByFilter"></input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="div_ruleListData" class="col-md-9 cc-list">
+			<div class="cc-error-info-area" id="div_listErrorInfoArea">
+				<img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+					style="width: 11px; height: 11px;" />
+				<span id="span_errorInfoMessage" style="position: relative;"></span>
+			</div>
+			<div class="cc-header"
+				style="background-color: white;height: 45px;position: fixed;width: 100%;z-index: 1;top: 0;">
+				<button class="btn btn-default cc-button" id="btn_filterRuleList">
+					<img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+				</button>
+				<!-- ko if: templateState()=== 'Draft' -->
+				<button class="btn btn-default cc-button" id="btn_createRuleButton" onclick="callOpenRuleCreateForm()">
+					<img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg">
+				</button>
+				<!-- /ko-->
+				<div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+				<button class="btn btn-default cc-text-button" onclick="callOpenRuleSummaryForm()"
+					id="btn_openRuleFromActionBar" style="display: none;" data-translatable="true"><span
+						data-translatable="true">Open</span></button>
+				<!-- ko if: templateState()=== 'Draft' -->
+				<button class="btn btn-default cc-text-button" onclick="callOpenRuleSummaryForm()"
+					id="btn_editRuleFromActionBar" style="display: none;" data-translatable="true"><span
+						data-translatable="true">Edit</span></button>
+				<!-- /ko-->
+				<!-- <button class="btn btn-default cc-text-button" onclick="deleteRuleFromActionBar()" id="btn_deleteRuleFromActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Delete</span></button> -->
+				<button class="btn btn-default cc-text-button" onclick="ClearRulesListFilter()"
+					id="btn_clearFilterActionBar" style="display: none;" data-translatable="true"><span
+						data-translatable="true">Clear filters</span></button>
+			</div>
+			<div class="table-responsive" style="padding-top: 45px;padding-bottom: 12px;">
+				<table id="table_rulesTable" class="table">
+					<thead>
+						<tr>
+							<th style="width: 6px; min-width: 6px;"></th>
+							<th style="width: 30px; min-width: 30px;">
+								<div class="cc-select-column cc-checkbox-select-all-off" id="div_selectAllRules"
+									data-bind="event:{click:$root.onSelectAllRulesCheckboxValueChanged}"></div>
+							</th>
+							<th style="width: 15%;" data-translatable="true">Name</th>
+							<th style="width: 29%;" data-translatable="true">Description</th>
+							<th style="width: 10%;" data-translatable="true">Type</th>
+							<th style="width: 10%;" data-translatable="true">Created by</th>
+							<th style="width: 10%;" data-translatable="true">Created date</th>
+							<th style="width: 70px; min-width: 70px;"></th>
+							<th style="width: 50px; min-width: 50px;"></th>
+						</tr>
+					</thead>
+					<tbody data-bind="foreach:RulesList">
+						<tr style="cursor: pointer;" class="rule_row" data-bind="click:$root.openSelectedItem,
+								attr:{ruleIndex:$index}">
+							<td>
+							</td>
+							<td>
+								<div class="cc-select-column cc-checkbox-off"
+									data-bind="event:{click:$root.onRuleRowCheckboxValueChanged}"></div>
+							</td>
+							<td>
+								<div data-bind="text:Name"></div>
+							</td>
+							<td>
+								<div data-bind="text:Description"></div>
+							</td>
+							<td>
+								<div data-bind="text:getTextValue(RelatedGCType.Name)"></div>
+							</td>
+							<td>
+								<div data-bind="text:getTextValue(CreatedBy.IdentityDisplayName)"></div>
+							</td>
+							<td>
+								<div
+									data-bind="text:moment(Tracking.CreatedDate.replace('Z', '')).format('MM/DD/YYYY')">
+								</div>
+							</td>
+							<td>
+
+							</td>
+							<td>
+								<div>
+									<!-- ko if: $root.templateState()=== 'Draft' -->
+									<button class="btn btn-default cc-button" id="btn_deleteRule"
+										data-bind="click:$root.confirmRuleDelete">
+										<img class="cc-tr-icon" alt="Delete"
+											src="../../../../../com/opentext/apps/utils/img/delete.svg">
+									</button>
+									<!-- /ko-->
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="cc-footer col-lg-12" style="text-align: center;padding: 0px;">
+				<ul class="pull-left pagination" style="margin: 0;">
+					<li class="li-pagination">
+						<select class="form-control cc-select" id="select_itemsCountPerPageParameter"
+							onchange="updateLimitValue(this)"
+							style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+							<option value="1" data-translatable="true">1 per page</option>
+							<option value="10" data-translatable="true">10 per page</option>
+							<option value="25" selected data-translatable="true">25 per page</option>
+						</select>
+					</li>
+				</ul>
+				<ul class="pagination" style="margin: 0;">
+					<li class="li-pagination">
+						<a id="a_itemsCount"
+							style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+							<span data-bind="text:numOfRules"></span>
+							<span data-translatable="true">result(s)</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="pagination pull-right" style="margin: 0;">
+					<li class="li-pagination li_ListLeftNavigation" id="li_ruleListLeftNavigation" style="cursor: pointer;">
+						<a data-bind="click:goToFirstPage.bind()">
+							<img class="cc-pagination-icon rotated-90" alt="FirstPage"
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+							<img class="cc-pagination-icon rotated-90" alt="FirstPage"
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+						</a>
+						<a data-bind="click:goToPreviousPage.bind()">
+							<img class="cc-pagination-icon rotated-90" alt="PreviousPage"
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg"
+								id="img_goToPreviousPage">
+						</a>
+					</li>
+					<li class="li-pagination">
+						<span>
+							<input class="cc-pagination-pageInput" id="input_pageNumInputParameter"
+								data-bind="textInput:currentPage" disabled
+								style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+							<span data-translatable="true"> of </span>
+							<span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+						</span>
+					</li>
+					<li class="li-pagination li_ListRightNavigation" id="li_ruleListRightNavigation" style="cursor: pointer;">
+						<a data-bind="click:goToNextPage.bind()">
+							<img class="cc-pagination-icon rotated-270" alt="NextPage" 
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+						</a>
+						<a data-bind="click:goToLastPage.bind()">
+							<img class="cc-pagination-icon rotated-270" alt="LastPage" 
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+							<img class="cc-pagination-icon rotated-270" alt="LastPage"
+								
+								src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Create or Edit rule modal form -->
+		<div class="modal fade" id="div_createOrUpdateRuleModal" role="dialog" style="z-index: 1999;">
+			<div class="modal-content cc-modal-content" style="width:90%; height: 95%;">
+				<div class="modal-header cc-modal-header">
+					<button type="button" data-dismiss="modal"
+						style="float: right; border: none; background-color: transparent;">
+						<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+							style="width: 11px; height: 11px;" />
+					</button>
+					<div class="modal-title">
+						<span id="span_createOrEditModalHeading" style="font-size: 2rem;"></span>
+						<!-- ko if: ruleName().length > 0 -->
+						<span data-bind="text:ruleName" style="font-size: 2rem;"></span>
+						<!-- /ko-->
+						<!-- ko ifnot: ruleName().length > 0 -->
+						<span style="font-size: 2rem;" data-translatable="true">rule</span>
+						<!-- /ko-->
+					</div>
+				</div>
+				<div class="modal-body cc-modal-body">
+					<div class="cc-error-info-area" id="div_modalErrorInfoArea"
+						style="z-index: 999;background-color: #FFF;">
+						<img src="../../../../../com/opentext/apps/utils/img/notification_error.svg"
+							style="width: 11px; height: 11px;" />
+						<span id="span_errorInfoMessage" style="position: relative;"></span>
+					</div>
+					<div id="div_ruleSummary">
+						<div id="div_basicRuleDetails">
+							<div class="col-md-12 no-padding">
+								<div class="form-group col-md-4 rtl-float-right">
+									<label class="cc-required" data-translatable="true" for="RuleName">Rule name</label>
+									<input type="text" class="form-control" id="input_ruleName"
+										onchange="removeErrorClass(this)"
+										data-bind="textInput:ruleName,enable:templateState()==='Draft'">
+								</div>
+								<div class="form-group col-md-4 rtl-float-right">
+									<label data-translatable="true" for="Description">Description</label>
+									<input type="text" class="form-control" id="input_ruledescription"
+										data-bind="textInput:ruleDescription,enable:templateState()==='Draft'"/>
+								</div>
+								<div class="form-group col-md-4">
+									<label class="cc-required" data-translatable="true"
+										for="Organization">Organization</label>
+										<input type="text" class="form-control"
+											onchange="removeErrorClass(this)" id="input_ruleOrganization"
+											data-bind="textInput:ruleSelectedOrganizationName,enable:false"
+											readonly placeholder="-Select-"/>
+								</div>
+
+							</div>
+							<div class="col-md-12 no-padding">
+
+							</div>
+						</div>
+						<div id="div_ruleBuilderAndSummary">
+							<div class="col-md-12 no-padding">
+								<div id="div_ruleBuilder" class="col-md-8 rtl-float-right">
+									<div class="cc-header cc-border ">
+										<div class="cc-header-label" data-translatable="true" style="padding-right:16px;" >Rule builder</div>
+									</div>
+									<div class="cc-border" style="overflow: auto;">
+										<div class="col-md-12" style="background-color: #EEF2F4;">
+											<label class="cc-required ifrtlapplied" data-translatable="true"
+												for="ruleLogic"
+												style="float: left;padding: 14px 16px 6px 0px;">Logic</label>
+											<div class="input-group" style="padding: 8px 0px 8px 0px;">
+												<input type="text" class="form-control" id="input_ruleLogic"
+													data-translatable="true"
+													data-bind="textInput:ruleLogic,enable:templateState()==='Draft'"
+													placeholder="Enter condition numbers with AND, OR, and parentheses. For example: (1 AND 2) OR 3">
+												<span class="input-group-addon"
+													style="padding: 0px;cursor: pointer;background-color: transparent;border: none;">
+													<!-- ko if: templateState()=== 'Draft' -->
+													<img class="cc-icon" alt="Validate rule"
+														src="../../../../../com/opentext/apps/utils/img/checkmark.svg"
+														onclick="generateRuleSummary()">
+													<!-- /ko-->
+												</span>
+												<span class="input-group-addon"
+													style="padding: 0px;cursor: pointer;background-color: transparent;border: none;">
+													<!-- ko if: templateState()=== 'Draft' -->
+													<img class="cc-icon" alt="Cancel logic changes"
+														src="../../../../../com/opentext/apps/utils/img/closemark.svg"
+														onclick="revertRuleLogicChanges()"
+														style="height: 18px; width: 18px;">
+													<!-- /ko-->
+												</span>
+											</div>
+											<div id="div_ruleLogicValidationMessage"
+												data-bind="css:{cchideelement :ruleLogicValidationErrors().length<1}">
+												<img class="cc-icon" alt="Validate rule"
+													src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg">
+												<span id="span_ruleLogicValidationMessage"
+													data-bind="text:ruleLogicValidationErrors"></span>
+											</div>
+										</div>
+										<div class="col-md-12" style="padding: 0px;">
+											<table id="table_ruleConditionsTable" class="table" style="margin: 0px;">
+												<tbody data-bind="foreach:ruleConditions">
+													<!--ko if: $index()==0-->
+														<tr>
+															<th data-translatable="true" style="width: 30px;">No</th>
+															<th data-translatable="true" style="width: 28%;">Attribute</th>
+															<th data-translatable="true" style="width: 19%;">Operator</th>
+															<th data-translatable="true" style="padding-right: 0px;width: 28%;">Value</th>
+															<th data-translatable="true" style="width: 11%;">Default result</th>
+														</tr>
+														<!--/ko-->
+													<tr
+														data-bind="event:{click:currentRuleCondition},attr:{ruleConditionIndex:$index}">
+														<!-- <td style="width: 6px;">
+																<div class="cc-drag-drop-icon" style="width: 6px;height: 28px;margin: 0px;"></div>
+															</td> -->
+														<td style="width: 30px; line-height: 25px;">
+															<div class="cc-round-background"
+																data-bind="text:($index() + 1)"></div>
+														</td>
+														<td style="width: 30%;">
+															<div class="input-group">
+																<input type="text"
+																	class="form-control cc-input-browse rtl-input-browse"
+																	data-translatable="true"
+																	data-bind="textInput:ruleConditionLeftOperandName"
+																	readonly placeholder="-Select contract property-">
+																<span
+																	class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"
+																	style="cursor: pointer;">
+																	<!-- ko if: $root.templateState()=== 'Draft' -->
+																	<img class="cc-input-icon" alt="Search"
+																		src="../../../../../com/opentext/apps/utils/img/search.svg"
+																		onclick="openRuleConditionLeftOperandSelectionModal(this)">
+																	<!-- /ko-->
+																</span>
+															</div>
+															<div>
+																<span class="cc-error-message-text"
+																	data-bind="text:ruleConditionLeftOperandValidationMsg,css:{cchideelement :ruleConditionLeftOperandValidationMsg().length<1}"></span>
+															</div>
+														</td>
+														<td style="width: 21%;">
+															<!-- ko if: (ruleConditionLeftOperandDataType().length <= 0) -->
+															<div>
+																<select class="form-control cc-select"
+																	data-bind="value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option value="" data-translatable="true">-Select
+																		operator-</option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- ko ifnot: (ruleConditionLeftOperandDataType().length <= 0) -->
+															<!-- ko if: (ruleConditionLeftOperandDataType() == "TEXT" || ruleConditionLeftOperandDataType() == "LONGTEXT") -->
+															<div>
+																<select class="form-control cc-select"
+																	data-bind="foreach : ruleConditionTextOperators, value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option
+																		data-bind="text : getTranslationMessage(Name),value : Value">
+																	</option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- ko if: (ruleConditionLeftOperandDataType() == "INTEGER" || ruleConditionLeftOperandDataType() == "FLOAT" || ruleConditionLeftOperandDataType() == "DURATION" || ruleConditionLeftOperandDataType() == "DECIMAL" || ruleConditionLeftOperandDataType() == "NUMBER") -->
+															<div>
+																<select class="form-control cc-select"
+																	data-bind="foreach : ruleConditionDecimalOperators, value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option
+																		data-bind="text : getTranslationMessage(Name),value : Value">
+																	</option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- ko if: (ruleConditionLeftOperandDataType() == "BOOLEAN") -->
+															<div>
+																<select class="form-control cc-select"
+																	data-translatable="true"
+																	data-bind="foreach : ruleConditionBooleanOperators, value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option
+																		data-bind="text : getTranslationMessage(Name),value : Value">
+																	</option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- ko if: (ruleConditionLeftOperandDataType() == "DATE") -->
+															<div>
+																<select class="form-control cc-select"
+																	data-translatable="true"
+																	data-bind="foreach : ruleConditionDateOperators, value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option
+																		data-bind="text : getTranslationMessage(Name),value : Value"
+																		data-translatable="true"></option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- ko if: (ruleConditionLeftOperandDataType() == "ENUMERATEDTEXT" || ruleConditionLeftOperandDataType() == "ENUM" ) -->
+															<div>
+																<select class="form-control cc-select"
+																	data-translatable="true"
+																	data-bind="foreach : ruleConditionEnumeratedTextOperators, value : ruleConditionSelectedOperator,enable:$root.templateState()==='Draft'">
+																	<option
+																		data-bind="text : getTranslationMessage(Name),value : Value"
+																		data-translatable="true"></option>
+																</select>
+															</div>
+															<!-- /ko-->
+															<!-- /ko-->
+															<div>
+																<span class="cc-error-message-text"
+																	data-translatable="true"
+																	data-bind="text:ruleConditionOperatorValidationMsg,css:{cchideelement :ruleConditionOperatorValidationMsg().length<1}"></span>
+															</div>
+														</td>
+														<td style="padding-right: 0px;width: 30%;">
+															<input class="form-control input_ruleConditionRightOperand"
+																data-translatable="true"
+																data-bind="textInput:ruleConditionValue,
+																css:{cchideelement :(ruleConditionSelectedOperator()==='EMPTY'||ruleConditionSelectedOperator()==='NOTEMPTY')},enable:$root.templateState()==='Draft'"
+																placeholder="Add value"
+																onchange="validateCurrentRuleConditionDataTypes(this)"></input>
+															<!-- ko ifnot: (ruleConditionSelectedOperator() === 'EMPTY' || ruleConditionSelectedOperator() === 'NOTEMPTY')-->
+															<div>
+																<span class="cc-error-message-text"
+																	data-bind="text:ruleConditionValueValidationMsg,css:{cchideelement :ruleConditionValueValidationMsg().length<1}"></span>
+															</div>
+															<!--/ko-->
+														</td>
+														<td style="width: 10%;">
+														<select style="width: 75px;height: 28px;margin: 0px;" data-bind="value:defaultResult,enable:$root.templateState()==='Draft'">
+															<option value='true'>True</option>
+															<option value='false'>False</option>
+														</select>
+													</td>
+														<td style="width: 5%;">
+															<div>
+																<button class="btn btn-default cc-button"
+																	id="btn_deleteRuleCondition"
+																	data-bind="css:{cchideelement :$index()===0},click:$root.removeRuleCondition"
+																	style="vertical-align: bottom;">
+																	<img class="cc-tr-icon" alt="Delete"
+																		src="../../../../../com/opentext/apps/utils/img/input_delete.svg">
+																</button>
+															</div>
+														</td>
+														<td style="width: 5%;">
+															<div>
+																<!-- ko if: $root.templateState()=== 'Draft' -->
+																<button class="btn btn-default cc-button"
+																	id="btn_addRuleCondition"
+																	data-bind="css:{cchideelement :$index()<($root.ruleConditions().length-1)},click:$root.addRuleCondition"
+																	style="vertical-align: bottom;">
+																	<img class="cc-tr-icon" alt="Delete"
+																		src="../../../../../com/opentext/apps/utils/img/input_add.svg"
+																		style="margin: 0px;">
+																</button>
+																<!-- /ko-->
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+								<div id="div_ruleSummary" class="col-md-4">
+									<div class="cc-header cc-border ">
+										<div class="cc-header-label" data-translatable="true" style="padding-right:16px;" >Rule summary</div>
+									</div>
+									<div class="cc-border" style="overflow: auto;">
+										<div class="col-md-12" id="div_ruleLogicSummary"
+											data-bind="html:ruleLogicSummary"
+											style="min-height: 150px;white-space: pre;padding: 16px;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="cc-modal-footer modal-footer text-align-left">
+					<!-- ko if: templateState()=== 'Draft' -->
+					<button class="cc-btn cc-btn-primary" id="btn_createOrUpdateRule" type="submit"
+						data-bind="click:createOrUpdateRule" style="outline:none;" data-translatable="true"><span
+							data-translatable="true">Ok</span></button>
+					<!-- /ko-->
+					<button type="button" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+						data-bind="click:clearRuleDetailsModelData" style="outline:none;" data-translatable="true"><span
+							data-translatable="true">Cancel</span></button>
+				</div>
+			</div>
+		</div>
+		<!-- Change rule status warning modal form -->
+		<div class="modal fade" id="div_changeRuleStatusModal" role="dialog" style="z-index: 1999;">
+			<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+				<div class="modal-header cc-modal-header">
+					<button type="button" data-dismiss="modal"
+						style="float: right;border: none;background-color: transparent;">
+						<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+							style="width: 11px; height: 11px;" />
+					</button>
+					<h3 data-translatable="true">Change status</h3>
+				</div>
+				<div class="modal-body cc-modal-body">
+					<div class="cc-warning-msg" data-translatable="true">Change the status of the selected rule?</div>
+				</div>
+				<div class="cc-modal-footer modal-footer text-align-left">
+					<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal"
+						id="btn_changeRuleStatusYes"><span data-translatable="true">Ok</span></button>
+					<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+						id="btn_changeRuleStatusCancel"><span data-translatable="true">Cancel</span></button>
+				</div>
+			</div>
+		</div>
+		<!-- Delete rule warning modal form -->
+		<div class="modal fade" id="div_deleteRuleModal" role="dialog" style="z-index: 1999;">
+			<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+				<div class="modal-header cc-modal-header">
+					<button type="button" data-dismiss="modal"
+						style="float: right;border: none;background-color: transparent;">
+						<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+							style="width: 11px; height: 11px;" />
+					</button>
+					<h3 data-translatable="true">Delete <span id="span_NumOfRulesToDelete"></span></h3>
+				</div>
+				<div class="modal-body cc-modal-body">
+					<div class="cc-warning-msg rtl-notifquestion" data-translatable="true">Delete the selected items?
+					</div>
+				</div>
+				<div class="cc-modal-footer modal-footer text-align-left">
+					<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_deleteRuleYes"
+						data-translatable="true"><span data-translatable="true">Delete</span></button>
+					<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_deleteRuleCancel"
+						data-translatable="true"><span data-translatable="true">Cancel</span></button>
+				</div>
+			</div>
+		</div>
+		<!-- Select activity list for rule modal form -->
+
+		<!-- Select leftoperand for rule conditions modal form -->
+		<div class="modal fade" id="div_selectRuleConditionLeftOperandModal" role="dialog" style="z-index: 2999;">
+			<div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%; height: 75%;">
+				<div class="modal-header cc-modal-header">
+					<button type="button" data-dismiss="modal"
+						style="float: right;border: none;background-color: transparent;">
+						<img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+							style="width: 11px; height: 11px;" />
+					</button>
+					<h3 data-translatable="true">Select a contract property</h3>
+				</div>
+				<div class="modal-body cc-modal-body">
+					<div id="div_attrTypeSelection" style="padding-left: 15px; padding-bottom: 25px;">
+						<div style="float: left;width: 50%" onclick="changeAttrType()" id="div_generalAttr">
+							<div class="cc-select-column cc-radio-on" style="width: 20px;"></div>
+							<span data-translatable="true">General attributes</span>
+						</div>
+						<div style="float: left;width: 50%" onclick="changeAttrType()" id="div_custAttr">
+							<div class="cc-select-column cc-radio-off" style="width: 20px;"></div>
+							<span data-translatable="true">Custom attributes</span>
+						</div>
+					</div>
+					<div class="col-md-12 cc-list" id="div_rueConditionLeftOperandList">
+						<table class="table cc-border">
+							<thead>
+								<tr>
+									<th style="width: 10%;"></th>
+									<th style="width: 50%;" data-translatable="true" scope="col">Name</th>
+									<th style="width: 40%;" data-translatable="true" scope="col">Data type</th>
+								</tr>
+							</thead>
+							<tbody id="RuleConditionLeftOperandList_id"
+								data-bind="foreach:RuleConditionLeftOperandList">
+								<tr data-bind="click:$root.selectRuleConditionLeftOperandRadioButton">
+									<td>
+										<div class="cc-select-column cc-radio-off"
+											data-bind="event:{click:$root.onRuleConditionLeftOperandRowRadioButtonValueChanged}">
+										</div>
+									</td>
+									<td data-translatable="true" data-bind="text:DisplayName"></td>
+									<td data-translatable="true" data-bind="text:getDatatypeText(DataType)"></td>
+								</tr>
+							</tbody>
+							<tbody id="RuleConditionCustAttrLeftOperandList_id"
+								data-bind="foreach:RuleConditionCustAttrLeftOperandList" class="hidden">
+								<tr data-bind="click:$root.selectRuleConditionLeftOperandRadioButton">
+									<td>
+										<div class="cc-select-column cc-radio-off"
+											data-bind="event:{click:$root.onRuleConditionLeftOperandRowRadioButtonValueChanged}">
+										</div>
+									</td>
+									<td data-translatable="true" data-bind="text:Name.text"></td>
+									<td data-translatable="true" data-bind="text:getDatatypeText(DataType.text)"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="cc-modal-footer modal-footer text-align-left">
+					<button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal"
+						id="btn_selectRuleConditionLeftOperandYes" data-translatable="true"><span
+							data-translatable="true">Select</span></button>
+					<button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal"
+						id="btn_selectRuleConditionLeftOperandCancel" data-translatable="true"><span
+							data-translatable="true">Cancel</span></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

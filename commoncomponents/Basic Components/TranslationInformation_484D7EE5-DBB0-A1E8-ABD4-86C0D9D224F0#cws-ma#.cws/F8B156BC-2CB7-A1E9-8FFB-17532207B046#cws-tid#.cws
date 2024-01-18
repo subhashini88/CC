@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-8FFB-17532207F046">
+	<DocumentID>F8B156BC-2CB7-A1E9-8FFB-17532207B046</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-8FFB-17532207B046</Name>
+	<Description>RelationTypeHistoryLog</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-03-06T09:02:35.571</CreationDate>
+	<Notes/>
+	<DefaultText>RelationTypeHistoryLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-8FFB-175322083046"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="E86A6495-8267-A1EB-A57F-23AA80080378">
+	<DocumentID>E86A6495-8267-A1EB-A57F-23AA8007C378</DocumentID>
+	<Name>E86A6495-8267-A1EB-A57F-23AA8007C378</Name>
+	<Description>CostCenter Id</Description>
+	<CreatedBy>sk</CreatedBy>
+	<CreationDate>2021-04-05T10:59:48.259</CreationDate>
+	<Notes/>
+	<DefaultText>CostCenter Id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="E86A6495-8267-A1EB-A57F-23AA80084378"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BF58-7377AE3626BD">
+	<DocumentID>8C1645B9-0967-A1EA-BF58-7377AE35E6BD</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BF58-7377AE35E6BD</Name>
+	<Description>UPD_LINKED_CLA</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-23T06:34:32.316</CreationDate>
+	<Notes/>
+	<Text>UPD_LINKED_CLA</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BF58-7377AE3566BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="../css/appscommon.css" />
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $.cordys.json.defaults.removeNamespacePrefix = true;
+		var i_locale;
+        var ClauseListServiceModel;
+        var ClauseListModel = function () {
+            self = this;
+            this.Version_List = ko.observableArray([]);
+            this.openSelectedItem = function (iItem) {
+                if (iItem["GCClause-id"]) {
+					var l_ItemId =iItem["GCClause-id"].ItemId;
+					navigateToInstance(l_ItemId,"Clause",{"layoutID":'F8B156BC2CB7A1E8B02C7BB5968E3033', "clearBreadcrumb":false,"breadcrumbName" :''});
+                }
+            }
+        }
+
+        var clause_list_model = new ClauseListModel();
+        var isVersionsAreThere = false;
+
+        $(function () {
+			i_locale = getlocale();
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+      translateLabels("com/opentext/apps/commoncomponents/ContentLibrary/ContentLibrary", i_locale);
+      if(document.getElementById("CT_ClauseID")!=null)
+      document.getElementById("CT_ClauseID").title="Clause ID";
+      if(document.getElementById("CT_Version")!=null)
+      document.getElementById("CT_Version").title="Version";
+      if(document.getElementById("CT_State")!=null)
+      document.getElementById("CT_State").title="State";
+      if(document.getElementById("CT_ModifiedOn")!=null)
+      document.getElementById("CT_ModifiedOn").title="Modified on";
+      if(document.getElementById("CT_ModifiedBy")!=null)
+      document.getElementById("CT_ModifiedBy").title="Modified by";
+      if(document.getElementById("CT_ChangeSummary")!=null)
+      document.getElementById("CT_ChangeSummary").title="CT_ChangeSummary";
+      if(document.getElementById("CT_Open")!=null)
+      document.getElementById("CT_Open").title="Open";
+			loadRTLIfRequired(i_locale,rtl_css);
+            $('[src*="clauseversions.htm"]', window.parent.parent.document).parent().css('padding-left', '0px');
+            ko.applyBindings(clause_list_model, document.getElementById("ClauseTable"));
+            ClauseIdentifier = getUrlParameterValue("ClauseIdentifier", null, true);
+            ItemId = getUrlParameterValue("instanceId", null, true);;
+
+            function ListAllClauses(ClauseIdentifier) {
+                ClauseListServiceModel = $.cordys.ajax({
+                    namespace: "http://schemas/OpenTextContentLibrary/18.4",
+                    method: "GetAllVersionOfClause",
+                    parameters: '<ClauseIdentifier xmlns="http://schemas.cordys.com/default">' +
+                        ClauseIdentifier + '</ClauseIdentifier>',
+                    success: function (data) {
+                        if (data.Versions && data.Versions.FindZ_INT_ClauseVersionListResponse &&
+                            data.Versions.FindZ_INT_ClauseVersionListResponse.GCClause) {
+                            addDataToView(ItemId, data.Versions.FindZ_INT_ClauseVersionListResponse.GCClause, clause_list_model);
+                        }
+
+                    }
+                });
+            }
+            if (ClauseIdentifier) {
+                ListAllClauses(ClauseIdentifier);
+            }
+        });
+
+
+        function addDataToView(ItemId, iElementList, iModel) {
+            iModel.Version_List.removeAll();
+            if (iElementList) {
+                if (iElementList.length) {
+                    isVersionsAreThere = true;
+                    iElementList.forEach(function (iElement) {
+                        iModel.Version_List.push(iElement);
+
+                    });
+                } else {
+                    iModel.Version_List.push(iElementList);
+                }
+            }
+        }
+    </script>
+    <style>
+        #ClauseTable>tbody>tr:hover {
+            cursor: pointer;
+            background-color: #a0a4bc !important;
+            color: #333333 !important;
+        }
+
+        #ClauseTable>tbody>tr:hover td:first-child {
+            text-decoration: underline;
+        }
+
+        #ClauseTable>thead {
+            background-color: #efefef;
+        }
+
+        #ClauseTable_HeaderRow>th {
+            font-weight: normal;
+            vertical-align: top;
+            width: 10px;
+        }
+
+        .ClauseTable_DataRow>td>div,
+        #ClauseTable_HeaderRow>th>div {
+            margin-top: 0.5em;
+        }
+
+        #ClauseTable_HeaderRow>th>div {
+            white-space: nowrap;
+            width: 75%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+
+<body class="cc-ltr">
+    <div class="version_tab" data-bind="if:true">
+        <div class="table-responsive ">
+            <table id="ClauseTable" class="table">
+                <thead>
+                    <tr id="ClauseTable_HeaderRow">
+
+                        <th class="col-2" id="CT_ClauseID">
+                            <div><label class="label-no-bold" data-translatable="true">Clause ID</label></div>
+                        </th>
+                        <th class="col-1" id="CT_Version">
+                            <div><label class="label-no-bold" data-translatable="true">Version</label></div>
+                        </th>
+                        <th class="col-1" id="CT_State">
+                            <div><label class="label-no-bold" data-translatable="true">State</label></div>
+                        </th>
+                        <th class="col-1" id="CT_ModifiedOn">
+                            <div><label class="label-no-bold" data-translatable="true">Modified on</label></div>
+                        </th>
+                        <th class="col-1" id="CT_ModifiedBy">
+                            <div><label class="label-no-bold" data-translatable="true">Modified by</label></div>
+                        </th>
+                        <th class="col-3" id="CT_ChangeSummary">
+                            <div><label class="label-no-bold" data-translatable="true">Change summary</label></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody data-bind="foreach:Version_List">
+                    <tr class="ClauseTable_DataRow" data-bind="event:{click:$root.openSelectedItem}">
+                        <td class="col-2" id="CT_Open" data-bind="if:(ClauseId)">
+                            <div data-bind="text:ClauseId"></div>
+                        </td>
+                        <td class="col-1" data-bind="if:(Version)">
+                            <div data-bind="text:Version"></div>
+                        </td>
+                        <td class="col-1" data-bind="if:(Lifecycle.CurrentState)">
+                            <div data-bind="text:Lifecycle.CurrentState"></div>
+                        </td>
+                        <td class="col-1" data-bind="if:(Tracking.LastModifiedDate)">
+                            <div data-bind="text:moment(Tracking.LastModifiedDate).format('DD/MM/YYYY h:mm:ss A')">
+                            </div>
+                        </td>
+                        <td class="col-1" data-bind="if:(LastModifiedBy.UserId.text)">
+                            <div data-bind="text:LastModifiedBy.UserId.text"></div>
+                        </td>
+                        <td class="col-3" data-bind="if:(VersionSummary)">
+                            <div data-bind="text:VersionSummary"></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

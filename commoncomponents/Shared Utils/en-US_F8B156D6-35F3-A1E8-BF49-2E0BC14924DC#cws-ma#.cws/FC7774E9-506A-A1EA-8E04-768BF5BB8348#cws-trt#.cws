@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E04-768BF5BBC348">
+	<DocumentID>FC7774E9-506A-A1EA-8E04-768BF5BB8348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E04-768BF5BB8348</Name>
+	<Description>salesforce integrator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-16T05:16:58.541</CreationDate>
+	<Notes/>
+	<Text>salesforce integrator</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E9-506A-A1EA-8E04-768BF5BB0348"
+		/>
+	</TextIdentifier>
+</TranslatedText>

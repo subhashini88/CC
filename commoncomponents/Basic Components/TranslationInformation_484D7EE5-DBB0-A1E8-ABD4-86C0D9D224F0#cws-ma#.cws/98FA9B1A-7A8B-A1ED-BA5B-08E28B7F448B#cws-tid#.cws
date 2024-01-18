@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-BA5B-08E28B7F848B">
+	<DocumentID>98FA9B1A-7A8B-A1ED-BA5B-08E28B7F448B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-BA5B-08E28B7F448B</Name>
+	<Description>Is used in dashboard?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-03T04:37:49.221</CreationDate>
+	<Notes/>
+	<DefaultText>Is used in dashboard?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-BA5B-08E28B7FC48B"
+		/>
+	</Translations>
+</TextIdentifier>

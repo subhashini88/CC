@@ -1,0 +1,259 @@
+<MessageBundle xmlns=""
+	id="com.opentext.apps.contractcenter.Messages">
+	<Message id="inputShouldNotBeNullOrEmpty">
+		<MessageText>لا يجب أن يكون حقل الإدخال خاليًا/فارغًا</MessageText>
+		<Description>Input shouldn't be null/empty.</Description>
+	</Message>
+	<Message id="errorWhileExecuting">
+		<MessageText>{حدث خطأ أثناء تنفيذ {0</MessageText>
+		<Description>Error while executing {0}.</Description>
+	</Message>
+	<Message id="errorWhileTriggeringWebService">
+		<MessageText>{حدث خطأ أثناء تشغيل خدمة ويب {0</MessageText>
+		<Description>Error while triggering {0} Web service.</Description>
+	</Message>
+	<Message id="entityInstanceNotFound">
+		<MessageText>لم يتم العثور على مثيل الكيان باستخدام البيانات المتوفرة.
+			{ولم يتم العثور على {0} من {1} باستخدام الإدخال المتوفر {2
+		</MessageText>
+		<Description>Entity instance not found with given data. No {0} found
+			from {1} with given input {2}.</Description>
+	</Message>
+	<Message id="errorInPrcessCreationService">
+		<MessageText>حدث خطأ أثناء معالجة خدمة الإنشاء.</MessageText>
+		<Description>Error in process creation service.</Description>
+	</Message>
+	<Message id="errorWhileCreatingDump">
+		<MessageText>حدث خطأ أثناء إنشاء النسخة الاحتياطية</MessageText>
+		<Description>Error while creating dump.</Description>
+	</Message>
+	<Message id="errorWhileCreatingExcelFile">
+		<MessageText>حدث خطأ أثناء إنشاء ملف Excel</MessageText>
+		<Description>Error while creating Excel file.</Description>
+	</Message>
+	<Message id="errorWhileInvokingMasterDataImport">
+		<MessageText>حدث خطأ أثناء استدعاء استيراد البيانات الرئيسية.
+		</MessageText>
+		<Description>Error while invoking master data import.</Description>
+	</Message>
+	<Message id="errorWhileMappingRoles">
+		<MessageText>حدث خطأ أثناء تعيين أدوار المستخدم من خلال تكوين الإخطار.
+		</MessageText>
+		<Description>Error while mapping the user roles with notification
+			configuration.</Description>
+	</Message>
+	<Message id="errorWhileOpeningFile">
+		<MessageText>حدث خطأ أثناء فتح الملف </MessageText>
+		<Description>Error while opening the file.</Description>
+	</Message>
+	<Message id="errorWhileTriggeringBPM">
+		<MessageText>حدث خطأ أثناء تشغيل BPM {لـ {0</MessageText>
+		<Description>Error while triggering {0} BPM.</Description>
+	</Message>
+	<Message id="errorWhileUploadingFile">
+		<MessageText>حدث خطأ أثناء تحميل الملف إلى مجموعة إنشاء المحتوى
+		</MessageText>
+		<Description>Error while uploading file to the content building block.
+		</Description>
+	</Message>
+	<Message id="dateParseException">
+		<MessageText>حدث استثناء أثناء تحليل التاريخ المتوفر</MessageText>
+		<Description>Exception while parsing the given date.</Description>
+	</Message>
+	<Message id="invalidParameters">
+		<MessageText>معلمات غير صالحة</MessageText>
+		<Description>Invalid Parameters.</Description>
+	</Message>
+	<Message id="dateParseException">
+		<MessageText>حدث استثناء أثناء تحليل التاريخ المتوفر</MessageText>
+		<Description>Exception while parsing the given date.</Description>
+	</Message>
+	<Message id="invalidParameters">
+		<MessageText>معلمات غير صالحة</MessageText>
+		<Description>Invalid Parameters.</Description>
+	</Message>
+	<Message id="urlIsNotValid">
+		<MessageText>عنوان URL المتوفر غير صالح</MessageText>
+		<Description>Provided URL is not Valid.</Description>
+	</Message>
+	<Message id="statusDumpFailed">
+		<MessageText>فشل إنشاء نسخة احتياطية للحالة</MessageText>
+		<Description>Status dump is failed.</Description>
+	</Message>
+	<Message id="unableToInitializeHandler">
+		<MessageText>{تتعذر تهيئة المعالج "{0}" للخاصية: {1}. خطأ: {2
+		</MessageText>
+		<Description>Unable to initialize the handler "{0}" for the property:
+			{1}. Error: {2}</Description>
+	</Message>
+	<Message id="fileNotFound">
+		<MessageText>{لم يتم العثور على الملف {0}.{1</MessageText>
+		<Description>{0} file not found.{1}</Description>
+	</Message>
+	<Message id="webserviceFailureReadContract">
+		<MessageText>يتعذر استرداد تفاصيل العقد. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the contract details. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureGetTemplateDetails">
+		<MessageText>يتعذر استرداد تفاصيل القالب. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the template details. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureGetContractRelationsForDocgen">
+		<MessageText>يتعذر استرداد علاقات العقد. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the contract relations. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureReadGCTerm">
+		<MessageText>يتعذر استرداد تفاصيل العنصر. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the term details. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureGetTermInstByClaAndSecOrder">
+		<MessageText>يتعذر استرداد العناصر في البنود. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the terms in the clauses. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureGetTermReference">
+		<MessageText>يتعذر استرداد مراجع العناصر. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the term references. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="parsingFailureDate">
+		<MessageText>حدث خطأ أثناء تحليل التاريخ. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while parsing the date. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureReadDocLayout">
+		<MessageText>يتعذر استرداد تفاصيل تخطيط المستند. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the document layout details. Contact
+			the administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureGetDocument">
+		<MessageText>يتعذر استرداد المستند. لذا اتصل بالمسؤول.</MessageText>
+		<Description>Unable to retrieve the document. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="emptyDocStorageTicket">
+		<MessageText>يكون مسار التخزين الخاص بالمستند فارغًا. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>The storage path of the document is empty. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="emptyDocContentStream">
+		<MessageText>يكون دفق المستند فارغًا. لذا اتصل بالمسؤول.</MessageText>
+		<Description>The document stream is empty. Contact the administrator.
+		</Description>
+	</Message>
+	<Message id="emptyGeneratedDocLocation">
+		<MessageText>يكون مسار المستند الذي تم إنشاؤه فارغًا. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>The path of the generated document is empty. Contact the
+			administrator.</Description>
+	</Message>
+	<Message id="formatErrorInputXML">
+		<MessageText>يكون تنسيق XML غير صحيح. لذا اتصل بالمسؤول.</MessageText>
+		<Description>Incorrect XML format. Contact the administrator.
+		</Description>
+	</Message>
+	<Message id="updateErrorMapping">
+		<MessageText>حدث خطأ أثناء تحديث تخطيط الرمز المميز. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while updating the token mapping.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="documentGenerationFailure">
+		<MessageText>حدث خطأ أثناء إنشاء المستند. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while generating the document. Contact
+			the administrator.</Description>
+	</Message>
+	<Message id="parsingFailureParagraph">
+		<MessageText>حدث خطأ أثناء تحليل الفقرات في المستند. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while parsing paragraphs in the
+			document. Contact the administrator.</Description>
+	</Message>
+	<Message id="parserConfigurationError">
+		<MessageText>An error occurred while parsing the document. Contact the
+			administrator</MessageText>
+		<Description>An error occurred while parsing the document. Contact the
+			administrator</Description>
+	</Message>
+	<Message id="documentBuilderFailure">
+		<MessageText>حدث خطأ أثناء إنشاء المستند. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while creating the document. Contact
+			the administrator.</Description>
+	</Message>
+	<Message id="readFailureValidationInput">
+		<MessageText>حدث خطأ أثناء استرداد تفاصيل العينة من أجل التحقق من
+			المستند. لذا اتصل بالمسؤول.</MessageText>
+		<Description>An error occurred while retrieving sample details for
+			verifying the document. Contact the administrator.</Description>
+	</Message>
+	<Message id="patternCounterError">
+		<MessageText>حدث خطأ أثناء استرداد الرموز المميزة من المستند. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while retrieving tokens from the
+			document. Contact the administrator.</Description>
+	</Message>
+	<Message id="cloneParagraphError">
+		<MessageText>حدث خطأ أثناء نسخ الفقرات في المستند. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while cloning paragraphs in the
+			document. Contact the administrator.</Description>
+	</Message>
+	<Message id="cloneRunError">
+		<MessageText>حدث خطأ أثناء نسخ محتويات الفقرات في المستند. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while cloning the paragraph contents in
+			the document. Contact the administrator.</Description>
+	</Message>
+	<Message id="mappingBuilderError">
+		<MessageText>حدث خطأ أثناء إنشاء تخطيطات الرموز المميزة. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while creating token mappings. Contact
+			the administrator.</Description>
+	</Message>
+	<Message id="replaceMappingClonedRunForParapraphError">
+		<MessageText>حدث خطأ أثناء استبدال تخطيط محتويات الفقرات التي تم
+			نسخها. لذا اتصل بالمسؤول.</MessageText>
+		<Description>An error occurred while replacing the mapping of the
+			cloned paragraph contents. Contact the administrator.</Description>
+	</Message>
+	<Message id="replaceMappingClonedRunForParapraphXMLError">
+		<MessageText>حدث خطأ في تنسيق XML أثناء استبدال تخطيط محتويات الفقرات
+			التي تم نسخها. لذا اتصل بالمسؤول.</MessageText>
+		<Description>An error occurred in the XML format while replacing the
+			mapping of the cloned paragraph contents. Contact the administrator.
+		</Description>
+	</Message>
+	<Message id="releaseFileOutputStream">
+		<MessageText>حدث خطأ أثناء مسح مساحة في الذاكرة بعد إنشاء المستند. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>An error occurred while clearing memory space after
+			generating the document. Contact the administrator.</Description>
+	</Message>
+	<Message id="webserviceFailureReadValidationInput">
+		<MessageText>يتعذر استرداد تفاصيل حول إدخال التحقق. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>Unable to retrieve the validation input details. Contact
+			the administrator.</Description>
+	</Message>
+	<Message id="RTEParserError">
+		<MessageText>حدث خطأ أثناء تحليل إدخال النص المنسق. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while parsing the rich text input.
+			Contact the administrator.</Description>
+	</Message>
+</MessageBundle>

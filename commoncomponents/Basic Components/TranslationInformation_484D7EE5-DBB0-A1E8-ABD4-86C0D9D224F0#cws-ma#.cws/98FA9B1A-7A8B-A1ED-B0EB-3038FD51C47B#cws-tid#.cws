@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-B0EB-3038FD52047B">
+	<DocumentID>98FA9B1A-7A8B-A1ED-B0EB-3038FD51C47B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-B0EB-3038FD51C47B</Name>
+	<Description>Filter duplicate views</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-16T03:48:15.287</CreationDate>
+	<Notes/>
+	<DefaultText>Filter duplicate views</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-B0EB-3038FD52447B"
+		/>
+	</Translations>
+</TextIdentifier>

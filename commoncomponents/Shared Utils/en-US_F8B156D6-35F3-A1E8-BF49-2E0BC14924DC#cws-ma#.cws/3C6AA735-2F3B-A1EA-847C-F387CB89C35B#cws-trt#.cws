@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-847C-F387CB8A035B">
+	<DocumentID>3C6AA735-2F3B-A1EA-847C-F387CB89C35B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-847C-F387CB89C35B</Name>
+	<Description>[Error]: iHUB configuration is missing.</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T15:34:46.517</CreationDate>
+	<Notes/>
+	<Text>[Error]: iHUB configuration is missing.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1EA-847D-1EA3E255435B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

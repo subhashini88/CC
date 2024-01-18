@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8E20-F4659CABB087">
+	<DocumentID>F8B156BC-2CB7-A1EB-8E20-F4659CAB7087</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-8E20-F4659CAB7087</Name>
+	<Description>Decision</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-12-07T12:00:58.367</CreationDate>
+	<Notes/>
+	<Text>Decision</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-8E20-F4659CAAF087"
+		/>
+	</TextIdentifier>
+</TranslatedText>

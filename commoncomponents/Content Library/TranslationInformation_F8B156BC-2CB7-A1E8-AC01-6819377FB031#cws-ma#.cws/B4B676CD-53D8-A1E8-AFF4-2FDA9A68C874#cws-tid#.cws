@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-AFF4-2FDA9A690874">
+	<DocumentID>B4B676CD-53D8-A1E8-AFF4-2FDA9A68C874</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-AFF4-2FDA9A68C874</Name>
+	<Description>OnStateEntry_TemplateNotification</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T08:21:38.683</CreationDate>
+	<Notes/>
+	<DefaultText>OnStateEntry_TemplateNotification</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-AFF4-2FDA9A694874"
+		/>
+	</Translations>
+</TextIdentifier>

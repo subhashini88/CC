@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-95DC-C59CBF326636">
+	<DocumentID>3C6AA73A-0114-A1E9-95DC-C59CBF322636</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-95DC-C59CBF322636</Name>
+	<Description>You can add equivalent clauses only in the Active state</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-05T09:24:56.902</CreationDate>
+	<Notes/>
+	<DefaultText>You can add equivalent clauses only in the Active state</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-95DC-C59CBF32A636"
+		/>
+	</Translations>
+</TextIdentifier>

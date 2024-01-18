@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-BF75-0CD3B15D2B8D">
+	<DocumentID>50EB711A-AD5A-A1EC-BF75-0CD3B15CEB8D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-BF75-0CD3B15CEB8D</Name>
+	<Description>TRUE_2</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-07-07T09:14:11.236</CreationDate>
+	<Notes/>
+	<DefaultText>TRUE_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-BF75-0CD3B15D6B8D"
+		/>
+	</Translations>
+</TextIdentifier>

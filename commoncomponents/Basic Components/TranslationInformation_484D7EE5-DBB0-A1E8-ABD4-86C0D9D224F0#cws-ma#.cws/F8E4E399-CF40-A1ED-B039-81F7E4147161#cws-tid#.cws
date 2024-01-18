@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B039-81F7E414B161">
+	<DocumentID>F8E4E399-CF40-A1ED-B039-81F7E4147161</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B039-81F7E4147161</Name>
+	<Description>Z_INT_LPLists</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-12T14:59:26.672</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_LPLists</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B039-81F7E414F161"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-AA5F-028FE0E6E6AE">
+	<DocumentID>8C1645B9-0967-A1EA-AA5F-028FE0E6A6AE</DocumentID>
+	<Name>8C1645B9-0967-A1EA-AA5F-028FE0E6A6AE</Name>
+	<Description>ActiveToAborted</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-08T11:44:22.54</CreationDate>
+	<Notes/>
+	<Text>ActiveToAborted</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-AA5F-028FE0E626AE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

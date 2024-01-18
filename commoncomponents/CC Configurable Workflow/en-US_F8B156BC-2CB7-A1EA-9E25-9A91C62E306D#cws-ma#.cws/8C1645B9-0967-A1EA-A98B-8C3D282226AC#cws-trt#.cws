@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-A98B-8C3D282266AC">
+	<DocumentID>8C1645B9-0967-A1EA-A98B-8C3D282226AC</DocumentID>
+	<Name>8C1645B9-0967-A1EA-A98B-8C3D282226AC</Name>
+	<Description>SendTaskUnassignedNotification</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-04T06:52:26.616</CreationDate>
+	<Notes/>
+	<Text>SendTaskUnassignedNotification</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-A98B-8C3D2821A6AC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

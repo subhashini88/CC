@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-885D-E3D6742FC344">
+	<DocumentID>FC7774E8-DA63-A1EA-885D-E3D6742F8344</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-885D-E3D6742F8344</Name>
+	<Description>Last Modified By</Description>
+	<CreatedBy>varshakabilan</CreatedBy>
+	<CreationDate>2019-12-18T09:21:44.253</CreationDate>
+	<Notes/>
+	<Text>Last Modified By</Text>
+	<Language>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EA-885D-E3D6742F0344"
+		/>
+	</TextIdentifier>
+</TranslatedText>

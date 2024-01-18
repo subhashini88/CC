@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EC-AAE6-3B57B6BF6758">
+	<DocumentID>8C1645B9-0967-A1EC-AAE6-3B57B6BF2758</DocumentID>
+	<Name>8C1645B9-0967-A1EC-AAE6-3B57B6BF2758</Name>
+	<Description>CloneCndlContentOnTempClone</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-24T17:36:33.734</CreationDate>
+	<Notes/>
+	<Text>CloneCndlContentOnTempClone</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EC-AAE6-3B57B6BEA758"
+		/>
+	</TextIdentifier>
+</TranslatedText>

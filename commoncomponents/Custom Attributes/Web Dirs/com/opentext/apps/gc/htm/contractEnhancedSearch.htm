@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contract enhanced search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+    <link rel="stylesheet" href="../css/contractEnhancedSearch.css">
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+    <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/contractEnhancedSearch_services.js" type="text/javascript"></script>
+    <script src="../js/contractSearchAutoSuggest.js" type="text/javascript"></script>
+    <script src="../js/contractEnhancedSearch.js" type="text/javascript"></script>
+  </head>
+  <body class="cc-ltr">
+    <div class="col-md-12" style="padding: unset;">
+      <div>
+        <div id="div_ContractSearch" class="col-md-12">
+          <div class="modal fade" id="addFilterModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:50%;">
+              <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                  <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Add search criteria</h3>
+              </div>
+              <div class="modal-body cc-modal-body filter-condition" style="display:flex;">
+                <div style="width: 34%;">
+                  <div class="input-group">
+                    <input type="text" class="form-control cc-input-browse rtl-input-browse" data-translatable="true" data-bind="textInput:filterParamLeftOperandLabel" readonly placeholder="-Select attribute-">
+                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon input-browse" style="cursor: pointer;">
+                      <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openFilterParamLeftOperandSelectionModal(this)">
+                    </span>
+                  </div>
+                  <div>
+                    <span class="cc-error-message-text" data-bind="text:filterParamLeftOperandErrorMsg, visible:selectedFilterParamLeftOperandItemID().length == 0 && addFilterAttempt()"></span>
+                  </div>
+                </div>
+
+                <div style="width: 23%;">
+                  <select class="form-control cc-select" id="property_datatype" data-bind="options: filterOperandsList,
+                                                                optionsText: 'name',
+                                                                optionsValue: 'value', 
+                                                                value:filterParamSelectedOperator,
+                                                                optionsCaption: '-Select operator-'" style="width: 100%;"></select>
+                <div>
+                    <span class="cc-error-message-text" data-bind="text:filterParamOperatorErrorMsg, visible:filterParamSelectedOperator() == undefined && addFilterAttempt()"></span>
+                </div>
+                </div>
+                <div style="width: 38%;" data-bind="visible:!(filterParamSelectedOperator()=='EMPTY' || filterParamSelectedOperator()=='NOTEMPTY')">
+                 <!-- ko ifnot: selectedFilterParamLeftOperandDataType() === 'DURATION' -->
+                  <span>
+                  <input id="input_filterParamValue" type="text" data-bind="value:filterParamValue, attr: {placeholder: filterParamPlaceholder, maxlength:selectedFilterParamLeftOperandDataType() === 'DURATION'?'3':''}" style="width: 100%;">
+                  </span>
+                  <!--/ko-->
+                  <!-- ko if: selectedFilterParamLeftOperandDataType() === 'DURATION' -->
+                  <span>
+                    <input id="input_monthParamValue" type="text" data-bind="value:durationMonthValue, attr: {maxlength:3}" style="width: 25%;margin-left: 5px;">
+                    <span style="margin-right: 10px;">Months</span>
+                    <input id="input_dayParamValue" type="text" data-bind="value:durationDayValue, attr: {maxlength:3}" style="width: 25%;">  
+                    <span>Days</span>
+                  </span>
+                  <!--/ko-->
+                  <div>
+                    <span class="cc-error-message-text" data-bind="text:filterParamValueErrorMsg, visible:filterParamValueErrorMsg().length > 0 && addFilterAttempt()"></span>
+                </div>
+                </div>
+
+              </div>
+              <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" id="addFilterYes" data-translatable="true">
+                  <span data-translatable="true">Add</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="addFilterNo" data-translatable="true">
+                  <span data-translatable="true">Cancel</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="div_SearchConfirmModal" role="dialog" style="z-index: 1999;">
+          <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+            <div class="modal-header cc-modal-header">
+              <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+              </button>
+              <h3 data-translatable="true" id="modal_heading_1">Delete</h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+              <div class="cc-warning-msg rtl-notifquestion">
+                <div id="modal_content_1" style="margin-left: 15px;" data-translatable="true">Delete the selected items?</div>
+              </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+              <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_modalAction_1" data-translatable="true">
+                <span data-translatable="true">Delete</span>
+              </button>
+              <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-translatable="true">
+                <span data-translatable="true">Cancel</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="div_savedSearchesPanel" class="col-md-2 rtl-float-right" style="display: inline-flex;padding: unset;">
+          <div class="modal fade" id="div_discardChangesModal" role="dialog" style="z-index: 1999;">
+            <div class="modal-content cc-modal-content" style="margin-top: 5%; width:34%;">
+              <div class="modal-header cc-modal-header">
+                <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                  <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                </button>
+                <h3 data-translatable="true">Discard</h3>
+              </div>
+              <div class="modal-body cc-modal-body">
+                <div class="cc-warning-msg" data-translatable="true">This action will discard unsaved changes. Do you want to continue?</div>
+              </div>
+              <div class="cc-modal-footer modal-footer text-align-left">
+                <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_discardChanges">
+                  <span data-translatable="true">Yes</span>
+                </button>
+                <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_stayOnCurrPage">
+                  <span data-translatable="true">Cancel</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="form-group " style="width: 100%;" id="div_savedsearches" apps-toggle="expanded">
+            <div class="cc-header cc-border " style="justify-content: space-between;">
+              <div class="cc-tab--header-title" data-translatable="true" style="padding-left: 7px;">Searches</div>
+              <button class="btn btn-default cc-button" title="New search" data-bind="click:newSearch">
+                <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg" id="id_createActivityListIcon">
+              </button>
+            </div>
+            <div style="display: flex;background-color: #f2f2f2;height: 34px;padding: 6px 0px;justify-content: space-between;">
+              <div class="row-box" style="width: 5%; margin-left: 2px;">
+                <span class="caretdown-icon rtl-caretdown-icon" data-bind="css:{hidden:favoritesExpanded()},click:collapseOrExpandFavoriteSearches"></span>
+                <span class="caret-icon rtl-caret-icon" data-bind="css:{hidden:!favoritesExpanded()},click:collapseOrExpandFavoriteSearches"></span>
+              </div>
+              <div class="row-box" style="width:85%;margin-left: 9px;">
+                <span style="word-break: break-all">Favorites</span>
+              </div>
+            </div>
+            <div id="favoriteFiltersList" class="form-control-static table-container " style="height: 20vh;padding-top: unset;overflow-y: auto;" data-bind="foreach:favoriteSearches">
+              <div class="cc-header select-item" data-bind="click:$root.openSelectedSearch" style="display: flex;justify-content:space-between;padding: 1px 8px;background-color: transparent;border: none;">
+                <span data-bind="text:SearchName,attr:{title:SearchName}" style="margin-left: 20px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;"></span>
+              </div>
+            </div>
+            <div style="display: flex;background-color: #f2f2f2;height: 34px;padding: 6px 0px;justify-content: space-between;">
+              <div class="row-box" style="width: 5%; margin-left: 2px;">
+                <span class="caretdown-icon rtl-caretdown-icon" data-bind="css:{hidden:allSavedSearchesExpanded()},click:collapseOrExpandAllSavedFilters"></span>
+                <span class="caret-icon rtl-caret-icon" data-bind="css:{hidden:!allSavedSearchesExpanded()},click:collapseOrExpandAllSavedFilters"></span>
+              </div>
+              <div class="row-box" style="width:85%;margin-left: 9px;">
+                <span style="word-break: break-all">Saved searches</span>
+              </div>
+            </div>
+            <div id="allSavedFiltersList" class="form-control-static table-container " style="height: 60vh;padding-top: 0px;overflow-y: auto;" data-bind="foreach:allSavedSearches">
+               
+              <div class="cc-header cc-border select-item" data-bind="click:$root.openSelectedSearch">
+                <span data-bind="text:SearchName,attr:{title:SearchName}" style="margin-left: 20px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;"></span>
+                <div class="div_delete">
+                  <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;" data-bind="click:$root.confirmDeleteSearch">
+                    <img class="btn_delete_icon" src="../../../../../com/opentext/apps/utils/img/delete.svg" alt="Delete" style="width: 17px; height: 17px;">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="div_searchResultsAndPreview " class="col-md-10" style="display: inline-flex;padding: unset;">
+          <div style="width: 13px;height: 99vh;background-color: #EEF2F4;cursor: pointer;" onclick="collapseSavedSearch()">
+            <span class="caretdown-icon rtl-caretdown-icon hidden" id="caretdown" style="margin-top:48vh;"></span>
+            <span class="caretup-icon rtl-caretup-icon" id="caretup" style="margin-top:48vh;"></span>
+          </div>
+          <div id="div_main_searchpage" style="display:none;">
+            <div id="div_search_filters" class="col-md-12" style="padding: unset;">
+              <div class="modal fade" id="div_saveAsModal" role="dialog" style="z-index: 1999;">
+                <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+                  <div class="modal-header cc-modal-header">
+                    <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                      <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+                    </button>
+                    <h3 data-translatable="true">Save as</h3>
+                  </div>
+                  <div class="modal-body cc-modal-body">
+                    <input type="text" data-bind="textInput:newSearchName" style="width: 50%;">
+                  </div>
+                  <div class="cc-modal-footer modal-footer text-align-left">
+                    <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_searchNameSaveAs" data-bind="attr:{disabled:newSearchName().trim().length == 0}">
+                      <span data-translatable="true">OK</span>
+                    </button>
+                    <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" data-translatable="true">
+                      <span data-translatable="true">Cancel</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div id="filter_chicklets" class="col-md-11 rtl-float-right" style="padding: unset;">
+                <div class="cc-error-info-area" id="div_modalErrorInfoArea" style="z-index: 999;background-color: #FFF;">
+                  <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+                  <span id="span_errorInfoMessage" style="position: relative;"></span>
+                </div>
+                
+                <input id="untitled"  maxlength="128" data-bind="textInput:searchName, event:{change: searchNameUpdate}, attr:{title:searchName}">
+                <button id="marker_isEdited" class="cc-btn" disabled data-bind="visible:isDirty() && isEditMode()" style="font-size:12px;padding: 0px 3px;">Edited</button>
+                <div id="btn_save_filter" class="drop-button cc-btn cc-btn-primary" disabled>
+                  <div style="margin-right: 7px;" data-bind="click:updateSearch">Save search</div>
+                  <div class="cc-drop-button-split" data-bind="visible:isDirty() && isEditMode()"></div>
+                  <div class="cc-drop-button" data-bind="visible:isDirty() && isEditMode()">
+                    <img class="moreOptionsDropDown" src="../../../../../com/opentext/apps/utils/img/caret_down10_white.svg" data-bind="click:openButtonOptions">
+                    <div style="position:relative">
+                      <ul class="cc-drop-button-action-container saveandcreate_cc-drop-button" data-bind="style:{visibility:visibleButtonOptions,
+                                                      transform:'translate3d(-7px, -3px, 0px)', 
+                                                      'z-index': 78, 'will-change': 'transform', 
+                                                        position: 'absolute'}" style="transform: translate3d(-54px, -72px, 0px); z-index: 78; will-change: transform; position: absolute; visibility: hidden;">
+                        <li class="cc-drop-button-action" data-bind="click:$root.updateSearchName">Save as</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <button id="btn_markAsFav" class="btn btn-default cc-button" data-bind="click:addToFavorites,visible:isEditMode() && !isDirty() && !enableSave()">
+                  <img class="cc-icon fav-icon" alt="Add to favorites" data-bind="visible:!isFavoriteSearch()" src="../../../../../com/opentext/apps/utils/img/action_fav.svg" title="Add to favorites">
+                  <img class="cc-icon fav-icon" alt="Remove from favorites" data-bind="visible:isFavoriteSearch()" src="../../../../../com/opentext/apps/utils/img/action_fav_fill.svg" title="Remove from favorites">
+                </button>
+                <!--<button id="searchToggle" class="cc-btn cc-btn-primary" data-bind="click: toggleSearch, text: enableBasicSearch() ? 'Advanced': 'Basic'">Basic</button>-->
+                <span id="searchToggle" >
+                  <a type="cancel" data-bind="click: toggleSearch, text: enableBasicSearch() ? 'Switch to advanced': 'Switch to basic'" style="font-size: 13px;cursor: pointer;" data-translatable="true">Switch to advanced</a>        
+                </span>
+                <div>
+                   <!-- ko if: enableBasicSearch() -->
+                <div class="chicklets-div">
+                  <div id="div_filters" data-bind="foreach:filtersAddedList,attr: {'show-placeholder': !filtersAddedList().length>0}" style="width: 91%;overflow: hidden;">
+                    <!-- ko if: $index() === $root.partitionIndex()-1-->
+                    <button class="more-button" data-bind="event:{click:$root.toggleAddlFilters}">
+                      <img src="../../../../../com/opentext/apps/utils/img/three-dots.svg" style="transform: rotate(90deg);height: 17px;width: 17px;">
+                    </button>
+                    <!-- /ko -->
+                    <div class="chicklet" data-bind="css:{'visibility-hidden':($root.partitionIndex() >= 0 && $index() >= $root.partitionIndex() - 1)}">
+                      <span class="chicklet-text label-text" data-bind="{text:$data.fieldDisplayName}"></span>&nbsp;
+                      <span class="chicklet-text" data-bind="{text:getOperatorText($data.operator)}"></span>&nbsp;
+                      <!--ko if: ($data.operator() !== 'EMPTY' &&  $data.operator() !== 'NOTEMPTY')-->
+                      &lsquo;<span class="chicklet-text" data-bind="{text:truncateValue($data.value)}"></span>&rsquo;
+                      <!--/ko-->
+                      <button class="btn btn-xs btn-link btn-md pull-right chicklet-close" data-bind="click:$root.removeFilter">
+                        <i class="chicklet-cancel"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <span id="btn_clearSearch" class="view-result-chicklet-removeAllName" data-bind="if:filtersAddedList().length > 0,click:clearSearches" data-translatable="true" style="width: 5%;margin-top: 18px; color: #232E72;cursor: pointer;">Clear all</span>
+                  <button id="id_addFilter" class="btn btn-default cc-button" data-bind="click:openFilterAddModel" style="width: 4%;border-radius: 0px;background-color: #232E72;" title="Add a search criteria">
+                    <img class="cc-icon" alt="Add search criteria" style="width: 37px; height: 37px;" src="../../../../../com/opentext/apps/utils/img/action_filter_with_add.svg">
+                  </button>
+                </div>
+                    <!--/ko-->
+                    <!-- ko -->
+                    <div data-bind="visible: !enableBasicSearch()">
+                      <form autocomplete="off" action="">
+                        <div class="chicklets-div autocomplete">
+                          <span data-bind="visible:ADSearchError()==='S'"><img style="margin: 8px 5px 5px 5px;height: 16px;"
+                              src="../../../../../com/opentext/apps/utils/img/notification_success.svg"></span>
+                          <span data-bind="visible: ADSearchError().length>1"><img style="margin: 8px 5px 5px 5px;height: 16px;"
+                              src="../../../../../com/opentext/apps/utils/img/notification_warning24.svg"></span>
+                          <textarea data-translatable="true" data-bind="textInput:advancedSearchText, valueUpdate: ['afterkeydown','propertychange','input']"
+                            class="form-control rtl-input-browse"
+                            style="border: none !important; height: 52px;resize:none;box-shadow:none;padding: 6px 7px;"
+                            id="input_AdvancedSearchtxt" placeholder="Type a search query"></textarea>
+                        </div>
+                      </form>
+                      <div style="margin-left: 5px;">
+                        <div id="inline-warning" data-bind="visible: ADSearchError().length>1" class="ot-message ot-message--is-warning">
+                          <div class="ot-message__banner">
+                            <span id="title" data-bind="text:ADSearchError" style="margin-top: 2px;">Invalid expression</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--/ko-->
+                </div>
+                <div style="position:relative;">
+                  <ul id="id_addlFilters" class="cc-drop-button-action-container" data-bind="foreach:filtersAddedList">
+                      <!-- ko if: $index() >= $parent.partitionIndex() - 1 -->
+                      <div class="chicklet" style="display:table;">
+                        <span class="chicklet-text label-text" data-bind="{text:$data.fieldDisplayName}"></span>&nbsp;
+                        <span class="chicklet-text" data-bind="{text:getOperatorText($data.operator)}"></span>&nbsp;
+                        <!--ko if: ($data.operator() !== 'EMPTY' &&  $data.operator() !== 'NOTEMPTY')-->
+                        <q><span class="chicklet-text" data-bind="{text:truncateValue($data.value)}"></span></q>
+                        <!--/ko-->
+                        <button class="btn btn-xs btn-link btn-md pull-right chicklet-close" data-bind="click:$root.removeFilter">
+                          <i class="chicklet-cancel"></i>
+                        </button>
+                      </div>
+                      <!-- /ko -->
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+              <div id="btn_savesearch" class="col-md-1" style="padding-left: 0px; margin-top: 50px; display: flex;">
+                <button id="btn_applySearch" class="cc-btn cc-btn-primary" type="submit" data-bind="click:applyAddedFilter,attr:{disabled:!enableSearch()}" data-translatable="true" style="margin-left: 5px;">Search</button>
+              </div>
+            </div>
+            <div id="div_ContractSearchResults" class="col-md-12">
+              <div class="col-md-12 chicklet-block" style="padding: unset;padding-right: 4px;overflow: hidden;">
+                <div>
+                  <div id="div_contractsList" class="cc-header">
+                    <button class="btn btn-default cc-text-button" id="btn_openContract" data-translatable="true" data-bind="click:openContractFromActionBar" disabled>
+                      <span data-translatable="true">Open</span>
+                    </button>
+                    <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+                    <button class="btn btn-default cc-text-button export-button" onclick="exportSelectedContracts()" id="btn_exportContracts" data-translatable="true" disabled>
+                      <span data-translatable="true">Export</span>
+                    </button>
+                    <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+                    <button class="btn btn-default cc-text-button export-button" onclick="exportAllContracts()" id="btn_exportAllContracts" data-translatable="true" data-bind="attr:{disabled:contractsList().length < 1}">
+                      <span data-translatable="true">Export all</span>
+                    </button>
+                    <div class="cc-vertical-line-separator" style="height: 65%;position: relative;"></div>
+                    <button class="btn btn-default cc-text-button" data-bind="click:showPreview" id="btn_previewContracts" data-translatable="true" disabled>
+                      <span data-translatable="true">Preview</span>
+                    </button>
+                  </div>
+                  <div class="table-responsive" style="overflow-y: auto;border-right: 1px solid #e8e8e8;border-left: 1px solid #e8e8e8;" data-bind="css:{'list-style':contractsList().length>0}">
+                    <table id="id_contractsTable" class="table" data-bind="css:{'list-style':contractsList().length==0}">
+                      <thead>
+                        <tr>
+                          <th style="width: 5%;">
+                            <div id="id_selectAllContracts" class="cc-select-column cc-checkbox-select-all-off" data-bind="event:{click:$root.onAllContractsCheckboxValueChanged}"></div>
+                          </th>
+                          <th style="width: 15%;" data-translatable="true">Contract ID</th>
+                          <th style="width: 15%;" data-translatable="true">Contract name</th>
+                          <th style="width: 15%;" data-translatable="true">Contract type</th>
+                          <th style="width: 15%;" data-translatable="true">Contract term</th>
+                          <th style="width: 15%;" data-translatable="true">Actual start date</th>
+                          <th style="width: 15%;" data-translatable="true">Organization</th>
+                          <th style="width: 15%;" data-translatable="true">Is executed</th>
+                          <th style="width: 10%;" data-translatable="true">Is external</th>
+                        </tr>
+                      </thead>
+                      <!--ko if:contractsList().length==0-->
+                      <tbody style="height: 100%;">
+                        <tr style="border: none;">
+                          <td colspan="9" class="no-pointer-events" style="text-align: center; border: none;" data-bind="text:noResultsMsg"></td>
+                        </tr>
+                      </tbody>
+                      <!--/ko-->
+                      <tbody data-bind="foreach:contractsList">
+                        <tr class="accordion-toggle collapsed" data-toggle="collapse" style="cursor: pointer;" data-bind="click:$root.openContract">
+                          <td>
+                            <div class="cc-select-column cc-checkbox-off" data-bind="event:{click:$root.onContractRowCheckboxValueChanged}"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:genContractId"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:contractName"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:contractType"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:contractterm"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:startDate"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:organization"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:isexecuted"></div>
+                          </td>
+                          <td>
+                            <div data-bind="text:isexternal"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px;position:absolute;background-color: #f2f2f2;">
+                      <ul class="pull-left pagination" style="margin: 0;">
+                        <li class="li-pagination">
+                          <select class="form-control cc-select" data-bind="
+                          options:paginationPerPage,
+                          value:limitValue,
+                          optionsText: 'name',
+                          optionsValue:'value', event:{change:onPerPageCountChange}" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;width: 110px;">
+                          </select>
+                        </li>
+                      </ul>
+                      <ul class="pagination" style="margin: 0;">
+                        <li class="li-pagination">
+                          <a id="a_itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                            <span data-bind="text:totalContractsCount"></span>
+                            <span data-translatable="true">result(s)</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="pagination pull-right" style="margin: 0;">
+                        <li class="li-pagination li_ListLeftNavigation" id="li_conListLeftNavigation" style="cursor: pointer;" data-bind="visible:currentPage() > 1">
+                          <a data-bind="click:goToFirstPage">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                            <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                          </a>
+                          <a data-bind="click:goToPreviousPage">
+                            <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                          </a>
+                        </li>
+                        <li class="li-pagination">
+                          <span>
+                            <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="value:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;padding-bottom: 7px;"></input>
+                            <span data-translatable="true"> of </span>
+                            <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages"></span>
+                          </span>
+                        </li>
+                        <li class="li-pagination li_ListRightNavigation" id="li_conListRightNavigation" style="cursor: pointer;" data-bind="visible: numOfPages() > currentPage()">
+                          <a data-bind="click:goToNextPage">
+                            <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToNextPage">
+                          </a>
+                          <a data-bind="click:goToLastPage">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                            <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="div_ContractDetails" class="cc-border col-md-4">
+              <div id="div_contractpreview" class="form-group" style="width: 100%;" apps-toggle="expanded">
+                <div id="div_previewType" class="cc-header">
+                  <div id="div_ctrPreview" onclick="changePreviewType()">
+                    <div class="cc-select-column" style="width: 20px;" data-bind="visible:(docRepoType() === 'CONTENT' || docRepoType() === 'BOTH'),css:{'cc-radio-off' : !isContractPreviewActive() == true, 'cc-radio-on' : isContractPreviewActive()}"></div>
+                    <strong data-translatable="true">Contract preview</strong>
+                  </div>
+                  <div id="div_docpreview" onclick="changePreviewType()" style="margin-inline: auto;" data-bind="css:{'visibility-hidden':!(docRepoType() === 'CONTENT' || docRepoType() === 'BOTH')}">
+                    <div class="cc-select-column " style=" width: 20px;" data-bind="css:{'cc-radio-off' : isContractPreviewActive() == true, 'cc-radio-on' : !isContractPreviewActive()}"></div>
+                    <strong data-translatable="true">Document preview</strong>
+                  </div>
+                  <button type="button" data-dismiss="modal" style="border: none;background-color: transparent;" data-bind="click:dismissPreview">
+                    <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 9px; height: 9px;" />
+                  </button>
+                </div>
+                <!-- ko if: contractFieldsList().length == 0-->
+                <div class="form-control-static table-container">
+                  <div id="savedSearchesEmpty" class="defaultInfo" style="display: block; font-size: 2em;">
+                    <p data-translatable="true">Select contract to preview</p>
+                  </div>
+                </div>
+                <!--/ko-->
+                <!-- ko if: contractFieldsList().length > 0-->
+                <ul class="nav nav-tabs" data-bind="foreach:contractFieldsList" role="tablist">
+                  <li data-bind="attr:{id:contractIdAttr, class:liClass, title:contractName}, click:$root.loadPreview">
+                    <a class="nav-link" data-toggle="tab" data-bind="attr:{href:contractIdAttr}">
+                      <span data-translatable="true" data-bind="text:contractName"></span>
+                    </a>
+                  </li>
+                </ul>
+                <!--/ko-->
+                <!--ko if: isContractPreviewActive() == true-->
+                <div data-bind="foreach:contractFieldsList" class="tab-content">
+                  <div data-bind="attr:{id:contractId, class:tabPaneClass}">
+                    <div id="div_contractDetailsPreview">
+                      <div style="padding-top:15px;overflow: auto;height: 65vh;">
+                        <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                          <span class="cc-tab--header-title" style="display: initial;" data-translatable="true">Contract details</span>
+                        </div>
+                          <!-- ko foreach: $root.allContractPropertiesForPreview -->
+                        <div class="form-group col-md-12 rtl-float-right" style="display: flex;">
+                          <label data-translatable="true" class="label-text" data-bind="text:label"></label>
+                          <p class="form-control-static cc-form-value" data-bind="if: (value === null || value === undefined || value.length == 0)">No value specified</p>
+                          <!-- ko ifnot:  (value === null || value === undefined || value.length == 0)-->
+                          <p class="form-control-static cc-form-value" data-bind="text:truncateString(value), attr:{title:value}" style="word-break: break-word;"></p>
+                          <!-- /ko -->
+                        </div>
+                          <!--/ko-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--/ko-->
+                <!--ko if: isContractPreviewActive() == false-->
+                <div data-bind="foreach:contractFieldsList" class="tab-content">
+                  <div data-bind="attr:{id:contractId, class:tabPaneClass}">
+                    <div id="div_defaultDocPreview" style="height: 68vh;">
+                      <iframe style="width: 100%; height:100%" data-bind="attr:{src:previewDocUrl}"></iframe>
+                    </div>
+                  </div>
+                </div>
+                 <!--/ko-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Select leftoperand for rule conditions modal form -->
+        <div class="modal fade" id="div_selectFilterParamLeftOperandModal" role="dialog" style="z-index: 2999;">
+          <div class="modal-content cc-modal-content" style="margin-top: 2%; width:32%; height: 75%;">
+            <div class="modal-header cc-modal-header">
+              <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+              </button>
+              <h3 data-translatable="true">Select an attribute</h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+              <div id="div_attrTypeSelection" style="padding-left: 15px; padding-bottom: 25px;">
+                <div style="float: left;width: 50%" onclick="changeAttrType()" id="div_generalAttr">
+                  <div class="cc-select-column cc-radio-on" style="width: 20px;"></div>
+                  <span data-translatable="true">General attributes</span>
+                </div>
+                <div style="float: left;width: 50%" onclick="changeAttrType()" id="div_custAttr">
+                  <div class="cc-select-column cc-radio-off" style="width: 20px;"></div>
+                  <span data-translatable="true">Custom attributes</span>
+                </div>
+              </div>
+              <div class="col-md-12 cc-list" id="div_ruleConditionLeftOperandList">
+                
+                <div class="input-group" style="margin-bottom: 10px;">
+                  <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse" id="input_SearchFilter" placeholder="Search by Name">
+                  <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer; padding-top: 5px;">
+                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllAttrs()">
+                  </span>
+                </div>
+
+                <table class="table cc-border">
+                  <thead>
+                    <tr>
+                      <th style="width: 10%;"></th>
+                      <th style="width: 50%;" data-translatable="true" scope="col">Name</th>
+                      <th style="width: 40%;" data-translatable="true" scope="col">Data type</th>
+                    </tr>
+                  </thead>
+                  <tbody data-bind="foreach:generalAttrList, visible:isGeneralAttrList()">
+                    <tr data-bind="click:$root.selectFilterParamLeftOperandRadioButton">
+                      <td>
+                        <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onFilterParamLeftOperandRowRadioButtonValueChanged}"></div>
+                      </td>
+                      <td data-translatable="true" data-bind="text:DisplayName"></td>
+                      <td data-translatable="true" data-bind="text:getDatatypeText(DataType)"></td>
+                    </tr>
+                  </tbody>
+                  <tbody id="FilterParamCustAttrLeftOperandList_id" data-bind="foreach:customAttrList, visible:!isGeneralAttrList()">
+                    <tr data-bind="click:$root.selectFilterParamLeftOperandRadioButton">
+                      <td>
+                        <div class="cc-select-column cc-radio-off" data-bind="onFilterParamLeftOperandRowRadioButtonValueChanged"></div>
+                      </td>
+                      <td data-translatable="true" data-bind="text:RelatedLabel.Label.text"></td>
+                      <td data-translatable="true" data-bind="text:getDatatypeText(DataType)"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+              <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectFilterParamLeftOperandYes" data-translatable="true">
+                <span data-translatable="true">Select</span>
+              </button>
+              <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectFilterParamLeftOperandCancel" data-translatable="true">
+                <span data-translatable="true">Cancel</span>
+              </button>
+            </div>
+          </div>
+        </div>
+  </body>
+</html>

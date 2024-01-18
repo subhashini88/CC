@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B2D1-9ABDD8DC0378">
+	<DocumentID>98FA9B1A-7A8B-A1EA-B2D1-9ABDD8DBC378</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-B2D1-9ABDD8DBC378</Name>
+	<Description>RemoveMemberSpecialAccess</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-21T11:42:09.248</CreationDate>
+	<Notes/>
+	<Text>RemoveMemberSpecialAccess</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-B2D1-9ABDD8DB4378"
+		/>
+	</TextIdentifier>
+</TranslatedText>

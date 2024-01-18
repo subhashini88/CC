@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-99F9-5810DE986524">
+	<DocumentID>484D7EEB-7112-A1E9-99F9-5810DE982524</DocumentID>
+	<Name>484D7EEB-7112-A1E9-99F9-5810DE982524</Name>
+	<Description>UpdateSearchConfiguration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-26T05:43:02.905</CreationDate>
+	<Notes/>
+	<Text>UpdateSearchConfiguration</Text>
+	<Language>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-99F9-5810DE97A524"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A7FA-3E86449CB077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A7FA-3E86449C7077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A7FA-3E86449C7077</Name>
+	<Description>UpdateAssignment</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-27T07:24:55.952</CreationDate>
+	<Notes/>
+	<Text>UpdateAssignment</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A7FA-3E86449BF077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

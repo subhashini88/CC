@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-AD6E-5BE096B5AD6B">
+	<DocumentID>00505601-79C2-A1EC-AD6E-5BE096B56D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-AD6E-5BE096B56D6B</Name>
+	<Description>UpdateConditionalContent</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-06T15:07:11.472</CreationDate>
+	<Notes/>
+	<Text>UpdateConditionalContent</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-AD6E-5BE096B4ED6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

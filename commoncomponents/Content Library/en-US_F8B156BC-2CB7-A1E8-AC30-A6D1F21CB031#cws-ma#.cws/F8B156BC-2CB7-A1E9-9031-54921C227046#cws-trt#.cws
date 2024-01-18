@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-9031-54921C22B046">
+	<DocumentID>F8B156BC-2CB7-A1E9-9031-54921C227046</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-9031-54921C227046</Name>
+	<Description>Update target clause</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-03-07T10:41:08.717</CreationDate>
+	<Notes/>
+	<Text>Update target clause</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E9-9031-54921C21F046"
+		/>
+	</TextIdentifier>
+</TranslatedText>

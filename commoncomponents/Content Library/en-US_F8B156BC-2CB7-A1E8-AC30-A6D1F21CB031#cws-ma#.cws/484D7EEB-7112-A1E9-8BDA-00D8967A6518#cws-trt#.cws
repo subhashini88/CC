@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-8BDA-00D8967AA518">
+	<DocumentID>484D7EEB-7112-A1E9-8BDA-00D8967A6518</DocumentID>
+	<Name>484D7EEB-7112-A1E9-8BDA-00D8967A6518</Name>
+	<Description>Has document layout changed?</Description>
+	<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-02-13T08:27:31.27</CreationDate>
+	<Notes/>
+	<Text>Has document layout changed?</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-8BDA-00D89679E518"
+		/>
+	</TextIdentifier>
+</TranslatedText>

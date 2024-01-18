@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B5-EE3DFE2C8876">
+	<DocumentID>B4B676CD-53D8-A1E8-B1B5-EE3DFE2C4876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B1B5-EE3DFE2C4876</Name>
+	<Description>UpdateGCTerm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T06:52:13.597</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateGCTerm</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-B1B5-EE3DFE2CC876"
+		/>
+	</Translations>
+</TextIdentifier>

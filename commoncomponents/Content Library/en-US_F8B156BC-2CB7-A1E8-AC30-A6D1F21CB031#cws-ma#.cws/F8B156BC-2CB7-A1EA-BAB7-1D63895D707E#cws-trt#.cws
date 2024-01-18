@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-BAB7-1D63895DB07E">
+	<DocumentID>F8B156BC-2CB7-A1EA-BAB7-1D63895D707E</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-BAB7-1D63895D707E</Name>
+	<Description>Get Containing Clauses</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-08-30T16:25:57.491</CreationDate>
+	<Notes/>
+	<Text>Get Containing Clauses</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-BAB7-1D63895CF07E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

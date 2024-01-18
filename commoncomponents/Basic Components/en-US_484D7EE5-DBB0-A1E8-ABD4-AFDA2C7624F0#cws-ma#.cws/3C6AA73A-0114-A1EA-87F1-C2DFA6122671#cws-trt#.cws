@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EA-87F1-C2DFA6126671">
+	<DocumentID>3C6AA73A-0114-A1EA-87F1-C2DFA6122671</DocumentID>
+	<Name>3C6AA73A-0114-A1EA-87F1-C2DFA6122671</Name>
+	<Description>Max value</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-12-16T05:55:14.405</CreationDate>
+	<Notes/>
+	<Text>Max value</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EA-87F1-C2DFA611A671"
+		/>
+	</TextIdentifier>
+</TranslatedText>

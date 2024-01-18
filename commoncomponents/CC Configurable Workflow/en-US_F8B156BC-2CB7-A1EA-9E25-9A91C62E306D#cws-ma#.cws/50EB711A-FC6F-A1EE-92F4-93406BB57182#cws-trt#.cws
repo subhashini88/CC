@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-92F4-93406BB5B182">
+	<DocumentID>50EB711A-FC6F-A1EE-92F4-93406BB57182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-92F4-93406BB57182</Name>
+	<Description>Invalidate obligation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-05T09:57:16.934</CreationDate>
+	<Notes/>
+	<Text>Invalidate obligation</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-92F4-93406BB4F182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

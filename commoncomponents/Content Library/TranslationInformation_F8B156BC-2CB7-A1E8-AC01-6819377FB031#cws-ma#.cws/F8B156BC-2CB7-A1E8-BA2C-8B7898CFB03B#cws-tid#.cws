@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-BA2C-8B7898CFF03B">
+	<DocumentID>F8B156BC-2CB7-A1E8-BA2C-8B7898CFB03B</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-BA2C-8B7898CFB03B</Name>
+	<Description>Delete GcTemplate</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-11-15T08:43:08.669</CreationDate>
+	<Notes/>
+	<DefaultText>Delete GcTemplate</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-BA2C-8B7898D0303B"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-A429-9114F4A9B091">
+	<DocumentID>F8B156BC-2CB7-A1EB-A429-9114F4A97091</DocumentID>
+	<Name>F8B156BC-2CB7-A1EB-A429-9114F4A97091</Name>
+	<Description>SearchDocStore</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2021-03-29T15:49:03.76</CreationDate>
+	<Notes/>
+	<Text>SearchDocStore</Text>
+	<Language>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EB-A429-9114F4A8F091"
+		/>
+	</TextIdentifier>
+</TranslatedText>

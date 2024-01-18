@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A531-28D1F00C3074">
+	<DocumentID>F8B156BC-2CB7-A1EA-A531-28D1F00BF074</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A531-28D1F00BF074</Name>
+	<Description>Z_INT_RulesListForCount</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-13T02:53:23.724</CreationDate>
+	<Notes/>
+	<Text>Z_INT_RulesListForCount</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A531-28D1F00B7074"
+		/>
+	</TextIdentifier>
+</TranslatedText>

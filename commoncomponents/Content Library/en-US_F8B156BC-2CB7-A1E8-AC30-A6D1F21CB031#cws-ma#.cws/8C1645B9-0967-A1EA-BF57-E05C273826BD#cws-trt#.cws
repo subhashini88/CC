@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BF57-E05C273866BD">
+	<DocumentID>8C1645B9-0967-A1EA-BF57-E05C273826BD</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BF57-E05C273826BD</Name>
+	<Description>UpdateContainingSections</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-23T05:54:35.34</CreationDate>
+	<Notes/>
+	<Text>UpdateContainingSections</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BF58-066D99BF26BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

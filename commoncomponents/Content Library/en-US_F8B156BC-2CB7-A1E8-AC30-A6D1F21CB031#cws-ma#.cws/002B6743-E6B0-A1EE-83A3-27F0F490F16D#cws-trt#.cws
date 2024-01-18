@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-83A3-27F0F491316D">
+	<DocumentID>002B6743-E6B0-A1EE-83A3-27F0F490F16D</DocumentID>
+	<Name>002B6743-E6B0-A1EE-83A3-27F0F490F16D</Name>
+	<Description>IsCustomFlow Executed ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-19T10:41:22.38</CreationDate>
+	<Notes/>
+	<Text>IsCustomFlow Executed ?</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="002B6743-E6B0-A1EE-83A3-27F0F490716D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

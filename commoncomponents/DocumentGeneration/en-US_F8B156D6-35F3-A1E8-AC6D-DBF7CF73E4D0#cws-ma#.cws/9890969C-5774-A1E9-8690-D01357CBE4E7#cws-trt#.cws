@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E9-8690-D01357CC24E7">
+	<DocumentID>9890969C-5774-A1E9-8690-D01357CBE4E7</DocumentID>
+	<Name>9890969C-5774-A1E9-8690-D01357CBE4E7</Name>
+	<Description>Task Owner</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2019-01-17T10:33:55.55</CreationDate>
+	<Notes/>
+	<Text>Task Owner</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E9-8690-D01357CB64E7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

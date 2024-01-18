@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EA-AEA7-D3DB6FE16ACF">
+	<DocumentID>50EB711A-AD5A-A1EA-AEA7-D3DB6FE12ACF</DocumentID>
+	<Name>50EB711A-AD5A-A1EA-AEA7-D3DB6FE12ACF</Name>
+	<Description>GetRootOrganizationFilters</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-30T07:01:57.355</CreationDate>
+	<Notes/>
+	<Text>GetRootOrganizationFilters</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EA-AEA7-D3DB6FE0AACF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

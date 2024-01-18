@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1E9-91C2-33925B72C86E">
+	<DocumentID>484D7EEB-737F-A1E9-91C2-33925B72886E</DocumentID>
+	<Name>484D7EEB-737F-A1E9-91C2-33925B72886E</Name>
+	<Description>Sample input action bar</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2019-03-15T09:58:28.688</CreationDate>
+	<Notes/>
+	<Text>Sample input action bar</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1E9-91C2-33925B72086E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

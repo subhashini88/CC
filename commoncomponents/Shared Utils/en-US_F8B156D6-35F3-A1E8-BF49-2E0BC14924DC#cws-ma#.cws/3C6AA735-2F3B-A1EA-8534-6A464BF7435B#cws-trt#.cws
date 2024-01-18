@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-8534-6A464BF7835B">
+	<DocumentID>3C6AA735-2F3B-A1EA-8534-6A464BF7435B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-8534-6A464BF7435B</Name>
+	<Description>Total threads:</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-12-02T07:02:16.583</CreationDate>
+	<Notes/>
+	<Text>Total threads:</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1EA-8534-6A464BF6C35B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

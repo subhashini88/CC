@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-92E6-55CB7E157182">
+	<DocumentID>50EB711A-FC6F-A1EE-92E6-55CB7E153182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-92E6-55CB7E153182</Name>
+	<Description>InvalidateObligation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-05T03:24:27.761</CreationDate>
+	<Notes/>
+	<Text>InvalidateObligation</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-92E6-55CB7E14B182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

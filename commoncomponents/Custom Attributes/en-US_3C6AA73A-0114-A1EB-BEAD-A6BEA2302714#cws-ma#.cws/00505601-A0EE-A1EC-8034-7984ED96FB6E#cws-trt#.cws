@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-A0EE-A1EC-8034-7984ED973B6E">
+	<DocumentID>00505601-A0EE-A1EC-8034-7984ED96FB6E</DocumentID>
+	<Name>00505601-A0EE-A1EC-8034-7984ED96FB6E</Name>
+	<Description>Z_INT_CustAttrList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-19T11:31:54.032</CreationDate>
+	<Notes/>
+	<Text>Z_INT_CustAttrList</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-A0EE-A1EC-8034-7984ED967B6E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

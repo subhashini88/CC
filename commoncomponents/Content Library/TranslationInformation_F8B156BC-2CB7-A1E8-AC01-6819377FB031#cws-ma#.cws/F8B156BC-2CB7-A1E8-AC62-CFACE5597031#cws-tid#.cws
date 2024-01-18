@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC62-CFACE559B031">
+	<DocumentID>F8B156BC-2CB7-A1E8-AC62-CFACE5597031</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AC62-CFACE5597031</Name>
+	<Description>DeleteClause2</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-06T04:13:46.397</CreationDate>
+	<Notes/>
+	<DefaultText>DeleteClause2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC62-CFACE559F031"
+		/>
+	</Translations>
+</TextIdentifier>

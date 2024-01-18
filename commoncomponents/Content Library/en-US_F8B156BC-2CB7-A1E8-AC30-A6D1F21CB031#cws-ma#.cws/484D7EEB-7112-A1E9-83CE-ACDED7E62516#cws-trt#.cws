@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-83CE-ACDED7E66516">
+	<DocumentID>484D7EEB-7112-A1E9-83CE-ACDED7E62516</DocumentID>
+	<Name>484D7EEB-7112-A1E9-83CE-ACDED7E62516</Name>
+	<Description>receiveEmail</Description>
+	<CreatedBy>cn=dsrivard,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-01-03T09:35:34.914</CreationDate>
+	<Notes/>
+	<Text>receiveEmail</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-83CE-ACDED7E5A516"
+		/>
+	</TextIdentifier>
+</TranslatedText>

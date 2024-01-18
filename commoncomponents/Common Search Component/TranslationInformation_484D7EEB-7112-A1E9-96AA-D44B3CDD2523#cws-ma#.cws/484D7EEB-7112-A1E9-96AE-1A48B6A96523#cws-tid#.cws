@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-96AE-1A48B6A9A523">
+	<DocumentID>484D7EEB-7112-A1E9-96AE-1A48B6A96523</DocumentID>
+	<Name>484D7EEB-7112-A1E9-96AE-1A48B6A96523</Name>
+	<Description>ItemId</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-04-09T11:54:59.087</CreationDate>
+	<Notes/>
+	<DefaultText>ItemId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDDA523"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-7112-A1E9-96AE-1A48B6A9E523"
+		/>
+	</Translations>
+</TextIdentifier>

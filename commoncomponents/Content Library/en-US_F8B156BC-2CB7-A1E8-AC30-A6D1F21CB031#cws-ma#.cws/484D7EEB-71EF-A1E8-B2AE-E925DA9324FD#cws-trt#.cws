@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B2AE-E925DA9364FD">
+	<DocumentID>484D7EEB-71EF-A1E8-B2AE-E925DA9324FD</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B2AE-E925DA9324FD</Name>
+	<Description>Click here</Description>
+	<CreatedBy>salapart</CreatedBy>
+	<CreationDate>2018-10-08T06:10:43.142</CreationDate>
+	<Notes/>
+	<Text>Click here</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B2AE-E925DA92A4FD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

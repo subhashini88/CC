@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-A0EE-A1EC-844B-794916EEBB70">
+	<DocumentID>00505601-A0EE-A1EC-844B-794916EE7B70</DocumentID>
+	<Name>00505601-A0EE-A1EC-844B-794916EE7B70</Name>
+	<Description>DeleteAttributeMapping</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-09T05:32:25.481</CreationDate>
+	<Notes/>
+	<Text>DeleteAttributeMapping</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-A0EE-A1EC-844B-794916EDFB70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

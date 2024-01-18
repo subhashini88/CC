@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-BA29-7D36E2CCB168">
+	<DocumentID>F8E4E399-CF40-A1ED-BA29-7D36E2CC7168</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-BA29-7D36E2CC7168</Name>
+	<Description>Z_INT_ViewRoleMappingsImport</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-05-02T04:59:28.896</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ViewRoleMappingsImport</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-BA29-7D36E2CCF168"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-A2CD-25F15F56F052">
+	<DocumentID>F8B156BC-2CB7-A1E9-A2CD-25F15F56B052</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-A2CD-25F15F56B052</Name>
+	<Description>Equivalent clauses readonly</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-06-10T04:26:05.092</CreationDate>
+	<Notes/>
+	<Text>Equivalent clauses readonly</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E9-A2CD-25F15F563052"
+		/>
+	</TextIdentifier>
+</TranslatedText>

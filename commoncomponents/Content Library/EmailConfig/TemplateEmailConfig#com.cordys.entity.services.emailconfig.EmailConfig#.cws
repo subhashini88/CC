@@ -1,0 +1,18 @@
+
+<EmailConfig
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.emailconfig.EmailConfig"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AD69-A7D1ED6CA4F4">
+	<DocumentID>484D7EE5-DBB0-A1E8-AD69-A7D1ED6C64F4</DocumentID>
+	<Name>TemplateEmailConfig</Name>
+	<Description>TemplateEmailConfig</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-11T09:50:54.728</CreationDate>
+	<Notes/>
+	<EmailProfileUserID></EmailProfileUserID>
+	<EnableDefault>false</EnableDefault>
+	<From></From>
+	<FromDisplayName></FromDisplayName>
+	<ReplyTo></ReplyTo>
+	<DisplayName/>
+</EmailConfig>

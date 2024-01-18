@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E10-06018DED4348">
+	<DocumentID>FC7774E9-506A-A1EA-8E10-06018DED0348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E10-06018DED0348</Name>
+	<Description>Cycle time analytics</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-16T09:14:16.328</CreationDate>
+	<Notes/>
+	<DefaultText>Cycle time analytics</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E9-506A-A1EA-8E10-06018DED8348"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-BB77E528B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-BB77E5273068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-BB77E525F068"
+		/>
+	</Translations>
+</TextIdentifier>

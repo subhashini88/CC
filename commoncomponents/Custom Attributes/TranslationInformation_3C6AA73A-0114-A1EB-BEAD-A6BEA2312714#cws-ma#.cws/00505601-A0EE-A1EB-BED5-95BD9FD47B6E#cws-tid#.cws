@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-A0EE-A1EB-BED5-95BD9FD4BB6E">
+	<DocumentID>00505601-A0EE-A1EB-BED5-95BD9FD47B6E</DocumentID>
+	<Name>00505601-A0EE-A1EB-BED5-95BD9FD47B6E</Name>
+	<Description>CusAttrConfig_HistoryLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-12T10:17:49.367</CreationDate>
+	<Notes/>
+	<DefaultText>CusAttrConfig_HistoryLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-A0EE-A1EB-BED5-95BD9FD4FB6E"
+		/>
+	</Translations>
+</TextIdentifier>

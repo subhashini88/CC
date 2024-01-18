@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC3C-60C603133031">
+	<DocumentID>F8B156BC-2CB7-A1E8-AC3C-60C60312F031</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AC3C-60C60312F031</Name>
+	<Description>Name</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-05T09:58:01.289</CreationDate>
+	<Notes/>
+	<Text>Name</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC3C-60C603127031"
+		/>
+	</TextIdentifier>
+</TranslatedText>

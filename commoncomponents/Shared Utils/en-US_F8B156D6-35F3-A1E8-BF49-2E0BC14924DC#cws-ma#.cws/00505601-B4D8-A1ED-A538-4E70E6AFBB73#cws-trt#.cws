@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A538-4E70E6AFFB73">
+	<DocumentID>00505601-B4D8-A1ED-A538-4E70E6AFBB73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A538-4E70E6AFBB73</Name>
+	<Description>The external contact has been mapped onto the party. To view the mapped contact, click Close, and then click Refresh on your web browser.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:43:44.825</CreationDate>
+	<Notes/>
+	<Text>The external contact has been mapped onto the party. To view the mapped contact, click Close, and then click Refresh on your web browser.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A538-4E70E6AF3B73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

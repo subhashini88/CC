@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A40A-8678FD4D3074">
+	<DocumentID>F8B156BC-2CB7-A1EA-A40A-8678FD4CF074</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A40A-8678FD4CF074</Name>
+	<Description>Related worklist</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-07T07:42:53.626</CreationDate>
+	<Notes/>
+	<DefaultText>Related worklist</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A40A-8678FD4D7074"
+		/>
+	</Translations>
+</TextIdentifier>

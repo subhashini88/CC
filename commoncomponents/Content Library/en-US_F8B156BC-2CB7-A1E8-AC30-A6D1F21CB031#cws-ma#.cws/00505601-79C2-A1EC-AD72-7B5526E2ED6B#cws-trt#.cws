@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-AD72-7B5526E32D6B">
+	<DocumentID>00505601-79C2-A1EC-AD72-7B5526E2ED6B</DocumentID>
+	<Name>00505601-79C2-A1EC-AD72-7B5526E2ED6B</Name>
+	<Description>DeleteCondition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-06T16:53:28.682</CreationDate>
+	<Notes/>
+	<Text>DeleteCondition</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-AD72-7B5526E26D6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

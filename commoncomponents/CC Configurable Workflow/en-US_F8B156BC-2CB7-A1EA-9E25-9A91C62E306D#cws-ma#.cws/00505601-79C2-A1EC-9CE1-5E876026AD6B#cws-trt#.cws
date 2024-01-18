@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-9CE1-5E876026ED6B">
+	<DocumentID>00505601-79C2-A1EC-9CE1-5E876026AD6B</DocumentID>
+	<Name>00505601-79C2-A1EC-9CE1-5E876026AD6B</Name>
+	<Description>SkipCurrentTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-01-12T09:00:01.149</CreationDate>
+	<Notes/>
+	<Text>SkipCurrentTask</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-9CE1-5E8760262D6B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

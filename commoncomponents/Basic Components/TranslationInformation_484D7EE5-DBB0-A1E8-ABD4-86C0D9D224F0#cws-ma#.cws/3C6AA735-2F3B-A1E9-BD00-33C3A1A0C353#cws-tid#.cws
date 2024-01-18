@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BD00-33C3A1A10353">
+	<DocumentID>3C6AA735-2F3B-A1E9-BD00-33C3A1A0C353</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BD00-33C3A1A0C353</Name>
+	<Description>getGCClauseByGCType</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-21T12:53:05.65</CreationDate>
+	<Notes/>
+	<DefaultText>getGCClauseByGCType</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BD00-33C3A1A14353"
+		/>
+	</Translations>
+</TextIdentifier>

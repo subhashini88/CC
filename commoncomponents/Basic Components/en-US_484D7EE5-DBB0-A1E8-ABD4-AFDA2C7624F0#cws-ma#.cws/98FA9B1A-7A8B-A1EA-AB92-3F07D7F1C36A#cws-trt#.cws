@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AB92-3F07D7F2036A">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AB92-3F07D7F1C36A</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AB92-3F07D7F1C36A</Name>
+	<Description>Unable to create the sub-organization. Maximum hierarchy limit reached.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-14T14:21:54.25</CreationDate>
+	<Notes/>
+	<Text>Unable to create the sub-organization. Maximum hierarchy limit reached.</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AB92-992A5317C36A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

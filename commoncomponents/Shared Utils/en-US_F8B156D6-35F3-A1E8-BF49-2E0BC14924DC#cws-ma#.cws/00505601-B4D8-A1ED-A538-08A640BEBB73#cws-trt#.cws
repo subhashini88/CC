@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A538-08A640BEFB73">
+	<DocumentID>00505601-B4D8-A1ED-A538-08A640BEBB73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A538-08A640BEBB73</Name>
+	<Description>This sub-organization name is already in use. Specify a different name.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:25:11.598</CreationDate>
+	<Notes/>
+	<Text>This sub-organization name is already in use. Specify a different name.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A538-08A640BE3B73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

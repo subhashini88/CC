@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A154-E545B69E3072">
+	<DocumentID>F8B156BC-2CB7-A1EA-A154-E545B69DF072</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A154-E545B69DF072</Name>
+	<Description>GCActions_HistoryLog</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-23T11:14:29.315</CreationDate>
+	<Notes/>
+	<DefaultText>GCActions_HistoryLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A154-D10B965FF072"
+		/>
+	</Translations>
+</TextIdentifier>

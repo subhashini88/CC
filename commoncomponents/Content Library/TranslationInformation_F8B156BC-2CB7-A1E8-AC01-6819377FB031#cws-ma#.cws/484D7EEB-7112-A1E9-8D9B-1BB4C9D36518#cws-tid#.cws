@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-8D9B-1BB4C9D3A518">
+	<DocumentID>484D7EEB-7112-A1E9-8D9B-1BB4C9D36518</DocumentID>
+	<Name>484D7EEB-7112-A1E9-8D9B-1BB4C9D36518</Name>
+	<Description>Template document exist?</Description>
+	<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-02-22T10:10:27.595</CreationDate>
+	<Notes/>
+	<DefaultText>Template document exist?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-7112-A1E9-8D9B-1BB4C9D3E518"
+		/>
+	</Translations>
+</TextIdentifier>

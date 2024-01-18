@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BF58-7377AE3326BD">
+	<DocumentID>8C1645B9-0967-A1EA-BF58-7377AE32E6BD</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BF58-7377AE32E6BD</Name>
+	<Description>UPD_SEC_NAME_ORD</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-23T06:34:32.314</CreationDate>
+	<Notes/>
+	<Text>UPD_SEC_NAME_ORD</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BF58-7377AE3266BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

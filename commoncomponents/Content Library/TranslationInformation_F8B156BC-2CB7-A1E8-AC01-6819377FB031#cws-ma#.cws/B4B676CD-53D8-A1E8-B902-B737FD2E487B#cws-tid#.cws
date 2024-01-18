@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B902-B737FD2E887B">
+	<DocumentID>B4B676CD-53D8-A1E8-B902-B737FD2E487B</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B902-B737FD2E487B</Name>
+	<Description>UpdateClauseStatus</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-09T10:35:04.712</CreationDate>
+	<Notes/>
+	<DefaultText>UpdateClauseStatus</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-B902-B737FD2EC87B"
+		/>
+	</Translations>
+</TextIdentifier>

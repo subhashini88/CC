@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EB-A445-3DAF2463EDC5">
+	<DocumentID>1866DA2F-4C9E-A1EB-A445-3DAF2463ADC5</DocumentID>
+	<Name>1866DA2F-4C9E-A1EB-A445-3DAF2463ADC5</Name>
+	<Description>To be published templates</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-03-30T05:06:55.257</CreationDate>
+	<Notes/>
+	<Text>To be published templates</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EB-A445-3DAF24632DC5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

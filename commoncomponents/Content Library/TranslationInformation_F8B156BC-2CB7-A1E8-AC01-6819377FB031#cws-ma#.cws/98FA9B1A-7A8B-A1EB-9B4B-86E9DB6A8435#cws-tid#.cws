@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-9B4B-86E9DB6AC435">
+	<DocumentID>98FA9B1A-7A8B-A1EB-9B4B-86E9DB6A8435</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-9B4B-86E9DB6A8435</Name>
+	<Description>Form</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-12T12:32:59.832</CreationDate>
+	<Notes/>
+	<DefaultText>Form</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-9B4B-86E9DB6B0435"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-AD2E-7154633A086E">
+	<DocumentID>C4D98747-A6D9-A1E8-AD2E-71546339C86E</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-AD2E-71546339C86E</Name>
+	<Description>DeleteTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-10T05:27:00.178</CreationDate>
+	<Notes/>
+	<Text>DeleteTemplate</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-AD2E-71546339486E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

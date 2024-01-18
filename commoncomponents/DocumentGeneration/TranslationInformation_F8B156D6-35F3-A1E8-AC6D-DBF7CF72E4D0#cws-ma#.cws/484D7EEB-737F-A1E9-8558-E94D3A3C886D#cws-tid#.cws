@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1E9-8558-E94D3A3CC86D">
+	<DocumentID>484D7EEB-737F-A1E9-8558-E94D3A3C886D</DocumentID>
+	<Name>484D7EEB-737F-A1E9-8558-E94D3A3C886D</Name>
+	<Description>Upload Layout Document</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2019-01-11T06:18:17.957</CreationDate>
+	<Notes/>
+	<DefaultText>Upload Layout Document</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1E9-8558-E94D3A3D086D"
+		/>
+	</Translations>
+</TextIdentifier>

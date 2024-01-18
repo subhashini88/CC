@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9206-06A85D636511">
+	<DocumentID>484D7EE5-DBB0-A1E9-9206-06A85D632511</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9206-06A85D632511</Name>
+	<Description>Auto update of clause in draft</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-03-16T18:27:46.214</CreationDate>
+	<Notes/>
+	<DefaultText>Auto update of clause in draft</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9206-06A85D63A511"
+		/>
+	</Translations>
+</TextIdentifier>

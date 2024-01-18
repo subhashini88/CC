@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1E9-90FA-70060D9FC86E">
+	<DocumentID>484D7EEB-737F-A1E9-90FA-70060D9F886E</DocumentID>
+	<Name>484D7EEB-737F-A1E9-90FA-70060D9F886E</Name>
+	<Description>Validation input preview</Description>
+	<CreatedBy>yballepa</CreatedBy>
+	<CreationDate>2019-03-11T10:44:34.209</CreationDate>
+	<Notes/>
+	<DefaultText>Validation input preview</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1E9-90FA-70060DA0086E"
+		/>
+	</Translations>
+</TextIdentifier>

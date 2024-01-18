@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B678-F856896C7167">
+	<DocumentID>F8E4E399-CF40-A1ED-B678-F856896C3167</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B678-F856896C3167</Name>
+	<Description>Test error</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-04-13T10:15:00.355</CreationDate>
+	<Notes/>
+	<DefaultText>Test error</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-B678-F856896CB167"
+		/>
+	</Translations>
+</TextIdentifier>

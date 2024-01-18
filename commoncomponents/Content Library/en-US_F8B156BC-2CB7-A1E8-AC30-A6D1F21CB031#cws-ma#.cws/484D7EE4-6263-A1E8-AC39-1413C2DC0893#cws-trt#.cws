@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E8-AC39-1413C2DC4893">
+	<DocumentID>484D7EE4-6263-A1E8-AC39-1413C2DC0893</DocumentID>
+	<Name>484D7EE4-6263-A1E8-AC39-1413C2DC0893</Name>
+	<Description>Paused</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T08:30:00.393</CreationDate>
+	<Notes/>
+	<Text>Paused</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E8-AC39-1413C2DB8893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

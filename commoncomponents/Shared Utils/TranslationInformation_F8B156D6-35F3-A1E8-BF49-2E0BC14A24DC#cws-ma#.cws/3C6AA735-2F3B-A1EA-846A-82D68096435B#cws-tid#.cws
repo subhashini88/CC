@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-846A-82D68096835B">
+	<DocumentID>3C6AA735-2F3B-A1EA-846A-82D68096435B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-846A-82D68096435B</Name>
+	<Description>Invalid date format</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T11:26:28.719</CreationDate>
+	<Notes/>
+	<DefaultText>Invalid date format</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1EA-846A-82D68096C35B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A2-A9B190ACB068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A2-A9B190AB3068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A2-A9B190A9F068"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9FDD-0D15B0553157">
+	<DocumentID>F8E4E399-CF40-A1ED-9FDD-0D15B054F157</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9FDD-0D15B054F157</Name>
+	<Description>CTRTabsConfiguration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-19T08:11:35.111</CreationDate>
+	<Notes/>
+	<DefaultText>CTRTabsConfiguration</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-9FDD-0D15B0557157"
+		/>
+	</Translations>
+</TextIdentifier>

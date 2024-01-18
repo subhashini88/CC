@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B6FF-5375D4E2A4D6">
+	<DocumentID>F8B156D6-35F3-A1E8-B6FF-5375D4E264D6</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B6FF-5375D4E264D6</Name>
+	<Description>For example, [@</Description>
+	<CreatedBy>ychaube@ContractCenter</CreatedBy>
+	<CreationDate>2018-10-30T06:14:36.778</CreationDate>
+	<Notes/>
+	<DefaultText>For example, [@</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-B6FF-5375D4E2E4D6"
+		/>
+	</Translations>
+</TextIdentifier>

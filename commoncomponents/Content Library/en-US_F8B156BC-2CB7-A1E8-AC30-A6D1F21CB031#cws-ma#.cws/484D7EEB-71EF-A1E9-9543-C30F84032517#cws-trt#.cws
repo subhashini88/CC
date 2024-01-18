@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-9543-C30F84036517">
+	<DocumentID>484D7EEB-71EF-A1E9-9543-C30F84032517</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-9543-C30F84032517</Name>
+	<Description>Is Root ID??</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-02T06:19:25.397</CreationDate>
+	<Notes/>
+	<Text>Is Root ID??</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-9543-C30F8402A517"
+		/>
+	</TextIdentifier>
+</TranslatedText>

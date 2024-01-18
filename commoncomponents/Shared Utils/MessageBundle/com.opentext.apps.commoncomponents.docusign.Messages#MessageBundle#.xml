@@ -1,0 +1,58 @@
+<MessageBundle xmlns="" id="com.opentext.apps.commoncomponents.docusign.Messages">
+	<Message id="processingResponseForAccessToken">
+		<MessageText>Unable to process the response for the access token. Contact the administrator.</MessageText>
+		<Description>Unable to process the response for the access token. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="unsupportedEncoding">
+		<MessageText>An error occurred while encoding the request for the access token. Contact the administrator.</MessageText>
+		<Description>An error occurred while encoding the request for the access token. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="accessTokenConnection">
+		<MessageText>Unable to process the connection for the access token request. Contact the administrator.</MessageText>
+		<Description>Unable to process the connection for the access token request. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="accessTokenProtocolError">
+		<MessageText>An error occurred while sending the access token request. Contact the administrator.</MessageText>
+		<Description>An error occurred while sending the access token request. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="outputStreamError">
+		<MessageText>An error occurred while creating the output stream. Contact the administrator.</MessageText>
+		<Description>An error occurred while creating the output stream. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="releasingResources">
+		<MessageText>An error occurred while performing the output operations. Contact the administrator.</MessageText>
+		<Description>An error occurred while performing the output operations. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="loginInfoConnection">
+		<MessageText>Unable to process the connection for the login information request. Contact the administrator.</MessageText>
+		<Description>Unable to process the connection for the login information request. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="loginInfoProtocolError">
+		<MessageText>An error occurred while sending the login information request. Contact the administrator.</MessageText>
+		<Description>An error occurred while sending the login information request. Contact the administrator.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+</MessageBundle>

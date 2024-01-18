@@ -1,0 +1,40 @@
+
+<WSAppServerJavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-B086-28EEB54FB033">
+	<DocumentID>F8B156BC-2CB7-A1E8-B086-28EEB54F7033</DocumentID>
+	<Name>ContentLibrary</Name>
+	<Description>ContentLibrary</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-27T05:47:59.899</CreationDate>
+	<Notes/>
+	<JarFileName>ContentLibrary</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-B086-28EEB54F3033">
+			<DocumentID>F8B156BC-2CB7-A1E8-B086-28EEB54EF033</DocumentID>
+			<Name>ContentLibraryJavaArchive_Dependency</Name>
+			<Description>ContentLibraryJavaArchive_Dependency</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-09-27T05:47:59.695</CreationDate>
+			<Notes/>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+			<ISVPName></ISVPName>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+	<SourceFolder>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AD33-6EAED2813032"
+			path="Content Library/Java/Java Sources/ContentLibrary"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="484D7EEB-737F-A1E9-8E3A-ACB83B51886E"
+		/>
+	</WSAppServerPackage>
+</WSAppServerJavaArchiveSource>

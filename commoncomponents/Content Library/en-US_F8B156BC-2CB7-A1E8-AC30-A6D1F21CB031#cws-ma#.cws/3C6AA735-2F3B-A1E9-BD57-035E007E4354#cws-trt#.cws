@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BD57-035E007E8354">
+	<DocumentID>3C6AA735-2F3B-A1E9-BD57-035E007E4354</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BD57-035E007E4354</Name>
+	<Description>Template ID</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-23T06:15:52.363</CreationDate>
+	<Notes/>
+	<Text>Template ID</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BD57-035E007DC354"
+		/>
+	</TextIdentifier>
+</TranslatedText>

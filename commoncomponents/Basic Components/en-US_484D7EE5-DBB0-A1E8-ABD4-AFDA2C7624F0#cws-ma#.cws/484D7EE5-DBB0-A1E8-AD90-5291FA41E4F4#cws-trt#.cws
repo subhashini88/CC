@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AD90-5291FA4224F4">
+	<DocumentID>484D7EE5-DBB0-A1E8-AD90-5291FA41E4F4</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-AD90-5291FA41E4F4</Name>
+	<Description>&quot;\&quot;Please input valid name\&quot;&quot;</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-12T04:56:37.443</CreationDate>
+	<Notes/>
+	<Text>&quot;\&quot;Please input valid name\&quot;&quot;</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AD90-5291FA4164F4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

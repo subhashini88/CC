@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-846A-82D680A7C35B">
+	<DocumentID>3C6AA735-2F3B-A1EA-846A-82D680A7835B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-846A-82D680A7835B</Name>
+	<Description>Customers synchronisation started.</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T06:43:47.061</CreationDate>
+	<Notes/>
+	<Text>Customers synchronisation started.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1EA-846A-82D680A7035B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

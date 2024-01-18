@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-912E-6D5175BEB047">
+	<DocumentID>F8B156BC-2CB7-A1E9-912E-6D5175BE7047</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-912E-6D5175BE7047</Name>
+	<Description>Equivenlent clause name</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-03-13T04:10:10.682</CreationDate>
+	<Notes/>
+	<DefaultText>Equivenlent clause name</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-912E-6D5175BEF047"
+		/>
+	</Translations>
+</TextIdentifier>

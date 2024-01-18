@@ -1,0 +1,53 @@
+.cc-filter-body>div>select {
+	background-image: none !important;
+}
+.caretup-icon {
+    background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+    transform: rotate(90deg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+  }
+  .caretdown-icon {
+    background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+    transform: rotate(270deg);
+    background-size: cover;
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+  }
+
+.tabs-list-items{
+    height: 32px;
+    min-height: 2.25rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selected-item{
+    background-color: rgb(203, 211, 217);
+}
+
+.form-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 85%;
+}
+.cc-input-browse-icon{
+  padding: 6px 12px 4px 12px;
+}
+
+#toggleAllTabs{
+	width: 13px;
+	background-color: #EEF2F4;
+	cursor: pointer;
+}
+.cc-ltr #toggleAllTabs{
+	height: 99vh;
+}
+.cc-rtl #toggleAllTabs{
+	height: 96vh;
+}

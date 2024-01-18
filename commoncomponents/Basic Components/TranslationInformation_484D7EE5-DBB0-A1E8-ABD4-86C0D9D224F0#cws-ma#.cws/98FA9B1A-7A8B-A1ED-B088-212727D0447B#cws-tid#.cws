@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-B088-212727D0847B">
+	<DocumentID>98FA9B1A-7A8B-A1ED-B088-212727D0447B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-B088-212727D0447B</Name>
+	<Description>GetCCRolesInList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-14T04:27:39.542</CreationDate>
+	<Notes/>
+	<DefaultText>GetCCRolesInList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-B088-212727D0C47B"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A0F7-97FB4CFD3072">
+	<DocumentID>F8B156BC-2CB7-A1EA-A0F7-97FB4CFCF072</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A0F7-97FB4CFCF072</Name>
+	<Description>Transit state to</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-22T04:00:03.006</CreationDate>
+	<Notes/>
+	<Text>Transit state to</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A0F7-97FB4CFC7072"
+		/>
+	</TextIdentifier>
+</TranslatedText>

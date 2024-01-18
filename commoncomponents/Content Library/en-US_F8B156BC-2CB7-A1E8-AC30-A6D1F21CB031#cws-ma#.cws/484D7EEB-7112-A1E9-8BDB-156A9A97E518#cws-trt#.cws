@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-8BDB-156A9A982518">
+	<DocumentID>484D7EEB-7112-A1E9-8BDB-156A9A97E518</DocumentID>
+	<Name>484D7EEB-7112-A1E9-8BDB-156A9A97E518</Name>
+	<Description>TemplateDocGeneration</Description>
+	<CreatedBy>cn=dsrivard@Appworks partition,cn=organizational users,o=system,cn=cordys,cn=defaultInst,o=opentext.net</CreatedBy>
+	<CreationDate>2019-02-13T08:52:51.844</CreationDate>
+	<Notes/>
+	<Text>TemplateDocGeneration</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-8BDB-156A9A976518"
+		/>
+	</TextIdentifier>
+</TranslatedText>

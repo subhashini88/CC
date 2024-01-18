@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-93A7-37A6CB45EBA1">
+	<DocumentID>50EB711A-AD5A-A1ED-93A7-37A6CB45ABA1</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-93A7-37A6CB45ABA1</Name>
+	<Description>DeleteValidLayoutConfig</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-18T05:11:47.237</CreationDate>
+	<Notes/>
+	<Text>DeleteValidLayoutConfig</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-93A7-37A6CB452BA1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

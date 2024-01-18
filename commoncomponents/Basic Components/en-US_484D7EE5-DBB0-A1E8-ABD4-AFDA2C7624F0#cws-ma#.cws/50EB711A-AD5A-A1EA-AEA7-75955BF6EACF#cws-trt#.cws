@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EA-AEA7-75955BF72ACF">
+	<DocumentID>50EB711A-AD5A-A1EA-AEA7-75955BF6EACF</DocumentID>
+	<Name>50EB711A-AD5A-A1EA-AEA7-75955BF6EACF</Name>
+	<Description>ValidateGCOrgname</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-30T06:53:35.308</CreationDate>
+	<Notes/>
+	<Text>ValidateGCOrgname</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EA-AEA7-75955BF66ACF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

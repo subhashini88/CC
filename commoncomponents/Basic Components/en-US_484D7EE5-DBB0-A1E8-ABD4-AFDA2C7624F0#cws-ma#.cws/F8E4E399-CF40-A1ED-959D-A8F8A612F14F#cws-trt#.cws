@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-959D-A8F8A613314F">
+	<DocumentID>F8E4E399-CF40-A1ED-959D-A8F8A612F14F</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-959D-A8F8A612F14F</Name>
+	<Description>OnOrgTypeMapDelete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-28T04:13:38.098</CreationDate>
+	<Notes/>
+	<Text>OnOrgTypeMapDelete</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-959D-A8F8A612714F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

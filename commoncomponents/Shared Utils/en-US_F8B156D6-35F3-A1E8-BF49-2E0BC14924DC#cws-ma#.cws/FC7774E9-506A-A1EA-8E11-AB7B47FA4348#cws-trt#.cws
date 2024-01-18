@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E11-AB7B47FA8348">
+	<DocumentID>FC7774E9-506A-A1EA-8E11-AB7B47FA4348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E11-AB7B47FA4348</Name>
+	<Description>Redirected to the help URL. If not redirected, click</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-16T10:16:37.279</CreationDate>
+	<Notes/>
+	<Text>Redirected to the help URL. If not redirected, click </Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E9-506A-A1EA-8E11-AB7B47F9C348"
+		/>
+	</TextIdentifier>
+</TranslatedText>

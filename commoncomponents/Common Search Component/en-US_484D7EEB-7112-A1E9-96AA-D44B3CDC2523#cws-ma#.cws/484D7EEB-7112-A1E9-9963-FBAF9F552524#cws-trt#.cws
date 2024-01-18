@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-9963-FBAF9F556524">
+	<DocumentID>484D7EEB-7112-A1E9-9963-FBAF9F552524</DocumentID>
+	<Name>484D7EEB-7112-A1E9-9963-FBAF9F552524</Name>
+	<Description>ReltionshipList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-23T06:49:52.255</CreationDate>
+	<Notes/>
+	<Text>ReltionshipList</Text>
+	<Language>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-9963-FBAF9F54A524"
+		/>
+	</TextIdentifier>
+</TranslatedText>

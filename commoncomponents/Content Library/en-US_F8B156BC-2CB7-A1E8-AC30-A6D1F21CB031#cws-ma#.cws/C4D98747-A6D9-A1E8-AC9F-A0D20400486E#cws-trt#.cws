@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-AC9F-A0D20400886E">
+	<DocumentID>C4D98747-A6D9-A1E8-AC9F-A0D20400486E</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-AC9F-A0D20400486E</Name>
+	<Description>On create validation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-07T09:18:59.374</CreationDate>
+	<Notes/>
+	<Text>On create validation</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC9F-A0D203FFC86E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

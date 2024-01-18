@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-BC00-94A0BA49087D">
+	<DocumentID>B4B676CD-53D8-A1E8-BC00-94A0BA48C87D</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-BC00-94A0BA48C87D</Name>
+	<Description>Publisher clause list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-24T16:53:35.267</CreationDate>
+	<Notes/>
+	<Text>Publisher clause list</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-BC00-94A0BA48487D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

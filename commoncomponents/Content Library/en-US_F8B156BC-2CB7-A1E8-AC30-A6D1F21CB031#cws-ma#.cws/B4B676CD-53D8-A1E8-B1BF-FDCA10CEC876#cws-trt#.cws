@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B1BF-FDCA10CF0876">
+	<DocumentID>B4B676CD-53D8-A1E8-B1BF-FDCA10CEC876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B1BF-FDCA10CEC876</Name>
+	<Description>DeleteGCClause</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T11:41:28.553</CreationDate>
+	<Notes/>
+	<Text>DeleteGCClause</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B1BF-FDCA10CE4876"
+		/>
+	</TextIdentifier>
+</TranslatedText>

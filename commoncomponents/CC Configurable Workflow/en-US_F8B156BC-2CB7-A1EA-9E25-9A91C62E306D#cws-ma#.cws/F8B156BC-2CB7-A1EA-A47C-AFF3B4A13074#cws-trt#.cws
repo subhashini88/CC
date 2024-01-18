@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A47C-AFF3B4A17074">
+	<DocumentID>F8B156BC-2CB7-A1EA-A47C-AFF3B4A13074</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A47C-AFF3B4A13074</Name>
+	<Description>UpdateRuleInstance</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-09T13:12:17.445</CreationDate>
+	<Notes/>
+	<Text>UpdateRuleInstance</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A47C-AFF3B4A0B074"
+		/>
+	</TextIdentifier>
+</TranslatedText>

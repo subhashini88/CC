@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A807-A90263D96DBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-A807-A90263D92DBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A807-A90263D92DBF</Name>
+	<Description>GetSubOrganizations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-05-27T14:15:05.654</CreationDate>
+	<Notes/>
+	<Text>GetSubOrganizations</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A807-A90263D8ADBF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

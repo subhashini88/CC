@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-AFF4-2FDA9A668874">
+	<DocumentID>B4B676CD-53D8-A1E8-AFF4-2FDA9A664874</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-AFF4-2FDA9A664874</Name>
+	<Description>RejectTask_Template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T08:21:53.22</CreationDate>
+	<Notes/>
+	<DefaultText>RejectTask_Template</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-AFF4-2FDA9A66C874"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,453 @@
+
+tr.hide-table-padding td {
+	padding: 0;
+  }
+  
+  .expand-button {
+	  position: relative;
+  }
+  
+  .accordion-toggle .expand-button:after
+  {
+	position: absolute;
+	left:.75rem;
+	top: 50%;
+	transform: translate(0, -50%);
+	content: '-';
+  }
+  .accordion-toggle.collapsed .expand-button:after
+  {
+	content: '+';
+  }
+
+.flex-start-block {
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.flex-box {
+	padding: 2px 10px;
+}
+
+.cc-select {
+	display: inline-block;
+	width: 100px;
+}
+
+.chicklet-text {
+	font-size: 12px;
+	line-height: 15px;
+	align-items: center;
+}
+
+.chicklet-close{
+	padding-top: 2px;
+}
+
+.chicklet {
+	background: #E7F8F8;
+	border: 1px solid #33C6C8;
+	box-sizing: border-box;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0px 3px;
+	margin: 2px;
+	height: 22px;
+	cursor: default;
+	position: relative;
+}
+
+.chicklets-div{
+	margin: 5px;
+	border: 1px solid #e8e8e8;
+	height: 54px;
+	display: flex;
+	position: relative;
+}
+
+.chicklet-cancel {
+	background-image: url(../../../../../com/opentext/apps/utils/img/close_inline.svg);
+	background-size: cover;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+}
+
+.cc-form-value {
+    font-size: 13px;
+    line-height: 24px !important;
+    align-items: center;
+    color: #333333;
+
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.filter-condition > *:not(:last-child) {
+    margin-right: 2%;
+	float: left;
+}
+.flex-box > input{
+	display: inline-block;
+	width:35%;
+	padding: 6px 1px 0px 1px;
+}
+#pan1 {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 50%; /* initial status */
+}
+
+#pan2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  overflow-x: auto;
+}
+
+#rpanrResize {
+  flex-grow: 0;
+  flex-shrink: 0;
+  background: #1b1b51;
+  width: 0.2rem;
+  cursor: col-resize;
+  margin: 0 0 0 auto;
+}
+
+.cc-drop-button-action-container {
+	position: absolute;
+	list-style: none;
+	padding: 5px 0;
+	margin: 1px 0 0;
+	border: 0;
+	border-radius: 2px;
+	background-color: #fff;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, .7);
+	max-width: 1639px;
+	max-height: 266px;
+	min-width: 160px;
+	top: 0px;
+	left: 0px;
+}
+
+.cc-drop-button-action-container .cc-drop-button-action:hover {
+	background-color: #bac9ce;
+}
+.cc-drop-button-action-container .cc-drop-button-action {
+	color: #000;
+}
+.cc-drop-button-action-container li.cc-drop-button-action {
+	text-align: left;
+	padding: 4px 16px;
+	white-space: nowrap;
+	margin: 2px 0;
+	height: 2em;
+}
+
+.cc-tab--header-title {
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    font-weight: 600;
+}
+.caretup-icon {
+  background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+  transform: rotate(90deg);
+  background-size: cover;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+.caretdown-icon {
+  background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+  transform: rotate(270deg);
+  background-size: cover;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+.caret-icon {
+	background-image: url(../../../../../com/opentext/apps/utils/img/caret_down.svg);
+	background-size: cover;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+  }
+#untitled:hover{
+	border: 1px solid #e8e8e8 !important;
+}
+
+#untitled{
+	font-weight: 400;
+	border: none !important;
+	background: transparent;
+	margin:5px;
+	font-size: 16px !important;
+	height: 24px !important;
+	padding-left: 5px;
+	width: 40ch;
+	text-overflow: ellipsis;
+}
+.cc-drop-button-split{
+	content: '';
+    display: inline-block;
+    height: 32px;
+    width: 1px;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    border-width: 0 0 0 1px;
+}
+.moreOptionsDropDown{
+	height: 12px;
+    width: 14px;
+    margin-left: 10px;
+}
+.new-search-hide{
+	display: none;
+}
+
+.input-browse{
+	padding: 5px 12px !important;
+}
+.btn_delete_icon{
+	width: 15px;
+	height: 15px;
+}
+.select-item{
+	display: flex;
+	justify-content: space-between;
+	padding: 1px 8px;
+	background-color: transparent;
+	border: none;
+}
+.select-item:hover{
+	background-color: #CBD3D9 !important;
+	cursor : pointer;
+}
+.div_delete{
+	display: none;
+}
+.select-item:hover > .div_delete{
+	display: inline;
+}
+.cc-text-button:hover:enabled{
+	background-color: #BAC9CE;
+}
+.label-text{
+	color: rgb(85, 85, 85);
+    font-weight: bold;
+}
+.fav-icon{
+	width: 28px;
+	height: 28px;
+}
+#div_filters[show-placeholder=true]::before{
+	content:"Click the Add search criteria icon to search for contracts";
+	color: #999;
+	top: 18px;
+	position: relative;
+}
+.cc-ltr #div_filters[show-placeholder=true]::before{
+	padding-left: 2px;
+}
+.cc-rtl #div_filters[show-placeholder=true]::before{
+	padding-right: 2px;
+}
+.cc-drop-button{
+	width: 35px;
+	margin: -5px -15px -5px -5px;
+	
+}
+#div_previewType{
+	background: #f2f2f2;
+    padding: 10px;
+}
+
+#btn_save_filter{
+	pointer-events: none;
+	display:inline-flex;
+	margin-left: 14px;
+}
+#id_contractsTable{
+	margin-bottom: 2.5em;
+}
+#div_ContractSearchResults{
+	padding: 4px;
+	display: flex;
+	height: calc(100vh - 103px);
+}
+.cc-ltr #div_ContractSearchResults{
+	padding-right: 0px;
+}
+.cc-rtl #div_ContractSearchResults{
+	padding-left: 0px;
+}
+.list-style{
+	height: calc(84vh - 2.6em);
+}
+#id_contractsTable thead{
+	position: sticky;
+    top: 0px;
+}
+#div_ContractDetails{
+	padding:unset;
+	height: 78vh;
+	z-index: 999;
+	position: absolute;
+	margin-top: 8%;
+	visibility: hidden;
+	background-color: #fff;
+	transition: all 0.5s ease 0s;
+}
+.cc-ltr #div_ContractDetails{
+	margin-left: 65%;
+}
+.cc-rtl #div_ContractDetails{
+	margin-right: 65%;
+}
+.disable-click{
+	pointer-events: none;
+}
+.disable-cursor{
+	cursor: not-allowed;
+}
+
+#div_contractsList{
+	background-color: #dce4e8;
+	height:30px;
+	position:relative;
+	width: 100%;
+	z-index: 1;
+	top: 0;
+}
+.more-button{
+	border: 1px solid#232e72;
+    border-radius: 1rem;
+    padding: 0px 9px;
+    margin-bottom: 2px;
+	background-color: #fff;
+    display: inline-block;
+}
+.nav-tabs>li{
+	max-width: 32%;
+}
+.nav-tabs>li>a{
+	overflow: hidden;
+    white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.div_delete{
+	padding: 3px 8px;
+	border-radius: 15px;
+	background-color: #ffffff;
+}
+.visibility-hidden{
+	visibility: hidden;
+}
+#id_addlFilters{
+	display: none;
+	transform: translate3d(61em, -8px, 0px);
+	z-index: 78;
+	will-change: transform;
+	position: absolute;
+	overflow:auto;
+}
+/*Auto suggest*/
+.autocomplete-items {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0 0 3px 3px rgb(0 0 0 / 9%);
+	border: 1px solid #d4d4d4;
+	z-index: 1000;
+	top: 100%;
+	left: 0px;
+	right: 0;
+	max-width: 100%;
+	max-height: 245px;
+	overflow: auto;
+}
+
+.autocomplete-items div {
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fff;
+}
+
+
+.autocomplete-items div:hover {
+	background-color: #b2bec5;
+	color: #333333;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+
+.autocomplete-active {
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	background-color: #98a8b2 !important;
+	color: #333333;
+}
+
+
+#inline-warning {
+    width: 99.6%;
+    text-align: center;
+    height: 40px;
+    background-image: inherit;
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: inherit;
+    background-attachment: inherit;
+    background-origin: inherit;
+    background-clip: inherit;
+    background-color: rgba(223, 104, 0, 0.047);
+    box-sizing: border-box;
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    border-color: rgb(223, 104, 0);
+    box-shadow: none;
+    font-family: "OpenText Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+#inline-warning .ot-message__banner {
+    display: flex;
+    padding-top: 10px;
+	margin-left: 5px;
+}
+
+#input_AdvancedSearchtxt:focus::placeholder {
+	color: transparent;
+  }
+  
+#btn_savesearch{
+	padding-left: 0px;
+	margin-top: 50px;
+	display: flex;
+}
+.cc-ltr #btn_savesearch{
+	padding-left: 0px;
+}
+.cc-rtl #btn_savesearch{
+	padding-right: 0px;
+}
+.cc-rtl #btn_applySearch{
+	margin-right: 0px;
+}
+#searchToggle{
+	cursor: pointer;
+	border: none !important;
+	background: transparent !important;
+	margin-top: 12px;
+	margin-right: 7px;
+}
+.cc-ltr #searchToggle{
+	float: right;
+}
+.cc-rtl #searchToggle{
+	float: left;
+}

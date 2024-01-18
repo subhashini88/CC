@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A80A-A0F0ADA1EDBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-A80A-A0F0ADA1ADBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A80A-A0F0ADA1ADBF</Name>
+	<Description>sub org exists ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-05-27T17:17:34.072</CreationDate>
+	<Notes/>
+	<DefaultText>sub org exists ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A80A-A0F0ADA22DBF"
+		/>
+	</Translations>
+</TextIdentifier>

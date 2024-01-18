@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-B024-4880CA893033">
+	<DocumentID>F8B156BC-2CB7-A1E8-B024-4880CA88F033</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-B024-4880CA88F033</Name>
+	<Description>ClauseRejectTask</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-25T07:05:57.484</CreationDate>
+	<Notes/>
+	<DefaultText>ClauseRejectTask</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E8-B024-4880CA897033"
+		/>
+	</Translations>
+</TextIdentifier>

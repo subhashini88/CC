@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-9A38-7753239F718B">
+	<DocumentID>50EB711A-FC6F-A1EE-9A38-7753239F318B</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-9A38-7753239F318B</Name>
+	<Description>Deactivate obligation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-12T09:31:09.107</CreationDate>
+	<Notes/>
+	<DefaultText>Deactivate obligation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-FC6F-A1EE-9A38-7753239FB18B"
+		/>
+	</Translations>
+</TextIdentifier>

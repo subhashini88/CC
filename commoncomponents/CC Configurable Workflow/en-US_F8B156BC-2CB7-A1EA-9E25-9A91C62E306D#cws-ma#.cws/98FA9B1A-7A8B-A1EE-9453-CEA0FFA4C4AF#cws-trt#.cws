@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-9453-CEA0FFA504AF">
+	<DocumentID>98FA9B1A-7A8B-A1EE-9453-CEA0FFA4C4AF</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-9453-CEA0FFA4C4AF</Name>
+	<Description>CompleteOblReminder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-12T09:43:53.959</CreationDate>
+	<Notes/>
+	<Text>CompleteOblReminder</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-9453-CEA0FFA444AF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-95C5-F89F1A2C7A97">
+	<DocumentID>98FA9B81-5041-A1EC-95C5-F89F1A2C3A97</DocumentID>
+	<Name>98FA9B81-5041-A1EC-95C5-F89F1A2C3A97</Name>
+	<Description>Extend due date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-07T05:09:18.883</CreationDate>
+	<Notes/>
+	<DefaultText>Extend due date</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B81-5041-A1EC-95C5-F89F1A2CBA97"
+		/>
+	</Translations>
+</TextIdentifier>

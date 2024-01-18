@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9EDE-539DE1C4B157">
+	<DocumentID>F8E4E399-CF40-A1ED-9EDE-539DE1C47157</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9EDE-539DE1C47157</Name>
+	<Description>get org type maps</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-12-14T06:51:52.4</CreationDate>
+	<Notes/>
+	<Text>get org type maps</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-9EDE-539DE1C3F157"
+		/>
+	</TextIdentifier>
+</TranslatedText>

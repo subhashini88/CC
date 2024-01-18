@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9D97-0F663074AB1F">
+	<DocumentID>50EB711A-AD5A-A1EB-9D97-0F6630746B1F</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9D97-0F6630746B1F</Name>
+	<Description>Z_INT_ContactTypes</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-24T04:56:43.54</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ContactTypes</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-9D97-0F663074EB1F"
+		/>
+	</Translations>
+</TextIdentifier>

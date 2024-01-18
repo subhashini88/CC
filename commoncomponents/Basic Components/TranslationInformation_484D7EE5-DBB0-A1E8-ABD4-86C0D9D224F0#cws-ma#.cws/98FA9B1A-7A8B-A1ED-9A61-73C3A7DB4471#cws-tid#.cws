@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-9A61-73C3A7DB8471">
+	<DocumentID>98FA9B1A-7A8B-A1ED-9A61-73C3A7DB4471</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-9A61-73C3A7DB4471</Name>
+	<Description>GetIdentityUsersWithFilters_2</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-21T10:19:25.334</CreationDate>
+	<Notes/>
+	<DefaultText>GetIdentityUsersWithFilters_2</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-9A61-73C3A7DBC471"
+		/>
+	</Translations>
+</TextIdentifier>

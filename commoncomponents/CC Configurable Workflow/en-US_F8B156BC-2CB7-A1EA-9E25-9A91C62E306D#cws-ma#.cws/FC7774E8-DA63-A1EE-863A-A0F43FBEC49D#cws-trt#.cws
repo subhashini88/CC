@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-863A-A0F43FBF049D">
+	<DocumentID>FC7774E8-DA63-A1EE-863A-A0F43FBEC49D</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-863A-A0F43FBEC49D</Name>
+	<Description>GetGenTaskActivityListInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-02T15:35:43.116</CreationDate>
+	<Notes/>
+	<Text>GetGenTaskActivityListInstance</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EE-863A-A0F43FBE449D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

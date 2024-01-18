@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-863F-15B000E2C49D">
+	<DocumentID>FC7774E8-DA63-A1EE-863F-15B000E2849D</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-863F-15B000E2849D</Name>
+	<Description>Add task in Clause and Template</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-02T17:22:29.138</CreationDate>
+	<Notes/>
+	<Text>Add task in Clause and Template</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EE-863F-15B000E2049D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

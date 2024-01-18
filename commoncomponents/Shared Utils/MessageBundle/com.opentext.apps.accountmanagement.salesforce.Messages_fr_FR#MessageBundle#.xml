@@ -1,0 +1,68 @@
+<MessageBundle xmlns=""
+	id="com.opentext.apps.accountmanagement.salesforce.Messages">
+	<Message id="processingResponseForAccessToken">
+		<MessageText>Impossible de traiter la réponse pour le jeton d'accès.
+			Contactez l'administrateur.</MessageText>
+		<Description>Unable to process the response for the access token.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="unsupportedEncoding">
+		<MessageText>Une erreur s'est produite lors de l'encodage de la
+			demande pour le jeton d'accès. Contactez l'administrateur.
+		</MessageText>
+		<Description>An error occurred while encoding the request for the
+			access token. Contact the administrator.</Description>
+	</Message>
+	<Message id="accessTokenConnection">
+		<MessageText>Impossible de traiter la connexion pour la demande de
+			jeton d'accès. Contactez l'administrateur.</MessageText>
+		<Description>Unable to process the connection for the access token
+			request. Contact the administrator.</Description>
+	</Message>
+	<Message id="accessTokenProtocolError">
+		<MessageText>Une erreur s'est produite lors de l'envoi de la demande
+			de jeton d'accès. Contactez l'administrateur.</MessageText>
+		<Description>An error occurred while sending the access token request.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="outputStreamError">
+		<MessageText>Une erreur s'est produite lors de la création du flux
+			sortant. Contactez l'administrateur.</MessageText>
+		<Description>An error occurred while creating the output stream.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="releasingResources">
+		<MessageText>Une erreur s'est produite lors de l'exécution des
+			opérations de sortie. Contactez l'administrateur.</MessageText>
+		<Description>An error occurred while performing the output operations.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="loginInfoConnection">
+		<MessageText>Impossible de traiter la connexion pour la demande
+			d'informations de connexion. Contactez l'administrateur.
+		</MessageText>
+		<Description>Unable to process the connection for the login
+			information request. Contact the administrator.</Description>
+	</Message>
+	<Message id="loginInfoProtocolError">
+		<MessageText>Une erreur s'est produite lors de l'envoi de la demande
+			d'informations de connexion. Contactez l'administrateur.
+		</MessageText>
+		<Description>An error occurred while sending the login information
+			request. Contact the administrator.</Description>
+	</Message>
+	<Message id="httpResponseError">
+		<MessageText>Il ne s'agit pas de la réponse attendue du serveur.
+			Contactez l'administrateur.</MessageText>
+		<Description>This is not the expected response from the server.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="errorWhileTriggeringBPM">
+		<MessageText>Error while triggering {0} BPM.</MessageText>
+		<Description>Error while triggering {0} BPM.</Description>
+	</Message>
+	<Message id="errorWhileTriggeringBPM">
+		<MessageText>Erreur lors du déclenchement de {0} BPM</MessageText>
+		<Description>Error while triggering {0} BPM.</Description>
+	</Message>
+</MessageBundle>

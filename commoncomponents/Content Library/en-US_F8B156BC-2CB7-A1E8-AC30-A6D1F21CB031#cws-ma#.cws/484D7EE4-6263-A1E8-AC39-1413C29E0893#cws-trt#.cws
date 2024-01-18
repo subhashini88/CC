@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE4-6263-A1E8-AC39-1413C29E4893">
+	<DocumentID>484D7EE4-6263-A1E8-AC39-1413C29E0893</DocumentID>
+	<Name>484D7EE4-6263-A1E8-AC39-1413C29E0893</Name>
+	<Description>Parent Worklist</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-05T08:30:00.379</CreationDate>
+	<Notes/>
+	<Text>Parent Worklist</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE4-6263-A1E8-AC39-1413C29D8893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A6DE-D5800BAB7077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A6DE-D5800BAB3077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A6DE-D5800BAB3077</Name>
+	<Description>Z_INT_ActivitiesList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-21T16:02:57.899</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ActivitiesList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A6DE-D5800BAAB077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

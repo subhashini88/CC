@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-853A-94E4FCC0035B">
+	<DocumentID>3C6AA735-2F3B-A1EA-853A-94E4FCBFC35B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-853A-94E4FCBFC35B</Name>
+	<Description>Next expiration date</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-12-02T09:59:04.917</CreationDate>
+	<Notes/>
+	<Text>Next expiration date</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA735-2F3B-A1EA-853A-94E4FCBF435B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

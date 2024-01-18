@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-AAAF-02651B1CF07A">
+	<DocumentID>F8B156BC-2CB7-A1EA-AAAF-02651B1CB07A</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-AAAF-02651B1CB07A</Name>
+	<Description>Revoke</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-10T01:53:08.682</CreationDate>
+	<Notes/>
+	<DefaultText>Revoke</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-AAAF-02651B1D307A"
+		/>
+	</Translations>
+</TextIdentifier>

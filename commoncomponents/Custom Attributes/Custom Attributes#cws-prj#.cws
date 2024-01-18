@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="3C6AA73A-0114-A1EB-BEAD-A6BEA233A714">
+	<DocumentID>3C6AA73A-0114-A1EB-BEAD-A6BEA2336714</DocumentID>
+	<Name>Custom Attributes</Name>
+	<Description>Custom Attributes</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-11T15:23:39.979</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="3C6AA73A-0114-A1EB-BEAD-A6BEA2326714">
+			<DocumentID>3C6AA73A-0114-A1EB-BEAD-A6BEA2322714</DocumentID>
+			<Name>OpenText Custom Attributes</Name>
+			<Description>OpenText Custom Attributes</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-11T15:23:39.981</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Custom Attributes</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Custom Attributes</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA232E714"
+			path="Custom Attributes"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="3C6AA73A-0114-A1EB-BEAD-A6BEA231E714">
+			<DocumentID>3C6AA73A-0114-A1EB-BEAD-A6BEA231A714</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2021-08-11T15:23:39.98</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="3C6AA73A-0114-A1EB-BEAD-A6BEA230E714">
+					<DocumentID>3C6AA73A-0114-A1EB-BEAD-A6BEA230A714</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2021-08-11T15:23:39.981</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="3C6AA73A-0114-A1EB-BEAD-A6BEA2302714"
+							path="Custom Attributes/en-US_3C6AA73A-0114-A1EB-BEAD-A6BEA2302714"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="3C6AA73A-0114-A1EB-BEAD-A6BEA2312714"
+					path="Custom Attributes/TranslationInformation_3C6AA73A-0114-A1EB-BEAD-A6BEA2312714"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

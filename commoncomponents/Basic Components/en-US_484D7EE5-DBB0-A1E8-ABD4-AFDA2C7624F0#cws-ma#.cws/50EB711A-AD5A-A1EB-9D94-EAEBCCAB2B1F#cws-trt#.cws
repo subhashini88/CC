@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9D94-EAEBCCAB6B1F">
+	<DocumentID>50EB711A-AD5A-A1EB-9D94-EAEBCCAB2B1F</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9D94-EAEBCCAB2B1F</Name>
+	<Description>GetAllContacttypesWithFilters</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-24T03:55:10.517</CreationDate>
+	<Notes/>
+	<Text>GetAllContacttypesWithFilters</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EB-9D94-EAEBCCAAAB1F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

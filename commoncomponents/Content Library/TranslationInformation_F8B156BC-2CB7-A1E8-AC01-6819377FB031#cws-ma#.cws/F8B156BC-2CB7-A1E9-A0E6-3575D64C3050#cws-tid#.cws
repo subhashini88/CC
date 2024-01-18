@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-A0E6-3575D64C7050">
+	<DocumentID>F8B156BC-2CB7-A1E9-A0E6-3575D64C3050</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-A0E6-3575D64C3050</Name>
+	<Description>Equivalent global clauses</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-05-31T11:52:31.636</CreationDate>
+	<Notes/>
+	<DefaultText>Equivalent global clauses</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-A0E6-3575D64CB050"
+		/>
+	</Translations>
+</TextIdentifier>

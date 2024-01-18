@@ -1,0 +1,121 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC01-681937823031">
+	<DocumentID>F8B156BC-2CB7-A1E8-AC01-68193781F031</DocumentID>
+	<Name>Content Library</Name>
+	<Description>Content Library</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-05T04:20:11.805</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations>
+		<EntityConfiguration
+			type="com.opentext.entity.config.EntityConfiguration"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EB-81C6-F7A8AE59B084">
+			<DocumentID>F8B156BC-2CB7-A1EB-81C6-F7A8AE597084</DocumentID>
+			<Name>Untitled EntityConfiguration</Name>
+			<Description>Untitled EntityConfiguration</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-10-05T15:04:28.797</CreationDate>
+			<Notes/>
+			<ConfigurationEntity/>
+			<Project>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC01-68193781F031"
+				/>
+			</Project>
+		</EntityConfiguration>
+	</Configurations>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC01-68193780F031">
+			<DocumentID>F8B156BC-2CB7-A1E8-AC01-68193780B031</DocumentID>
+			<Name>OpenText Content Library</Name>
+			<Description>OpenText Content Library</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-09-05T04:20:11.801</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Content Library</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Content Library</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937817031"
+			path="Content Library"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC01-681937807031">
+			<DocumentID>F8B156BC-2CB7-A1E8-AC01-681937803031</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2018-09-05T04:20:11.803</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC01-6819377F7031">
+					<DocumentID>F8B156BC-2CB7-A1E8-AC01-6819377F3031</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>superman</CreatedBy>
+					<CreationDate>2018-09-05T04:20:11.802</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="F8B156BC-2CB7-A1E8-AC30-A6D1F21CB031"
+							path="Content Library/en-US_F8B156BC-2CB7-A1E8-AC30-A6D1F21CB031"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="F8B156BC-2CB7-A1E8-AC01-6819377FB031"
+					path="Content Library/TranslationInformation_F8B156BC-2CB7-A1E8-AC01-6819377FB031"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

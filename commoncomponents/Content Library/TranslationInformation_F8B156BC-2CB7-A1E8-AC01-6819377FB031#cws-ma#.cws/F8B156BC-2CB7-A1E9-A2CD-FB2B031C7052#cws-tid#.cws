@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E9-A2CD-FB2B031CB052">
+	<DocumentID>F8B156BC-2CB7-A1E9-A2CD-FB2B031C7052</DocumentID>
+	<Name>F8B156BC-2CB7-A1E9-A2CD-FB2B031C7052</Name>
+	<Description>Equivalent standard clauses layout</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2019-06-10T04:29:31.794</CreationDate>
+	<Notes/>
+	<DefaultText>Equivalent standard clauses layout</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1E9-A2CD-FB2B031CF052"
+		/>
+	</Translations>
+</TextIdentifier>

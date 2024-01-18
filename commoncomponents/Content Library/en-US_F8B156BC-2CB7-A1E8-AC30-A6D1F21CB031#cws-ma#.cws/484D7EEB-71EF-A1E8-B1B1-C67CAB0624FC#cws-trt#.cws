@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B1B1-C67CAB0664FC">
+	<DocumentID>484D7EEB-71EF-A1E8-B1B1-C67CAB0624FC</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B1B1-C67CAB0624FC</Name>
+	<Description>NotificationForActions</Description>
+	<CreatedBy>salapart</CreatedBy>
+	<CreationDate>2018-10-03T04:46:58.455</CreationDate>
+	<Notes/>
+	<Text>NotificationForActions</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B1B1-C67CAB05A4FC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EB-9C44-B0EA313F2B1E">
+	<DocumentID>50EB711A-AD5A-A1EB-9C44-B0EA313EEB1E</DocumentID>
+	<Name>50EB711A-AD5A-A1EB-9C44-B0EA313EEB1E</Name>
+	<Description>GCCostcenter_Log</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-02-17T11:26:03.116</CreationDate>
+	<Notes/>
+	<DefaultText>GCCostcenter_Log</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EB-9C44-B0EA313F6B1E"
+		/>
+	</Translations>
+</TextIdentifier>

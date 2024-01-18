@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A99B-ACD14AA7B079">
+	<DocumentID>F8B156BC-2CB7-A1EA-A99B-ACD14AA77079</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A99B-ACD14AA77079</Name>
+	<Description>EmptyBPM</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-04T14:32:15.428</CreationDate>
+	<Notes/>
+	<Text>EmptyBPM</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A99B-ACD14AA6F079"
+		/>
+	</TextIdentifier>
+</TranslatedText>

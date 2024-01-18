@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1E9-BB05-A285AE348352">
+	<DocumentID>3C6AA735-2F3B-A1E9-BB05-A285AE344352</DocumentID>
+	<Name>3C6AA735-2F3B-A1E9-BB05-A285AE344352</Name>
+	<Description>My assignments</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-10-11T11:20:58.624</CreationDate>
+	<Notes/>
+	<DefaultText>My assignments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1E9-BB05-A285AE34C352"
+		/>
+	</Translations>
+</TextIdentifier>

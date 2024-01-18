@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-B497-C28DAEE9AD6B">
+	<DocumentID>00505601-79C2-A1EC-B497-C28DAEE96D6B</DocumentID>
+	<Name>00505601-79C2-A1EC-B497-C28DAEE96D6B</Name>
+	<Description>File Exists?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-05-13T01:55:29.729</CreationDate>
+	<Notes/>
+	<DefaultText>File Exists?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-B497-C28DAEE9ED6B"
+		/>
+	</Translations>
+</TextIdentifier>

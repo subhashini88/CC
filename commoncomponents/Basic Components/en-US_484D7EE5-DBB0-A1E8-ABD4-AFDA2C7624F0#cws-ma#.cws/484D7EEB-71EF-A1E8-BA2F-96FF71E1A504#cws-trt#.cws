@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-BA2F-96FF71E1E504">
+	<DocumentID>484D7EEB-71EF-A1E8-BA2F-96FF71E1A504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-BA2F-96FF71E1A504</Name>
+	<Description>Please input valid term name</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-15T10:16:35.1</CreationDate>
+	<Notes/>
+	<Text>Please input valid term name</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-BA2F-96FF71E12504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

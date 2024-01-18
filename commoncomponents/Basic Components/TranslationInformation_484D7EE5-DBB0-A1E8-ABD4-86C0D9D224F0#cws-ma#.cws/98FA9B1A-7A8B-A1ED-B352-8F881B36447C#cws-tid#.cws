@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-B352-8F881B36847C">
+	<DocumentID>98FA9B1A-7A8B-A1ED-B352-8F881B36447C</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-B352-8F881B36447C</Name>
+	<Description>delete_1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-28T09:26:17.515</CreationDate>
+	<Notes/>
+	<DefaultText>delete_1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-B352-8F881B36C47C"
+		/>
+	</Translations>
+</TextIdentifier>

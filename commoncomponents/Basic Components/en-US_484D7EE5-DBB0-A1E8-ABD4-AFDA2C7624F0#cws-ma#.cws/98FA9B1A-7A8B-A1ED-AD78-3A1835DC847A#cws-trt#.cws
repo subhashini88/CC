@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-AD78-3A1835DCC47A">
+	<DocumentID>98FA9B1A-7A8B-A1ED-AD78-3A1835DC847A</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-AD78-3A1835DC847A</Name>
+	<Description>GetPersonalSavedSearches</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-26T17:19:41.243</CreationDate>
+	<Notes/>
+	<Text>GetPersonalSavedSearches</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-AD78-3A1835DC047A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

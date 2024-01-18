@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-83A1-EFE999EB316D">
+	<DocumentID>002B6743-E6B0-A1EE-83A1-EFE999EAF16D</DocumentID>
+	<Name>002B6743-E6B0-A1EE-83A1-EFE999EAF16D</Name>
+	<Description>CurrentActivitylistInstance</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-06-19T09:58:33.628</CreationDate>
+	<Notes/>
+	<Text>CurrentActivitylistInstance</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="002B6743-E6B0-A1EE-83A1-EFE999EA716D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

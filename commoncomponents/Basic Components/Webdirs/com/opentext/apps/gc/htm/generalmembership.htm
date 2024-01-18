@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>General Membership Configuration</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+      <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+      <link rel="stylesheet" href="../css/generalspecialaccess.css">
+      <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+      <script src="../../../../../html5/thirdparty/moment.js" type="text/javascript"></script>
+      <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/knockout/knockout.mapping.js" type="text/javascript"></script>
+      <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+      <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+      <link rel="stylesheet" href="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.css" />
+      <script src="../../../../../app/start/web/thirdpartylibs/jquery-datepicker/jquery-ui.min.js"type="text/javascript"></script>
+      <script src="../js/generalmembership.js" type="text/javascript"></script>
+   </head>
+   <body class="cc-ltr">
+      <div id="list_form_container" class="col-md-12 cc-parent-container">
+         <div id="id_generalAccessFilter" apps-toggle="expanded" class="col-md-3 cc-filter">
+            <div id="filter_panel" class="panel panel-default">
+               <div class="panel-heading">
+                  <button class="btn btn-primary cc-text-button-primary" onclick="ApplyFilter(this)" id="id_applyFilter" data-translatable="true"><span data-translatable="true">Apply</span></button>
+                  <button class="btn btn-default cc-text-button" onclick="ClearFilter()" id="id_clearFilter" data-translatable="true"><span data-translatable="true">Clear</span></button>
+               </div>
+               <div id="filter_panel_body" class="panel-body" style="padding: 0px;">
+                  <div class="container">
+                     <span class="cc-filter-header" apps-toggle="expanded" data-target="#name_Filter" aria-expanded="false" aria-controls="name_Filter">
+                     <label data-translatable="true">User name</label>
+                     <img  src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                     </span>
+                     <div class="cc-filter-body" id="name_Filter">
+                        <div class="form-group">
+                           <select id="filter_memberUserNameOperator" class="form-control cc-select" disabled>
+                              <option data-translatable="true" value="">--Select--</option>
+                              <option data-translatable="true" value="EQUALTO">Equal to</option>
+                              <option data-translatable="true" value="RANGE">Range</option>
+                              <option data-translatable="true" value="NOTEQUALTO">Not equal to</option>
+                              <option data-translatable="true" value="CONTAINS" selected>Contains</option>
+                              <option data-translatable="true" value="EMPTY">Empty</option>
+                              <option data-translatable="true" value="NOTEMPTY">Not empty</option>
+                              <option data-translatable="true" value="ANYOF">Any of(;)</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <input class="form-control" id="filter_memberName"></input>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="container">
+                     <span class="cc-filter-header" apps-toggle="expanded" data-target="#name_Filter" aria-expanded="false" aria-controls="name_Filter">
+                     <label data-translatable="true">Organization</label>
+                     <img  src="../../../../../com/opentext/apps/utils/img/caret_up.svg"></img>
+                     </span>
+                     <div class="cc-filter-body" id="name_Filter">
+                        <div class="form-group">
+                           <select id="filter_organizationOperator" class="form-control cc-select" disabled>
+                              <option data-translatable="true" value="">--Select--</option>
+                              <option data-translatable="true" value="EQUALTO">Equal to</option>
+                              <option data-translatable="true" value="RANGE">Range</option>
+                              <option data-translatable="true" value="NOTEQUALTO">Not equal to</option>
+                              <option data-translatable="true" value="CONTAINS" selected>Contains</option>
+                              <option data-translatable="true" value="EMPTY">Empty</option>
+                              <option data-translatable="true" value="NOTEMPTY">Not empty</option>
+                              <option data-translatable="true" value="ANYOF">Any of(;)</option>
+                           </select>
+                        </div>
+                        <div class="form-group">
+                           <input class="form-control" id="filter_memberOrg"></input>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="id_GeneraAccessData" class="col-md-9 cc-list">
+            <div class="cc-header" style="background-color: white;height: 45px;position: fixed;width: 100%;z-index: 1;top: 0;">
+            <div class="cc-error-info-area" id="div_listErrorInfoArea">
+               <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+               <span id="span_errorInfoMessage" style="position: relative;"></span>
+            </div>
+               <button class="btn btn-default cc-button" id="id_filterGeneralAccessButton">
+               <img class="cc-icon" alt="Filter" src="../../../../../com/opentext/apps/utils/img/filter.svg">
+               </button>
+               <button class="btn btn-default cc-button" onclick="OpenMembersCreateForm()">
+               <img class="cc-icon" alt="Add" src="../../../../../com/opentext/apps/utils/img/add.svg" id="id_createMemberIcon">
+               </button>
+               <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+               <button class="btn btn-default cc-text-button" onclick="OpenMembersUpdateForm()" id="id_editGeneralMembersActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Edit</span></button>
+               <button class="btn btn-default cc-text-button" onclick="deleteMember()" id="id_deleteGeneralMembersActionBar" style="display: none;" data-translatable="true"><span data-translatable="true">Delete</span></button>
+               <button class="btn btn-default cc-text-button" onclick="ClearFilter()" id="id_clearFilterActionBar" style="display: none;" data-translatable="true">Clear filters</button>
+            </div>
+            <div class="table-responsive" style="padding-top: 25px; padding-bottom: 12px;">
+               <table id="id_GeneralMembersTable" class="table">
+                  <thead>
+                     <tr>
+                        <th style="width: 3%;">
+                           <div class="cc-select-column cc-checkbox-select-all-off" id="id_selectAllMembers" data-bind = "event:{click:$root.onSelectAllMemberCheckboxValueChanged }"></div>
+                        </th>
+                        <th style="width: 23%;" data-translatable="true">User name</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 15%;" data-translatable="true">Email address</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 31%;" data-translatable="true">Organization</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 8%;" data-translatable="true">Start date</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 8%;" data-translatable="true">End date</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 7.5%;" data-translatable="true">Is primary contact</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                        <th style="width: 7.5%;" data-translatable="true">Contact type</th>
+                        <div class="cc-vertical-line-separator" style="height: 85%;position: relative;"></div>
+                     </tr>
+                  </thead>
+                  <tbody data-bind="foreach:MembersList">
+                     <tr data-bind="click:$root.openSelectedItem">
+                        <td>
+                           <div class="cc-select-column cc-checkbox-off" data-bind="event:{click:$root.onMemberCheckboxValueChanged}"></div>
+                        </td>
+                        <td>
+                           <div data-bind="text:getTextValue(ParticipatingPerson.User_ID)" data-translatable="true"></div>
+                        </td>
+                        <td>
+                           <div data-bind="text:getTextValue(ParticipatingPerson.Email)" data-translatable="true"></div>
+                        </td>
+                        <td>
+                           <!--ko if:Owner.ParentOrganization-->
+                           <span data-bind="text:getTextValue(Owner.ParentOrganization.Name)" data-translatable="true"></span>
+                           <span class = "greaterThanSign">&gt;</span>
+                           <!--/ko-->
+                           <span data-bind="text:getTextValue(Owner.Name)" data-translatable="true"></span>
+                        </td>
+                        <td>
+                           <div data-bind="text:formateDatetoLocale(StartDate)" data-translatable="true"></div>
+                        </td>
+                        <td data-bind="if:EndDate">
+                           <div data-bind="text:formateDatetoLocale(EndDate)" data-translatable="true"></div>
+                        </td>
+                        <td >
+                           <div data-bind="text:ko.pureComputed(function(){
+                             return IsPrimaryContact==='true'?'Yes':'No';
+                           })" data-translatable="true"></div>
+                        </td>
+                        <td >
+                           <div data-bind="text:ko.computed(function(){
+                                     return  (RelatedContactType && RelatedContactType.Name) ? _getTextValue(RelatedContactType.Name) :'';
+                           })" data-translatable="true"></div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            <div class="cc-footer col-lg-12" style="text-align: center;padding: 0px;">
+               <ul class="pull-left pagination" style="margin: 0;">
+                  <li class="li-pagination">
+                     <select class="form-control cc-select" id="select_itemsCountPerPageParameter" onchange="updateLimitValue(this)" style="border: none !important;background-color: transparent !important;box-shadow: none !important;padding-right: 20px;">
+                        <option value="1" data-translatable="true">1 per page</option>
+                        <option value="10" data-translatable="true">10 per page</option>
+                        <option value="25" selected data-translatable="true">25 per page</option>
+                     </select>
+                  </li>
+               </ul>
+               <ul class="pagination" style="margin: 0;">
+                  <li class="li-pagination">
+                     <a id="itemsCount" style="border: 0; color: black; padding-left: 8px; cursor: auto;background-color: transparent;">
+                     <span data-bind="text:numOfMembers" data-translatable="true"></span>
+                     <span data-translatable="true">result(s)</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="pagination pull-right" style="margin: 0;">
+                  <li class="li-pagination li_ListLeftNavigation" id="li_MembersListLeftNavigation" style="cursor: pointer;">
+                     <a data-bind="click:goToFirstPage.bind()">
+                     <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToFirstPage">
+                     <img class="cc-pagination-icon rotated-90" alt="FirstPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                     </a>
+                     <a data-bind="click:goToPreviousPage.bind()">
+                     <img class="cc-pagination-icon rotated-90" alt="PreviousPage" src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToPreviousPage">
+                     </a>
+                  </li>
+                  <li class="li-pagination">
+                     <span>
+                     <input class="cc-pagination-pageInput" id="input_pageNumInputParameter" data-bind="textInput:currentPage" disabled style="border: none !important;background-color: transparent !important;background-image: none !important;box-shadow: none !important;"></input>
+                     <span data-translatable="true"> of </span>
+                     <span style="margin-left: .5em;margin-right: .5em;" data-bind="text:numOfPages" data-translatable="true"></span>
+                     </span>
+                  </li>
+                  <li class="li-pagination li_ListRightNavigation" id="li_MembersListRightNavigation" style="cursor: pointer;">
+                     <a data-bind="click:goToNextPage.bind()">
+                     <img class="cc-pagination-icon rotated-270" alt="NextPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="id_nextPage">
+                     </a>
+                     <a data-bind="click:goToLastPage.bind()">
+                     <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg" id="img_goToLastPage">
+                     <img class="cc-pagination-icon rotated-270" alt="LastPage"  src="../../../../../com/opentext/apps/utils/img/caret_down.svg">
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!--Create or update members modal-->
+      <div class="modal fade" id="div_createOrUpdateMembersModal" role="dialog" style="z-index: 4999;">
+      <div class="modal-content cc-modal-content" id="id_createOrgMembersModal" style="display: block; width:90%; margin: auto;z-index: 4999; margin-top: 2%; height: 91%;">
+      <div class="modal-header cc-modal-header" style="padding: 8px;">
+        <div class="cc-error-info-area" id="div_modalErrorInfoArea">
+            <img src="../../../../../com/opentext/apps/utils/img/notification_error.svg" style="width: 11px; height: 11px;"/>
+            <span id="span_errorInfoMessage" style="position: relative;"></span>
+         </div>
+         <button type="button" class="close" data-dismiss="modal" data-bind="click:destroy">
+         <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+            style="width: 10.25px; height: 10.61px;" />
+         </button>
+         <div class="modal-title">
+            <span data-translatable="true" id="span_createOrEditModalHeading" style="font-size: 2rem;"></span>
+         </div>
+      </div>
+      <div class="modal-body cc-modal-body" style="height: 83%;overflow: auto;padding: 15px 0px;">
+         <div id="div_memberDetailsMain">
+            <div id="div_membersDetails" class="col-md-12 top-padding">
+               <div class="col-md-7 no-padding rtl-float-right">
+                  <div class="col-md-12 no-padding">
+                     <div class="form-group col-md-10 rtl-float-right">
+                        <label class="cc-required" data-translatable="true">User name</label>
+                        <div class="input-group" data-bind="click:function(){openUserSelectionModal(editMode())}" >
+                           <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse" onchange="removeErrorClass(this)" id="input_userName" data-bind="textInput:memberUserName,style:{cursor:(editMode()?'no-drop': 'pointer')}" readonly disabled="true" placeholder="-Select a user name-" style="background-color:'transparent';border-right: 0">
+                           <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon">
+                              <!--ko ifnot:editMode-->
+                              <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" style="cursor: pointer;">
+                              <!--/ko-->
+                           </span>
+                        </div>
+                        
+                        <div>
+                           <div>
+                              <span class="cc-error-message-text" data-translatable="true" data-bind="css:{hidden :ko.computed(function(){
+                                  return !formUserNameEmpty();
+                                })}">Select a user name.</span>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-12 no-padding">
+                     <div class="form-group col-md-10 rtl-float-right">
+                        <label data-translatable="true">Email address</label>
+                        <input type="text" class="form-control" id="input_emailId" data-bind="value:memberEmailId" readonly disabled="true" style="background-color:#EEEEEE !important;" disabled="true" readonly="">
+                     </div>
+                  </div>
+                  <div class="col-md-12 no-padding">
+                     <div class="form-group col-md-10 rtl-float-right">
+                        <label class="cc-required" data-translatable="true">Organization</label>
+                        <div class="input-group">
+                           <input type="text" class="form-control cc-input-browse rtl-input-browse" onchange="removeErrorClass(this)" id="input_memberOrganization" data-bind="textInput:memberOrganizationName" readonly disabled="true" placeholder="-Select an organization-" style="background-color: transparent;border-right: 0; cursor: no-drop;" data-translatable="true">
+                           <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon">
+                              <!--ko ifnot:editMode-->
+                           <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openOrganizationSelectionModal(this)" style="cursor: pointer;">
+                              <!--/ko-->
+                        </span>
+                  </div>
+                  <div>
+                     <span class="cc-error-message-text" data-bind="css:{hidden :ko.computed(function(){
+                         return !formOrganizationEmpty();
+                       })}" data-translatable="true">Select an organization.</span>
+                   </div>
+                </div>
+                  </div>               
+                        <div class="col-md-12 no-padding">
+                           <div class="form-group col-md-10 rtl-float-right">
+                              <label data-translatable="true">Job title</label>
+                              <input type="text" class="form-control" id="jobTitle" autocomplete="off" data-bind="value:jobTitle" data-translatable="true">
+                           </div>
+                        </div>
+                        <div class="col-md-12 no-padding">
+                           <div class="form-group col-md-5 rtl-float-right">
+                              <label class="cc-required" data-translatable="true">Start date</label>
+                              <div>
+                                 <input type="text" class="form-control" id="input_startDate" autocomplete="off" data-bind="value:startDatetoLocale" data-translatable="true">
+                              </div>
+                              <div>
+                                 <span class="cc-error-message-text" data-bind="text:formStartDateErrorMsg,css:{hidden :ko.computed(function(){
+                                    return !formStartDateErrorMsg();
+                                  })} " data-translatable="true"></span> 
+                              </div>
+                           </div>
+                           <div class="form-group col-md-5 rtl-float-right">
+                              <div>
+                                 <label data-translatable="true">End date</label>
+                                 <input type="text" class="form-control" id="input_endDate" autocomplete="off" data-bind="value:endDatetoLocale" data-translatable="true">
+                              </div>
+                              <div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="col-md-12 no-padding">
+                           <div class="form-group col-md-5">
+                              <div style="display: flex;padding-top: 17px;" >
+                                 <div>
+                                    <label data-translatable="true" for="IsPrimaryContact" id="isPrimaryContact">Is primary contact</label>
+                                  </div>
+                                  <div>
+                                    <input type="checkbox" class="form-control" id="IsPrimaryContact" data-bind="checked:isPrimaryContact">
+                                  </div>
+                              </div>
+                           </div>
+                           <div class="form-group col-md-5">
+                             <label  data-translatable="true" for="userName">Contact type</label>
+                             <div class="input-group" data-bind="click:openContactModal">
+                               <input type="text" class="form-control cc-input-browse rtl-input-browse" id="contacttypeName" data-bind="value:formContactType" 
+                               readonly="" disabled="true" placeholder="Select a contact type." style="background-color:'transparent';border-right: 0;cursor: pointer;">
+                               <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"  style="cursor: pointer;">
+                                 <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                               </span>
+                             </div>
+                           </div>  
+                         </div>
+                         <div class="col-md-12 no-padding">
+                           <div class="form-group col-md-12">
+                              <div class="col-md-12 no-padding">
+                                 <label data-translatable="true">Selected additional access</label>
+                              </div>
+                              <div class="chicklets-div" data-bind="foreach:subOrgsMapped">
+                                 <div class="chicklet"><span class="chicklet-text" data-bind="text:getTextValue($data.Chicklet)" data-translatable="true"></span>
+                                   <button class="btn btn-xs btn-link btn-md pull-right chicklet-close"
+                                     data-bind="click:$parent.removeOrgFromSelectedList" style="padding: 1px 7px;">
+                                     <i class="chicklet-cancel"></i>
+                                   </button>
+                                 </div>
+                               </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--ko if:memberOrganizationName-->
+                     <div class="col-md-5">
+                        <div class="form-group col-md-12 table-container no-padding" style="height: 410px; overflow: auto; padding-top: 0px;">
+                           <div class="cc-header cc-border ">
+                              <div class="cc-header-label" data-translatable="true"><span data-translatable="true">Additional access</span></div>
+                           </div>
+                              <div data-bind="template:{name:'MembersView_OrgList_TableDataRow',foreach:departmentRootList}" data-translatable="true"></div>
+                        </div>
+                     </div>
+                     <!--/ko-->
+                  </div>
+               </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+               <button class="cc-btn cc-btn-primary" id="btn_createOrUpdateMember" type="submit" style="outline:none;" data-translatable="true" data-bind="click:createOrUpdateMember"></button>
+               <button type="button" class="cc-btn cc-btn-secondary" data-dismiss="modal"style="outline:none;"><span data-translatable="true">Cancel</span></button>
+            </div>
+         </div>
+            <div class="modal fade" id="div_selectContactTypeListModal" role="dialog" style="z-index: 4999;">
+               <div class="modal-content cc-modal-content" style="display: block; width:50%; margin: auto; overflow-y: hidden; margin-top: 5%;height: 75%;">
+               <div class="modal-header cc-modal-header" style="height: 12% !important;">
+                  <button type="button" style="float: right;border: none;background-color: transparent;" data-bind="click:closeContactTypeModal">
+                     <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;"/>
+                  </button>
+                  <h3>Select a contact type</h3>
+               </div>
+               <div class="modal-body cc-modal-body" style="height: 76%;overflow: auto;">
+                  <div class="col-md-12 cc-list" id="div_userLists">
+                     <div class="input-group" style="margin-bottom: 10px;">
+                        <input id="filterContactTypeInput" type="text" class="form-control cc-input-browse rtl-input-browse" placeholder="Search by contact type" style="background-color: white;border-right: 0;">
+                           <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;background-color: white;" data-bind="click:filterContactTypes">
+                              <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg">
+                              </span>
+                           </div>
+                           <table class="table cc-border">
+                              <thead>
+                                 <tr>
+                                    <th style="width: 10%;"/>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Contact type id</th>
+                                    <th style="width: 30%;" data-translatable="true" scope="col">Desciption</th>
+                                 </tr>
+                              </thead>
+                              <tbody data-bind="foreach:contacttypeList">
+                                 <tr data-bind="click:$parent.clickRadioContactType">
+                                    <td>
+                                       <div class="cc-select-column" data-bind="css:{'cc-radio-off':!selected(),'cc-radio-on':selected()}">
+                                       </div>
+                                    </td>
+                                    <td data-bind="text:Name"/>
+                                    <td data-bind="text:Description"/>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                  </div>
+                     <div class="cc-modal-footer modal-footer" style="height: 12% !important;">
+                        <button type="submit" class="cc-btn cc-btn-primary" data-bind="click:selectContactType" id="btn_selectContactTypeListYes">Select</button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" data-bind="click:closeContactTypeModal" id="btn_selectContactTypeListCancel">Cancel</button>
+                     </div>
+                  </div>
+               </div>
+	  	</div>
+	  		  
+      <!--Select membership organization modal-->
+      <div class="modal fade" id="div_selectOrganizationModal" role="dialog" style="z-index: 5999;">
+         <div class="modal-content cc-modal-content" style="margin-top: 5%; width:50%; height: 75%;">
+            <div class="modal-header cc-modal-header">
+               <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+               <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;" />
+               </button>
+               <h3 data-translatable="true">Select an organization</h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+               <div class="col-md-12 cc-list" id="div_organizations">
+                  <div class="col-md-12 no-padding">
+                     <div class="col-md-6 rtl-float-right" style="padding: 0px;">
+                        <div class="input-group" style="margin-bottom: 10px;">
+                           <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_organizationsSearchFilter" placeholder="Search by organization name." style="background-color: white;border-right: 0;" data-translatable="true">
+                           <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon">
+                           <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListOrganizations()">
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <table id="table_organizationsList" class="table cc-border">
+                     <thead>
+                        <tr>
+                           <th style="width: 30px; min-width: 30px;"></th>
+                           <th style="width: 30%;" data-translatable="true" scope="col">Name</th>
+                           <th style="width: 60%;" data-translatable="true" scope="col">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody data-bind="foreach:OrganizationsList">
+                        <tr data-bind="click:$root.selectOrganizationRadioButton">
+                           <td>
+                              <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onOrganizationRowRadioButtonValueChanged}"></div>
+                           </td>
+                           <td data-translatable="true" data-bind="text:Name"></td>
+                           <td data-translatable="true" data-bind="text:Description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+               <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectOrganizationForMemberYes"><span data-translatable="true">Select</span></button>
+               <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectOrganizationForMemberCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+         </div>
+      </div>
+      <!-- select user modal-->
+      <div class="modal fade" id="div_selectUserModal" role="dialog" style="z-index: 5999;">
+         <div class="modal-content cc-modal-content"
+            style="display: block; width:50%; margin: auto; overflow-y: hidden; margin-top: 5%;height: 75%;">
+            <div class="modal-header cc-modal-header" style="height: 12% !important;">
+               <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+               <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg"
+                  style="width: 11px; height: 11px;" />
+               </button>
+               <h3 data-translatable="true">Select a user</h3>
+            </div>
+            <div class="modal-body cc-modal-body" style="height: 76%;overflow: auto;">
+               <div class="cc-error-info-area" id="div_modalPersonsErrorInfoArea" style="z-index:1999" data-bind="">
+               </div>
+               <div class="col-md-12 cc-list" id="div_userLists">
+                  <div class="input-group" style="margin-bottom: 10px;">
+                     <input type="text" class="form-control cc-input-browse rtl-input-browse" id="input_userSearchFilter"
+                        placeholder="Search by first name." style="background-color: white;border-right: 0;" data-translatable="true">
+                     <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon"style="cursor: pointer;background-color: white;">
+                     <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListUsers()">
+                     </span>
+                  </div>
+                  <table id="table_uersList" class="table cc-border">
+                     <thead>
+                        <tr>
+                           <th style="width: 10%;"></th>
+                           <th style="width: 30%;" data-translatable="true" scope="col">User name</th>
+                           <th style="width: 30%;" data-translatable="true" scope="col">First name</th>
+                           <th style="width: 30%;" data-translatable="true" scope="col">Last name</th>
+                        </tr>
+                     </thead>
+                     <tbody data-bind="foreach:UsersList">
+                        <tr data-bind="click:$root.selectUserRadioButton">
+                           <td>
+                              <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onUserRowRadioButtonValueChanged}">
+                              </div>
+                           </td>
+                           <td data-bind="text:User_ID" data-translatable="true"></td>
+                           <td data-bind="text:FirstName" data-translatable="true"></td>
+                           <td data-bind="text:LastName" data-translatable="true"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left" style="height: 12% !important;">
+               <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="btn_selectUserListYes"><span data-translatable="true">Select</span></button>
+               <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="btn_selectUserListCancel" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="deleteMemberModal" role="dialog" style="z-index: 1999;">
+         <div class="modal-content cc-modal-content" style="margin-top: 5%; width:32%;">
+            <div class="modal-header cc-modal-header">
+               <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent; " onclick="$('#deleteMemberModal').modal('hide');">
+               <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;"/>
+               </button>
+               <h3 data-translatable="true">Delete <span id="id_MembersListToDelete" data-translatable="true"></span></h3>
+            </div>
+            <div class="modal-body cc-modal-body">
+               <div class="cc-warning-msg" data-translatable="true">Delete the selected item(s)?</div>
+            </div>
+            <div class="cc-modal-footer modal-footer text-align-left">
+               <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="deleteMembersListYes" data-translatable="true"><span data-translatable="true">Delete</span></button>
+               <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="deleteMembersListNo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+            </div>
+         </div>
+      </div>
+      
+
+      <!-- Tempalate for Org Row for Additional access pane Start-->
+      <script type="text/html" id="MembersView_OrgList_TableDataRow">
+         <div style="display:flex;flex-direction:column" > 
+           <div class="row-container" style="display:flex; flex-direction:row; position:relative" data-bind="css:{'org-row-selected':checked()}">
+             <div class="row-box" style="width:4%;margin-left: 14px;">
+               <div class="cc-select-column cc-checkbox-off" data-bind="event:{click:$root.onOrgCheckboxValueChanged},css:{'cc-checkbox-off':!checked(),'cc-checkbox-on':checked(), 'cc-checkbox-on-disabled':disableSelect(),'cursor-disable':disableSelect()}"></div>
+             </div>
+             <div class="row-box" style="width:4%" data-bind="style:{
+                    'margin-left': ko.pureComputed(function() {
+                        if (document.body.classList.contains('cc-rtl')) {
+                            return 'auto'; // For RTL, margin-left is not set
+                        }
+                        return ($data.depth() * 15 + 4) + 'px';
+                    }),
+                    'margin-right': ko.pureComputed(function() {
+                        if (document.body.classList.contains('cc-rtl')) {
+                            return ($data.depth() * 15 + 4) + 'px';
+                        }
+                        return 'auto'; // For LTR, margin-right is not set
+                    })
+                }" >
+               <span class="caretdown-icon"  data-bind="css:{hidden:!expand()},click:$root.expandSubOrg"></span>
+               <span class="caretup-icon rtl-caretup-icon" data-bind="css:{hidden:expand()},click:$root.expandSubOrg"></span>
+             </div>
+             <div class="row-box" style="width:92%">
+               <span data-bind="text:Name, css:{'disabled-color': disableSelect()}" data-translatable="true"></span>
+             </div>
+           </div>
+           <div data-bind="css:{hidden:!expand()},template:{name:'MembersView_OrgList_TableDataRow',foreach:suborgList}"></div>
+       </script>
+       <!-- Tempalate for Org Row for Additional access pane End--->
+   </body>
+</html>

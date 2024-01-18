@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A7D3-891DA35BF077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A7D3-891DA35BB077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A7D3-891DA35BB077</Name>
+	<Description>GetTeamsForWorklist</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-26T12:45:21.205</CreationDate>
+	<Notes/>
+	<Text>GetTeamsForWorklist</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A7D3-891DA35B3077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AC40-FD680EFAB031">
+	<DocumentID>F8B156BC-2CB7-A1E8-AC40-FD680EFA7031</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AC40-FD680EFA7031</Name>
+	<Description>Delete equivalent clause</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-05T12:06:47.729</CreationDate>
+	<Notes/>
+	<Text>Delete equivalent clause</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC40-FD680EF9F031"
+		/>
+	</TextIdentifier>
+</TranslatedText>

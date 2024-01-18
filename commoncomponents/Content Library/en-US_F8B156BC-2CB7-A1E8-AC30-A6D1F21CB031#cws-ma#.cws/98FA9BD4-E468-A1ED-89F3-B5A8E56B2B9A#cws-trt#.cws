@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-89F3-B5A8E56B6B9A">
+	<DocumentID>98FA9BD4-E468-A1ED-89F3-B5A8E56B2B9A</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-89F3-B5A8E56B2B9A</Name>
+	<Description>Z_INT_AllClauseRelList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-29T19:15:25.892</CreationDate>
+	<Notes/>
+	<Text>Z_INT_AllClauseRelList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-89F3-B5A8E56AAB9A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

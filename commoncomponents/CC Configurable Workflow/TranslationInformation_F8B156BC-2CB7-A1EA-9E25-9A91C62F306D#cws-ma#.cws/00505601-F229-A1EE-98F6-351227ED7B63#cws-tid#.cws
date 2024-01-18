@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-F229-A1EE-98F6-351227EDBB63">
+	<DocumentID>00505601-F229-A1EE-98F6-351227ED7B63</DocumentID>
+	<Name>00505601-F229-A1EE-98F6-351227ED7B63</Name>
+	<Description>OnTaskProgressStarted</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-05T23:42:23.598</CreationDate>
+	<Notes/>
+	<DefaultText>OnTaskProgressStarted</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-F229-A1EE-98F6-351227EDFB63"
+		/>
+	</Translations>
+</TextIdentifier>

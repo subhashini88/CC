@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-92D1-222E4A89AD69">
+	<DocumentID>00505601-79C2-A1EC-92D1-222E4A896D69</DocumentID>
+	<Name>00505601-79C2-A1EC-92D1-222E4A896D69</Name>
+	<Description>Related instance type</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-22T04:21:20.231</CreationDate>
+	<Notes/>
+	<Text>Related instance type</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-92D1-222E4A88ED69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

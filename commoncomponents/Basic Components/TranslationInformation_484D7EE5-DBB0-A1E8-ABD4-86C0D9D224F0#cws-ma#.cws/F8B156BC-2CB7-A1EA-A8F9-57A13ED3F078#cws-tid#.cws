@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A8F9-57A13ED43078">
+	<DocumentID>F8B156BC-2CB7-A1EA-A8F9-57A13ED3F078</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A8F9-57A13ED3F078</Name>
+	<Description>Accessible Organization</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-06-01T08:55:13.764</CreationDate>
+	<Notes/>
+	<DefaultText>Accessible Organization</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A8F9-57A13ED47078"
+		/>
+	</Translations>
+</TextIdentifier>

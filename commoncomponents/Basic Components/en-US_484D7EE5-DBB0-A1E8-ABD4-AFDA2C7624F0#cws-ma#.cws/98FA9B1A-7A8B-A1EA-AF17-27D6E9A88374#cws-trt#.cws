@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AF17-27D6E9A8C374">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AF17-27D6E9A88374</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AF17-27D6E9A88374</Name>
+	<Description>Enter an Organization.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-02T12:12:12.182</CreationDate>
+	<Notes/>
+	<Text>Enter an Organization.</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AF17-27D6E9A80374"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-A0EE-A1EB-BED6-2CBF4E40FB6E">
+	<DocumentID>00505601-A0EE-A1EB-BED6-2CBF4E40BB6E</DocumentID>
+	<Name>00505601-A0EE-A1EB-BED6-2CBF4E40BB6E</Name>
+	<Description>CusAttrMapping_HistoryLog</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-12T10:34:30.962</CreationDate>
+	<Notes/>
+	<DefaultText>CusAttrMapping_HistoryLog</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-A0EE-A1EB-BED6-2CBF4E413B6E"
+		/>
+	</Translations>
+</TextIdentifier>

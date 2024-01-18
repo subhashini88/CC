@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-BF2F-3E705DD026BC">
+	<DocumentID>8C1645B9-0967-A1EA-BF2F-3E705DCFE6BC</DocumentID>
+	<Name>8C1645B9-0967-A1EA-BF2F-3E705DCFE6BC</Name>
+	<Description>For Each container</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-22T10:21:31.032</CreationDate>
+	<Notes/>
+	<Text>For Each container</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1EA-BF2F-3E705DCF66BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

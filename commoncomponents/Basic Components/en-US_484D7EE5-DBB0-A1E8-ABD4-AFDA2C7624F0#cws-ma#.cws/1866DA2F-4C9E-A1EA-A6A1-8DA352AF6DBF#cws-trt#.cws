@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-4C9E-A1EA-A6A1-8DA352AFADBF">
+	<DocumentID>1866DA2F-4C9E-A1EA-A6A1-8DA352AF6DBF</DocumentID>
+	<Name>1866DA2F-4C9E-A1EA-A6A1-8DA352AF6DBF</Name>
+	<Description>ReadOrganizationMembers</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-05-20T15:34:22.693</CreationDate>
+	<Notes/>
+	<Text>ReadOrganizationMembers</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-4C9E-A1EA-A6A1-8DA352AEEDBF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

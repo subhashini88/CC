@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E11-AB7B47FF0348">
+	<DocumentID>FC7774E9-506A-A1EA-8E11-AB7B47FEC348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E11-AB7B47FEC348</Name>
+	<Description>Review the negotiation closure request status for the displayed participants. If you want to close the negotiation and proceed, click</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-16T10:06:17.748</CreationDate>
+	<Notes/>
+	<DefaultText>Review the negotiation closure request status for the displayed participants. If you want to close the negotiation and proceed, click</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E9-506A-A1EA-8E11-AB7B47FF4348"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959E-3C24CB82F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959E-3C24CB817068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959E-3C24CB803068"
+		/>
+	</Translations>
+</TextIdentifier>

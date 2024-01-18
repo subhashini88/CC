@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EE-863E-A72573E1449D">
+	<DocumentID>FC7774E8-DA63-A1EE-863E-A72573E1049D</DocumentID>
+	<Name>FC7774E8-DA63-A1EE-863E-A72573E1049D</Name>
+	<Description>NewGeneralTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-02T17:13:04.607</CreationDate>
+	<Notes/>
+	<Text>NewGeneralTask</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EE-863E-A72573E0849D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

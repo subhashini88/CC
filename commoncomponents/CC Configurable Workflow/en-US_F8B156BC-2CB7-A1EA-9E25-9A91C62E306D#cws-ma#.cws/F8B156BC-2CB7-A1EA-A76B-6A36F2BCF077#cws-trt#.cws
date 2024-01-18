@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A76B-6A36F2BD3077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A76B-6A36F2BCF077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A76B-6A36F2BCF077</Name>
+	<Description>Check for next Activity instance</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-24T11:19:20.22</CreationDate>
+	<Notes/>
+	<Text>Check for next Activity instance</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A76B-6A36F2BC7077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

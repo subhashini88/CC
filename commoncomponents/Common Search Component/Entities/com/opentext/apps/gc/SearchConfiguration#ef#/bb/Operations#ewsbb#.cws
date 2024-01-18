@@ -1,0 +1,89 @@
+
+<EntityWebServicesBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.webservices.EntityWebServicesBuildingBlock"
+	typeVersion="8D86B054-F133-428B-8211-187822A0B501"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-9737-8D93D346E523">
+	<DocumentID>484D7EEB-7112-A1E9-9737-8D93D346A523</DocumentID>
+	<Name>Operations</Name>
+	<Description>Webservice Operations</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-04-12T04:58:45.241</CreationDate>
+	<Notes/>
+	<CreateOperation>
+		<EntityWebServiceCreateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceCreateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-9ACD-5E486831E526">
+			<DocumentID>484D7EEB-7112-A1E9-9ACD-5E486831A526</DocumentID>
+			<Name>CreateSearchConfiguration</Name>
+			<Description>Create SearchConfiguration</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-05-02T06:19:14.187</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-96AE-1A48B6B0E523"
+				/>
+			</Entity>
+		</EntityWebServiceCreateOperation>
+	</CreateOperation>
+	<DeleteOperation>
+		<EntityWebServiceDeleteOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceDeleteOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-9ACD-5E4868312526">
+			<DocumentID>484D7EEB-7112-A1E9-9ACD-5E486830E526</DocumentID>
+			<Name>DeleteSearchConfiguration</Name>
+			<Description>Delete SearchConfiguration</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-05-02T06:19:14.186</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-96AE-1A48B6B0E523"
+				/>
+			</Entity>
+		</EntityWebServiceDeleteOperation>
+	</DeleteOperation>
+	<Entity>
+		<uri
+			id="484D7EEB-7112-A1E9-96AE-1A48B6B0E523"
+		/>
+	</Entity>
+	<FindOperations/>
+	<Original/>
+	<ReadOperation>
+		<EntityWebServiceReadOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceReadOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-9737-8D93D3462523">
+			<DocumentID>484D7EEB-7112-A1E9-9737-8D93D345E523</DocumentID>
+			<Name>ReadSearchPath</Name>
+			<Description>Read SearchPath</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-04-12T04:58:45.233</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-96AE-1A48B6B0E523"
+				/>
+			</Entity>
+		</EntityWebServiceReadOperation>
+	</ReadOperation>
+	<RelationshipOperations/>
+	<UpdateOperation>
+		<EntityWebServiceUpdateOperation
+			type="com.cordys.entity.buildingblocks.webservices.EntityWebServiceUpdateOperation"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-99F9-5810DE9B6524">
+			<DocumentID>484D7EEB-7112-A1E9-99F9-5810DE9B2524</DocumentID>
+			<Name>UpdateSearchConfiguration</Name>
+			<Description>Update SearchConfiguration</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-04-26T05:42:25.364</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="484D7EEB-7112-A1E9-96AE-1A48B6B0E523"
+				/>
+			</Entity>
+		</EntityWebServiceUpdateOperation>
+	</UpdateOperation>
+</EntityWebServicesBuildingBlock>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8F6F-6D61427FAC0B">
+	<DocumentID>50EB711A-AD5A-A1EE-8F6F-6D61427F6C0B</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8F6F-6D61427F6C0B</Name>
+	<Description>Z_INT_ChartDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-18T11:53:46.501</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ChartDetails</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8F6F-6D61427EEC0B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

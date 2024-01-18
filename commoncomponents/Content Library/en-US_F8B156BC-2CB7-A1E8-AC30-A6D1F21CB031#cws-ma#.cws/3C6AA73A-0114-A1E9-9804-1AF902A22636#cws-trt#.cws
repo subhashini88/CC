@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9804-1AF902A26636">
+	<DocumentID>3C6AA73A-0114-A1E9-9804-1AF902A22636</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9804-1AF902A22636</Name>
+	<Description>Update z int</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-16T06:26:51.634</CreationDate>
+	<Notes/>
+	<Text>Update z int</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-9804-1AF902A1A636"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E9-8690-A519DBE464E7">
+	<DocumentID>9890969C-5774-A1E9-8690-A519DBE424E7</DocumentID>
+	<Name>9890969C-5774-A1E9-8690-A519DBE424E7</Name>
+	<Description>State ID</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2019-01-17T10:33:55.548</CreationDate>
+	<Notes/>
+	<DefaultText>State ID</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E9-8690-A519DBE4A4E7"
+		/>
+	</Translations>
+</TextIdentifier>

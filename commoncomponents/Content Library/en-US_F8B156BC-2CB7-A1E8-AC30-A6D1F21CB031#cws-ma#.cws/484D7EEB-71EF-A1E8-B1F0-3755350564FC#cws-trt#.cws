@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B1F0-37553505A4FC">
+	<DocumentID>484D7EEB-71EF-A1E8-B1F0-3755350564FC</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B1F0-3755350564FC</Name>
+	<Description>DeleteGCTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-04T10:43:28.745</CreationDate>
+	<Notes/>
+	<Text>DeleteGCTemplate</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B1F0-37553504E4FC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

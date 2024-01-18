@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-AC6D-1568BCB524D0">
+	<DocumentID>F8B156D6-35F3-A1E8-AC6D-1568BCB4E4D0</DocumentID>
+	<Name>DocumentGenerationWLD</Name>
+	<Description>DocumentGenerationWLD</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-09-06T09:34:14.195</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-1568BCB864D0"
+			path="DocumentGeneration/Web Dirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

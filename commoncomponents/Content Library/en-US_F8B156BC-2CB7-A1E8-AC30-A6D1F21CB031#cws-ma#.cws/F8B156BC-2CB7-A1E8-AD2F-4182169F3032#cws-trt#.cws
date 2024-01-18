@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-AD2F-4182169F7032">
+	<DocumentID>F8B156BC-2CB7-A1E8-AD2F-4182169F3032</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-AD2F-4182169F3032</Name>
+	<Description>Add tasks</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-09-10T05:55:51.313</CreationDate>
+	<Notes/>
+	<Text>Add tasks</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AD2F-4182169EB032"
+		/>
+	</TextIdentifier>
+</TranslatedText>

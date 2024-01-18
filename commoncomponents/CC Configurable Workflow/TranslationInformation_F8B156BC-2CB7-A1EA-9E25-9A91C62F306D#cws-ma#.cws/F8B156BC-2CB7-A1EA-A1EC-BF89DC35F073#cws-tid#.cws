@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A1EC-BF89DC363073">
+	<DocumentID>F8B156BC-2CB7-A1EA-A1EC-BF89DC35F073</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A1EC-BF89DC35F073</Name>
+	<Description>Containing rule</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-26T14:18:04.659</CreationDate>
+	<Notes/>
+	<DefaultText>Containing rule</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A1EC-BF89DC367073"
+		/>
+	</Translations>
+</TextIdentifier>

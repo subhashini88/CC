@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8DFE-E3ECB86EEB9C">
+	<DocumentID>98FA9BD4-E468-A1ED-8DFE-E3ECB86EAB9C</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8DFE-E3ECB86EAB9C</Name>
+	<Description>GetGCProcessByNameAndPurpose</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-19T09:19:07.586</CreationDate>
+	<Notes/>
+	<DefaultText>GetGCProcessByNameAndPurpose</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1ED-8DFE-E3ECB86F2B9C"
+		/>
+	</Translations>
+</TextIdentifier>

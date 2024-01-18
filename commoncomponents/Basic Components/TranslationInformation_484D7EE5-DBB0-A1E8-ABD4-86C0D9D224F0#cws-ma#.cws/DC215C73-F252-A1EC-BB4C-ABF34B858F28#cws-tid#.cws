@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="DC215C73-F252-A1EC-BB4C-ABF34B85CF28">
+	<DocumentID>DC215C73-F252-A1EC-BB4C-ABF34B858F28</DocumentID>
+	<Name>DC215C73-F252-A1EC-BB4C-ABF34B858F28</Name>
+	<Description>ReadGCTag</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-06-16T06:00:15.189</CreationDate>
+	<Notes/>
+	<DefaultText>ReadGCTag</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="DC215C73-F252-A1EC-BB4C-ABF34B860F28"
+		/>
+	</Translations>
+</TextIdentifier>

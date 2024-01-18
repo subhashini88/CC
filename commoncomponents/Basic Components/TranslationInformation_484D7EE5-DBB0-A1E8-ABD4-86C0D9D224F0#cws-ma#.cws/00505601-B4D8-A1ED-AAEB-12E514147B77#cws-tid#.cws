@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B4D8-A1ED-AAEB-12E51414BB77">
+	<DocumentID>00505601-B4D8-A1ED-AAEB-12E514147B77</DocumentID>
+	<Name>00505601-B4D8-A1ED-AAEB-12E514147B77</Name>
+	<Description>onDeleteESignProvider</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-02-13T17:30:34.317</CreationDate>
+	<Notes/>
+	<DefaultText>onDeleteESignProvider</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B4D8-A1ED-AAEB-12E51414FB77"
+		/>
+	</Translations>
+</TextIdentifier>

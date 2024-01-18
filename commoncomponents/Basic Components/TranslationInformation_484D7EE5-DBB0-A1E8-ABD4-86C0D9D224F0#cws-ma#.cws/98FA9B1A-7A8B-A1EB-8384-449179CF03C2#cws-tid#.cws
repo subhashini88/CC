@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EB-8384-449179CF43C2">
+	<DocumentID>98FA9B1A-7A8B-A1EB-8384-449179CF03C2</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EB-8384-449179CF03C2</Name>
+	<Description>Create configuration property</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-10-14T12:24:58.64</CreationDate>
+	<Notes/>
+	<DefaultText>Create configuration property</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EB-8384-449179CF83C2"
+		/>
+	</Translations>
+</TextIdentifier>

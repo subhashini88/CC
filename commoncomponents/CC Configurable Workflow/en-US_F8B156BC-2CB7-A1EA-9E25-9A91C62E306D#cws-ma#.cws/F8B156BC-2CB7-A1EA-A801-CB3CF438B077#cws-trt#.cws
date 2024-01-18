@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A801-CB3CF438F077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A801-CB3CF438B077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A801-CB3CF438B077</Name>
+	<Description>RejectTask</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-27T11:16:08.719</CreationDate>
+	<Notes/>
+	<Text>RejectTask</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A801-CB3CF4383077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

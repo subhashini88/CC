@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A213-7477F4E1F073">
+	<DocumentID>F8B156BC-2CB7-A1EA-A213-7477F4E1B073</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A213-7477F4E1B073</Name>
+	<Description>For Each Rule Condition</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-27T06:13:51.454</CreationDate>
+	<Notes/>
+	<Text>For Each Rule Condition</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A213-7477F4E13073"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-8F62-5069E56B6B9D">
+	<DocumentID>98FA9BD4-E468-A1ED-8F62-5069E56B2B9D</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-8F62-5069E56B2B9D</Name>
+	<Description>Relationship</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-09-26T10:52:51.996</CreationDate>
+	<Notes/>
+	<Text>Relationship</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-8F62-5069E56AAB9D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

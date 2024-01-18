@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1ED-864C-DE7431F22D6B">
+	<DocumentID>00505601-79C2-A1ED-864C-DE7431F1ED6B</DocumentID>
+	<Name>00505601-79C2-A1ED-864C-DE7431F1ED6B</Name>
+	<Description>Task ID1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-11T05:07:38.357</CreationDate>
+	<Notes/>
+	<DefaultText>Task ID1</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1ED-864C-DE7431F26D6B"
+		/>
+	</Translations>
+</TextIdentifier>

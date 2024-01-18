@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-AFED-2A6327140874">
+	<DocumentID>B4B676CD-53D8-A1E8-AFED-2A632713C874</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-AFED-2A632713C874</Name>
+	<Description>DraftStateTransition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-24T04:47:53.105</CreationDate>
+	<Notes/>
+	<DefaultText>DraftStateTransition</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-AFED-2A6327144874"
+		/>
+	</Translations>
+</TextIdentifier>

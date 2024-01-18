@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-9413-2D1509A6651C">
+	<DocumentID>484D7EEB-7112-A1E9-9413-2D1509A6251C</DocumentID>
+	<Name>484D7EEB-7112-A1E9-9413-2D1509A6251C</Name>
+	<Description>If no sample input is selected, the default input is used for verification.</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-03-27T05:07:29.073</CreationDate>
+	<Notes/>
+	<Text>If no sample input is selected, the default input is used for verification.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-9413-2D1509A5A51C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

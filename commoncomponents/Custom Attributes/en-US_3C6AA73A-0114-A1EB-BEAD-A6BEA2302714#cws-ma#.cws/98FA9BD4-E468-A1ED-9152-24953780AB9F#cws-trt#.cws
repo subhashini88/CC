@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-9152-24953780EB9F">
+	<DocumentID>98FA9BD4-E468-A1ED-9152-24953780AB9F</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-9152-24953780AB9F</Name>
+	<Description>UPDATE_LINKED_TAB</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-06T07:31:00.123</CreationDate>
+	<Notes/>
+	<Text>UPDATE_LINKED_TAB</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1ED-9152-249537802B9F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

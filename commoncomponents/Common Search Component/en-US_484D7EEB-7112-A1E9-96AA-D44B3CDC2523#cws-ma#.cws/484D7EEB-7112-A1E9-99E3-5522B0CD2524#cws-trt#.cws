@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-99E3-5522B0CD6524">
+	<DocumentID>484D7EEB-7112-A1E9-99E3-5522B0CD2524</DocumentID>
+	<Name>484D7EEB-7112-A1E9-99E3-5522B0CD2524</Name>
+	<Description>Catch Exception</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-04-25T19:07:50.105</CreationDate>
+	<Notes/>
+	<Text>Catch Exception</Text>
+	<Language>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-7112-A1E9-99E3-5522B0CCA524"
+		/>
+	</TextIdentifier>
+</TranslatedText>

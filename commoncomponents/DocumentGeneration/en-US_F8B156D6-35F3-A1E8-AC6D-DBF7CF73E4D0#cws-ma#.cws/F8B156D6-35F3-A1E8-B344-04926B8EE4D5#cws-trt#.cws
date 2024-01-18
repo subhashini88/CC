@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-B344-04926B8F24D5">
+	<DocumentID>F8B156D6-35F3-A1E8-B344-04926B8EE4D5</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-B344-04926B8EE4D5</Name>
+	<Description>Starts with (e.g. [@)</Description>
+	<CreatedBy>ychaube@ContractCenter</CreatedBy>
+	<CreationDate>2018-10-11T05:36:22.993</CreationDate>
+	<Notes/>
+	<Text>Starts with (e.g. [@)</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-B344-04926B8E64D5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

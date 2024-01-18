@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EB-8E41-FA0710937087">
+	<DocumentID>F8B156BC-2CB7-A1EB-8E41-FA0710933087</DocumentID>
+	<Name>TEMDocPreview_HistoryLog</Name>
+	<Description>TEMDocPreview_HistoryLog</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-12-08T04:08:35.818</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="F8B156BC-2CB7-A1EB-8E41-FA07108F7087">
+			<DocumentID>F8B156BC-2CB7-A1EB-8E41-FA07108F3087</DocumentID>
+			<Name>F8B156BC-2CB7-A1EB-8E41-FA07108F3087</Name>
+			<Description>F8B156BC-2CB7-A1EB-8E41-FA07108F3087</Description>
+			<CreatedBy>superman</CreatedBy>
+			<CreationDate>2020-12-08T04:08:35.819</CreationDate>
+			<Notes/>
+			<DeveloperText>TEMDocPreview</DeveloperText>
+			<Identifier>
+				<uri
+					id="F8B156BC-2CB7-A1EB-8E41-FA07108FB087"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

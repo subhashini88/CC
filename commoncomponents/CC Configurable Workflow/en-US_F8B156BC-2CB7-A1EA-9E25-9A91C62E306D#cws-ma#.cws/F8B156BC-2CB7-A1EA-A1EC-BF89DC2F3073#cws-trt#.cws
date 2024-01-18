@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A1EC-BF89DC2F7073">
+	<DocumentID>F8B156BC-2CB7-A1EA-A1EC-BF89DC2F3073</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A1EC-BF89DC2F3073</Name>
+	<Description>Rule left operand</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-26T14:24:39.696</CreationDate>
+	<Notes/>
+	<Text>Rule left operand</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A1EC-BF89DC2EB073"
+		/>
+	</TextIdentifier>
+</TranslatedText>

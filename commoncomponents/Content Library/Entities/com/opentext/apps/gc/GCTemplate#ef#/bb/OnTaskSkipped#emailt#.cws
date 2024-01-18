@@ -1,0 +1,54 @@
+
+<EmailTemplate
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplate"
+	typeVersion="412DF035-34A8-4C64-AAFC-CF99BE058FFC"
+	RuntimeDocumentID="00505601-F229-A1EE-99BB-DC289A5C7B63">
+	<DocumentID>00505601-F229-A1EE-99BB-DC289A5CBB63</DocumentID>
+	<Name>OnTaskSkipped</Name>
+	<Description>OnTaskSkipped</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T22:03:25.22</CreationDate>
+	<Notes/>
+	<Bcc></Bcc>
+	<Body>{User.Properties.FullName} has skipped the task&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/[@TaskItemId@]/F8B156BC2CB7A1EAA8618E2DF11AB077&quot;&gt;[@TaskSubject@]&lt;/a&gt;&amp;nbsp;f&lt;/strong&gt;or the template&amp;nbsp;&lt;strong&gt;&lt;a href=&quot;{config.GC.Properties.BaseURL}app/start/web/perform/item/{item.Identity.ItemId}/C4D98747A6D9A1E8AC6C233A4C55886E&quot;&gt;{item.Properties.Name}&lt;/a&gt;.&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+Regards,&lt;br /&gt;
+{config.GC.Properties.TeamName}&lt;br /&gt;
+&amp;nbsp;</Body>
+	<CC></CC>
+	<IsCustomizeAutoSuggest>false</IsCustomizeAutoSuggest>
+	<IsVisibleToEndUser>true</IsVisibleToEndUser>
+	<Subject>[@TaskSubject@]: {User.Properties.FullName} has skipped the task</Subject>
+	<To></To>
+	<BCCRole/>
+	<BuildingBlock>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AD67-C25A2CB924F4"
+		/>
+	</BuildingBlock>
+	<CCRole/>
+	<CustomEmailConfigurations/>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="00505601-F229-A1EE-99BB-DC289A5BBB63">
+			<DocumentID>00505601-F229-A1EE-99BB-DC289A5B7B63</DocumentID>
+			<Name>00505601-F229-A1EE-99BB-DC289A5B7B63</Name>
+			<Description>00505601-F229-A1EE-99BB-DC289A5B7B63</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2023-10-09T22:03:25.221</CreationDate>
+			<Notes/>
+			<DeveloperText>Task skipped</DeveloperText>
+			<Identifier>
+				<uri
+					id="00505601-F229-A1EE-99BB-2505C1F93B63"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+	<Original/>
+	<ToRole/>
+	<TypeDefinition/>
+</EmailTemplate>

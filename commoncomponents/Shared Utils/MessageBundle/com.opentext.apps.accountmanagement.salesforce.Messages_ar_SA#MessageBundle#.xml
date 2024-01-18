@@ -1,0 +1,61 @@
+<MessageBundle xmlns=""
+	id="com.opentext.apps.accountmanagement.salesforce.Messages">
+	<Message id="processingResponseForAccessToken">
+		<MessageText>تتعذر معالجة الاستجابة الخاصة بالرمز المميز للوصول. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>Unable to process the response for the access token.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="unsupportedEncoding">
+		<MessageText>حدث خطأ أثناء ترميز الطلب الخاص بالرمز المميز للوصول. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>An error occurred while encoding the request for the
+			access token. Contact the administrator.</Description>
+	</Message>
+	<Message id="accessTokenConnection">
+		<MessageText>تتعذر معالجة الاتصال الخاص بطلب الرمز المميز للوصول. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>Unable to process the connection for the access token
+			request. Contact the administrator.</Description>
+	</Message>
+	<Message id="accessTokenProtocolError">
+		<MessageText>حدث خطأ أثناء إرسال طلب الرمز المميز للوصول. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while sending the access token request.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="outputStreamError">
+		<MessageText>حدث خطأ أثناء إنشاء دفق الإخراج. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while creating the output stream.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="releasingResources">
+		<MessageText>حدث خطأ أثناء تنفيذ عمليات الإخراج. لذا اتصل بالمسؤول.
+		</MessageText>
+		<Description>An error occurred while performing the output operations.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="loginInfoConnection">
+		<MessageText>تتعذر معالجة الاتصال الخاص بطلب معلومات تسجيل الدخول. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>Unable to process the connection for the login
+			information request. Contact the administrator.</Description>
+	</Message>
+	<Message id="loginInfoProtocolError">
+		<MessageText>حدث خطأ أثناء إرسال طلب معلومات تسجيل الدخول. لذا اتصل
+			بالمسؤول.</MessageText>
+		<Description>An error occurred while sending the login information
+			request. Contact the administrator.</Description>
+	</Message>
+	<Message id="httpResponseError">
+		<MessageText>هذه الاستجابة لا تمثل الاستجابة المتوقعة من الخادم. لذا
+			اتصل بالمسؤول.</MessageText>
+		<Description>This is not the expected response from the server.
+			Contact the administrator.</Description>
+	</Message>
+	<Message id="errorWhileTriggeringBPM">
+		<MessageText>حدث خطأ أثناء تشغيل BPM {لـ {0</MessageText>
+		<Description>Error while triggering {0} BPM.</Description>
+	</Message>
+</MessageBundle>

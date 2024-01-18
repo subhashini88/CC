@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="002B6743-E6B0-A1EE-8693-0517F1117171">
+	<DocumentID>002B6743-E6B0-A1EE-8693-0517F1113171</DocumentID>
+	<Name>002B6743-E6B0-A1EE-8693-0517F1113171</Name>
+	<Description>AllStatesctrCustomAssignments</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-04T10:26:43.419</CreationDate>
+	<Notes/>
+	<DefaultText>AllStatesctrCustomAssignments</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="002B6743-E6B0-A1EE-8693-0517F111B171"
+		/>
+	</Translations>
+</TextIdentifier>

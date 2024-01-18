@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-944E-7857EC496C1F">
+	<DocumentID>50EB711A-AD5A-A1EE-944E-7857EC492C1F</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-944E-7857EC492C1F</Name>
+	<Description>NotifyTaskObsolete1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-12T06:59:42.76</CreationDate>
+	<Notes/>
+	<Text>NotifyTaskObsolete1</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-944E-7857EC48AC1F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

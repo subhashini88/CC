@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9B62-04DA27696641">
+	<DocumentID>3C6AA73A-0114-A1E9-9B62-04DA27692641</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-9B62-04DA27692641</Name>
+	<Description>Update Mappigs with new clause.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-03T09:55:15.626</CreationDate>
+	<Notes/>
+	<DefaultText>Update Mappigs with new clause.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-9B62-04DA2769A641"
+		/>
+	</Translations>
+</TextIdentifier>

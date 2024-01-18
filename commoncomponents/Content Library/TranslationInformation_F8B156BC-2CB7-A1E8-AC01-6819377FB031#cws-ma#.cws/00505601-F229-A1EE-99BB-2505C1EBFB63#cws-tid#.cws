@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-F229-A1EE-99BB-2505C1EC3B63">
+	<DocumentID>00505601-F229-A1EE-99BB-2505C1EBFB63</DocumentID>
+	<Name>00505601-F229-A1EE-99BB-2505C1EBFB63</Name>
+	<Description>Task rejected</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-10-09T21:48:43.042</CreationDate>
+	<Notes/>
+	<DefaultText>Task rejected</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-F229-A1EE-99BB-2505C1EC7B63"
+		/>
+	</Translations>
+</TextIdentifier>

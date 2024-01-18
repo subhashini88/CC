@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1EA-AA5F-028FE0E126AE">
+	<DocumentID>8C1645B9-0967-A1EA-AA5F-028FE0E0E6AE</DocumentID>
+	<Name>8C1645B9-0967-A1EA-AA5F-028FE0E0E6AE</Name>
+	<Description>AbortedToArchived</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-08T11:44:48.183</CreationDate>
+	<Notes/>
+	<DefaultText>AbortedToArchived</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1EA-AA5F-028FE0E166AE"
+		/>
+	</Translations>
+</TextIdentifier>

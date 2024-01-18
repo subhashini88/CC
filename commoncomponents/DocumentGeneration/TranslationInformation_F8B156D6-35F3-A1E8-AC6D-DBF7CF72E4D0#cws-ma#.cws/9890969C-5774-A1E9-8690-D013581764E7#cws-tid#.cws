@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="9890969C-5774-A1E9-8690-D0135817A4E7">
+	<DocumentID>9890969C-5774-A1E9-8690-D013581764E7</DocumentID>
+	<Name>9890969C-5774-A1E9-8690-D013581764E7</Name>
+	<Description>Acl Id</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2019-01-17T10:33:55.573</CreationDate>
+	<Notes/>
+	<DefaultText>Acl Id</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="9890969C-5774-A1E9-8690-D0135817E4E7"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-8534-0DFBFDDE035B">
+	<DocumentID>3C6AA735-2F3B-A1EA-8534-0DFBFDDDC35B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-8534-0DFBFDDDC35B</Name>
+	<Description>This contract cannot be authored in current state.</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-12-02T06:54:46.482</CreationDate>
+	<Notes/>
+	<DefaultText>This contract cannot be authored in current state.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1EA-8534-0DFBFDDE435B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-3F37AF8D3068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-3F37AF8BB068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959D-3F37AF8A7068"
+		/>
+	</Translations>
+</TextIdentifier>

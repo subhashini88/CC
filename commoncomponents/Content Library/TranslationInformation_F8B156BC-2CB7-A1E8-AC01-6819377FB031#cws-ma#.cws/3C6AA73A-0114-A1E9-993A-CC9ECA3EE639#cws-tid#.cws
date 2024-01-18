@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-993A-CC9ECA3F2639">
+	<DocumentID>3C6AA73A-0114-A1E9-993A-CC9ECA3EE639</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-993A-CC9ECA3EE639</Name>
+	<Description>Creating new version.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-22T10:47:45.775</CreationDate>
+	<Notes/>
+	<DefaultText>Creating new version.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1E9-993A-CC9ECA3F6639"
+		/>
+	</Translations>
+</TextIdentifier>

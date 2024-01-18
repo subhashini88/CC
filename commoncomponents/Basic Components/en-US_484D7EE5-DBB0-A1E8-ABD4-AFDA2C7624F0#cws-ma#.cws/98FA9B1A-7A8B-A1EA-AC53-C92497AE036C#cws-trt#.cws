@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-AC53-C92497AE436C">
+	<DocumentID>98FA9B1A-7A8B-A1EA-AC53-C92497AE036C</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-AC53-C92497AE036C</Name>
+	<Description>Length cannot</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-06-18T10:35:29.968</CreationDate>
+	<Notes/>
+	<Text>Length cannot</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-AC53-C92497AD836C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

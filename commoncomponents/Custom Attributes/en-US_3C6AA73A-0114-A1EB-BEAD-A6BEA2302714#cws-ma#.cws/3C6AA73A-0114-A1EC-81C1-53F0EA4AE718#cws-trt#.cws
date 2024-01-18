@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-81C1-53F0EA4B2718">
+	<DocumentID>3C6AA73A-0114-A1EC-81C1-53F0EA4AE718</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-81C1-53F0EA4AE718</Name>
+	<Description>CreateGCProcessIfNotExists</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-27T07:33:21.553</CreationDate>
+	<Notes/>
+	<Text>CreateGCProcessIfNotExists</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-81C1-53F0EA4A6718"
+		/>
+	</TextIdentifier>
+</TranslatedText>

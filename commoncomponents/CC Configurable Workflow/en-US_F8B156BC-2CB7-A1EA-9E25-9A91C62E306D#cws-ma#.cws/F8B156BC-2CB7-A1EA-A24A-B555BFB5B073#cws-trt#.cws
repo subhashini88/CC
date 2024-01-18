@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A24A-B555BFB5F073">
+	<DocumentID>F8B156BC-2CB7-A1EA-A24A-B555BFB5B073</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A24A-B555BFB5B073</Name>
+	<Description>Logic summary</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-28T10:50:44.865</CreationDate>
+	<Notes/>
+	<Text>Logic summary</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A24F-8417A1FBB073"
+		/>
+	</TextIdentifier>
+</TranslatedText>

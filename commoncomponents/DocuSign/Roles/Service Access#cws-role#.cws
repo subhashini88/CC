@@ -1,0 +1,18 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-928D-5BAE0228A516">
+	<DocumentID>484D7EEB-71EF-A1E9-928D-5BAE02286516</DocumentID>
+	<Name>Service Access</Name>
+	<Description>Service Access</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-03-19T11:06:29.683</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Internal</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

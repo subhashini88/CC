@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A537-B2DD01A2FB73">
+	<DocumentID>00505601-B4D8-A1ED-A537-B2DD01A2BB73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A537-B2DD01A2BB73</Name>
+	<Description>Edi</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:16:48.365</CreationDate>
+	<Notes/>
+	<Text>Edi</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A537-B2DD01A23B73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

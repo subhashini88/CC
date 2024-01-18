@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A3D7-69F7A59FF074">
+	<DocumentID>F8B156BC-2CB7-A1EA-A3D7-69F7A59FB074</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A3D7-69F7A59FB074</Name>
+	<Description>Greater than</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-06T05:53:33.865</CreationDate>
+	<Notes/>
+	<Text>Greater than</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A3D7-69F7A59F3074"
+		/>
+	</TextIdentifier>
+</TranslatedText>

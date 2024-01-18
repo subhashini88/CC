@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B44D-E675496B8877">
+	<DocumentID>B4B676CD-53D8-A1E8-B44D-E675496B4877</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B44D-E675496B4877</Name>
+	<Description>Template approval flow</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:38:59.737</CreationDate>
+	<Notes/>
+	<DefaultText>Template approval flow</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-681937803031"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E8-B44D-E675496BC877"
+		/>
+	</Translations>
+</TextIdentifier>

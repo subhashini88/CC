@@ -1,0 +1,34 @@
+
+<HistoryLog
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.historylog.HistoryLog"
+	RuntimeDocumentID="484D7EEB-737F-A1E8-BB22-87B4D14BC86B">
+	<DocumentID>484D7EEB-737F-A1E8-BB22-87B4D14B886B</DocumentID>
+	<Name>DocPreviewHistoryLog</Name>
+	<Description>DocPreviewHistoryLog</Description>
+	<CreatedBy>sai goutham</CreatedBy>
+	<CreationDate>2018-11-20T06:25:29.069</CreationDate>
+	<Notes/>
+	<CompressType>0</CompressType>
+	<RetentionInterval>0</RetentionInterval>
+	<RetentionUnit></RetentionUnit>
+	<DisplayName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			typeVersion="FC58ED95-5D9A-4D1D-9A84-8D03E2528B67"
+			RuntimeDocumentID="484D7EEB-737F-A1E8-BB23-413F64CF886B">
+			<DocumentID>484D7EEB-737F-A1E8-BB23-413F64CF486B</DocumentID>
+			<Name>484D7EEB-737F-A1E8-BB23-413F64CF486B</Name>
+			<Description>484D7EEB-737F-A1E8-BB23-413F64CF486B</Description>
+			<CreatedBy>sai goutham</CreatedBy>
+			<CreationDate>2018-11-20T06:25:29.069</CreationDate>
+			<Notes/>
+			<DeveloperText>DocPreviewHistoryLog</DeveloperText>
+			<Identifier>
+				<uri
+					id="484D7EEB-737F-A1E8-BB23-413F64CFC86B"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</DisplayName>
+</HistoryLog>

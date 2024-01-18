@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-79C2-A1EC-9313-A2C004F4AD69">
+	<DocumentID>00505601-79C2-A1EC-9313-A2C004F46D69</DocumentID>
+	<Name>00505601-79C2-A1EC-9313-A2C004F46D69</Name>
+	<Description>Latest escalation</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-23T11:21:35.737</CreationDate>
+	<Notes/>
+	<DefaultText>Latest escalation</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-79C2-A1EC-9313-A2C004F4ED69"
+		/>
+	</Translations>
+</TextIdentifier>

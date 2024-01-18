@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8CA6-F0FBA7AA0347">
+	<DocumentID>FC7774E9-506A-A1EA-8CA6-F0FBA7A9C347</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8CA6-F0FBA7A9C347</Name>
+	<Description>Heading!</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-09T08:31:49.736</CreationDate>
+	<Notes/>
+	<DefaultText>Heading!</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E9-506A-A1EA-8CA6-F0FBA7AA4347"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9648-13879A133069"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9648-13879A11B069"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9648-13879A107069"
+		/>
+	</Translations>
+</TextIdentifier>

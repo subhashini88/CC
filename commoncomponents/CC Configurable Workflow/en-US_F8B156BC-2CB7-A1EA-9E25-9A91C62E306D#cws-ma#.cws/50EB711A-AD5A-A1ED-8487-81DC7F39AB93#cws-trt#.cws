@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1ED-8487-81DC7F39EB93">
+	<DocumentID>50EB711A-AD5A-A1ED-8487-81DC7F39AB93</DocumentID>
+	<Name>50EB711A-AD5A-A1ED-8487-81DC7F39AB93</Name>
+	<Description>Layout moduller</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-02T05:12:49.741</CreationDate>
+	<Notes/>
+	<Text>Layout moduller</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1ED-8487-81DC7F392B93"
+		/>
+	</TextIdentifier>
+</TranslatedText>

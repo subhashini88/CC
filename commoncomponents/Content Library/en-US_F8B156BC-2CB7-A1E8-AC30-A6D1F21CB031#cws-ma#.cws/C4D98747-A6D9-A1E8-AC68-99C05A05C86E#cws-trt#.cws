@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="C4D98747-A6D9-A1E8-AC68-99C05A06086E">
+	<DocumentID>C4D98747-A6D9-A1E8-AC68-99C05A05C86E</DocumentID>
+	<Name>C4D98747-A6D9-A1E8-AC68-99C05A05C86E</Name>
+	<Description>Template list action bar</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-06T07:03:27.261</CreationDate>
+	<Notes/>
+	<Text>Template list action bar</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="C4D98747-A6D9-A1E8-AC68-99C05A05486E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

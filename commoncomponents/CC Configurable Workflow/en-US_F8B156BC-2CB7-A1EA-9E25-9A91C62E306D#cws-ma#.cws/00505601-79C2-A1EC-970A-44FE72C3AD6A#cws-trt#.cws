@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-970A-44FE72C3ED6A">
+	<DocumentID>00505601-79C2-A1EC-970A-44FE72C3AD6A</DocumentID>
+	<Name>00505601-79C2-A1EC-970A-44FE72C3AD6A</Name>
+	<Description>Send old instance to obsolete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-13T16:54:54.854</CreationDate>
+	<Notes/>
+	<Text>Send old instance to obsolete</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-970A-44FE72C32D6A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

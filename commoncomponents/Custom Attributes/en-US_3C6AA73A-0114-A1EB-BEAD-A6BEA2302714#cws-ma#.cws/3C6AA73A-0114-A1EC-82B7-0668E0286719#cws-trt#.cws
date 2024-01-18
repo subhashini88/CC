@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-82B7-0668E028A719">
+	<DocumentID>3C6AA73A-0114-A1EC-82B7-0668E0286719</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-82B7-0668E0286719</Name>
+	<Description>NAME_UNIQUE_ERROR : The attribute with the name {item.Properties.Name} already exists.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-01T05:00:48.498</CreationDate>
+	<Notes/>
+	<Text>NAME_UNIQUE_ERROR : The attribute with the name {item.Properties.Name} already exists.</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-82B7-0668E027E719"
+		/>
+	</TextIdentifier>
+</TranslatedText>

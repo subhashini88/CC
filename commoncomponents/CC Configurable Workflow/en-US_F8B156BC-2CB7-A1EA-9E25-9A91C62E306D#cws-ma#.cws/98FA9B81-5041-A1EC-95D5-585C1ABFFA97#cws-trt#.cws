@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-95D5-585C1AC03A97">
+	<DocumentID>98FA9B81-5041-A1EC-95D5-585C1ABFFA97</DocumentID>
+	<Name>98FA9B81-5041-A1EC-95D5-585C1ABFFA97</Name>
+	<Description>Due date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-12-07T12:02:45.386</CreationDate>
+	<Notes/>
+	<Text>Due date</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-95D5-585C1ABF7A97"
+		/>
+	</TextIdentifier>
+</TranslatedText>

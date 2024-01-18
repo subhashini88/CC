@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-846A-82D680A2C35B">
+	<DocumentID>3C6AA735-2F3B-A1EA-846A-82D680A2835B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-846A-82D680A2835B</Name>
+	<Description>Customer contacts synchronisation failed. Synchronize again.</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T06:43:47.061</CreationDate>
+	<Notes/>
+	<DefaultText>Customer contacts synchronisation failed. Synchronize again.</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1EA-846A-82D680A3035B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-7E3E6354F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-7E3E63537068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-7E3E63523068"
+		/>
+	</Translations>
+</TextIdentifier>

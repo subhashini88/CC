@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="1866DA2F-3B8A-A1E8-B31F-6EFBD0F34874">
+	<DocumentID>1866DA2F-3B8A-A1E8-B31F-6EFBD0F30874</DocumentID>
+	<Name>1866DA2F-3B8A-A1E8-B31F-6EFBD0F30874</Name>
+	<Description>StateTransitionsForTemplate</Description>
+	<CreatedBy>Bhagwan</CreatedBy>
+	<CreationDate>2018-10-11T04:14:31.216</CreationDate>
+	<Notes/>
+	<Text>StateTransitionsForTemplate</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="1866DA2F-3B8A-A1E8-B31F-6EFBD0F28874"
+		/>
+	</TextIdentifier>
+</TranslatedText>

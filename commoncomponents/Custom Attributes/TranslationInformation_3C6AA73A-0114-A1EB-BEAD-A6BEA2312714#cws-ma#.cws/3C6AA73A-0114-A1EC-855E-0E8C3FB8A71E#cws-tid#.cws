@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-855E-0E8C3FB8E71E">
+	<DocumentID>3C6AA73A-0114-A1EC-855E-0E8C3FB8A71E</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-855E-0E8C3FB8A71E</Name>
+	<Description>DeleteMappingsOnDelete</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-14T16:38:25.079</CreationDate>
+	<Notes/>
+	<DefaultText>DeleteMappingsOnDelete</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1EC-855E-0E8C3FB9271E"
+		/>
+	</Translations>
+</TextIdentifier>

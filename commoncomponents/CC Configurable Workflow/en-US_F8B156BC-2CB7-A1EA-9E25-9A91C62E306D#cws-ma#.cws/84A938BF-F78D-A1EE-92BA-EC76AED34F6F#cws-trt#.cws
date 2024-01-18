@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-92BA-EC76AED38F6F">
+	<DocumentID>84A938BF-F78D-A1EE-92BA-EC76AED34F6F</DocumentID>
+	<Name>84A938BF-F78D-A1EE-92BA-EC76AED34F6F</Name>
+	<Description>Obligation workflow</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-04T06:26:00.495</CreationDate>
+	<Notes/>
+	<Text>Obligation workflow</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="84A938BF-F78D-A1EE-92BA-EC76AED2CF6F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-8728-0B9811BD0465">
+	<DocumentID>98FA9B1A-7A8B-A1ED-8728-0B9811BCC465</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-8728-0B9811BCC465</Name>
+	<Description>CreateRelatedEnums</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-08-15T16:15:53.268</CreationDate>
+	<Notes/>
+	<Text>CreateRelatedEnums</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA230A714"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-8728-0B9811BC4465"
+		/>
+	</TextIdentifier>
+</TranslatedText>

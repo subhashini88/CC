@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A538-490B3FB6BB73">
+	<DocumentID>00505601-B4D8-A1ED-A538-490B3FB67B73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A538-490B3FB67B73</Name>
+	<Description>Select a contact type.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:33:11.726</CreationDate>
+	<Notes/>
+	<Text>Select a contact type.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A538-490B3FB5FB73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

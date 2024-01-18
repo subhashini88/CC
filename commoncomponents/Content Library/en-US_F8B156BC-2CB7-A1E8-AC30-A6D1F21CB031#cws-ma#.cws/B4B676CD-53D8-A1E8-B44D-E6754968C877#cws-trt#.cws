@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B44D-E67549690877">
+	<DocumentID>B4B676CD-53D8-A1E8-B44D-E6754968C877</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B44D-E6754968C877</Name>
+	<Description>Clause approval flow</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-16T11:39:25.433</CreationDate>
+	<Notes/>
+	<Text>Clause approval flow</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B44D-E67549684877"
+		/>
+	</TextIdentifier>
+</TranslatedText>

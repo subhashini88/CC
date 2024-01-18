@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A153-2FA17ACA3072">
+	<DocumentID>F8B156BC-2CB7-A1EA-A153-2FA17AC9F072</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A153-2FA17AC9F072</Name>
+	<Description>Z_INT_RulesList</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-23T10:30:19.694</CreationDate>
+	<Notes/>
+	<Text>Z_INT_RulesList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A153-2FA17AC97072"
+		/>
+	</TextIdentifier>
+</TranslatedText>

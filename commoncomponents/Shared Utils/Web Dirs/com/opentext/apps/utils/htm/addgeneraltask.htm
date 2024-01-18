@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add General Task</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+        <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../../../../com/opentext/apps/utils/css/appscommon.css">
+        <link rel="stylesheet" href="../css/appscommon.css">
+        <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+        <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+        <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+        <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="../../../../../com/opentext/apps/utils/js/appscommon.js" type="text/javascript"></script>
+        <script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+        <script src="../js/addgeneraltask.js" type="text/javascript"></script>
+    </head>
+    <body class="cc-ltr">
+
+        <div id="form_container">
+            <!-- Create or Edit activitylist modal form -->
+            <div>
+                <div id="task_details_div">
+                        <div class="col-md-12 col-sm-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6">
+                                <label class="cc-required" data-translatable="true">Task name</label>
+                                <input type="text" class="form-control" id="activityname" onchange="removeErrorClass(this)" data-bind="value:name">
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6">
+                                <label data-translatable="true" for="activitydetailsdescription">Description</label>
+                                <input type="text" class="form-control" id="activitydetailsdescription" data-bind="value:description">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6">
+                                <label class="cc-required" data-translatable="true" for="activitydetailstype">Task type</label>
+                                <select id= "activityType" class="form-control cc-select" onchange="removeErrorClass(this)" data-bind="value:type, 
+                                event:{ change: translatePage }, 
+                                options:taskTypesList,
+                                optionsText:'label',
+                                optionsValue:'value',
+                                optionsCaption: '-Select-'" >
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 no-padding">
+                            <div class="form-group col-md-6 col-sm-6">
+                                <label class="cc-required" data-translatable="true" for="activitydetailsassignmenttype">Assignment type</label>
+                                <select id="assignmentType" class="form-control cc-select" onchange="clearAssignTo(this)" data-bind="value:assignmentType" id="activitydetailsassignmenttype">
+                                    <option value="" disabled selected data-translatable="true">-Select-</option>
+                                    <option value="INDIVIDUAL" data-translatable="true">Individual</option>
+                                    <option value="ROLE" data-translatable="true">Role</option>
+                                    <option value="GROUP" data-translatable="true">Group</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-sm-6">
+                                <label class="cc-required" data-translatable="true" for="activitydetailsassignto">Assign to</label>
+                                <div class="input-group">
+                                    <input id="assignTo" class="form-control cc-input-browse  rtl-input-browse" type="text" onchange="removeErrorClass(this)" id="activitydetailsassignto" data-bind="value:assignToName,attr:{'disabled':!(assignmentType().length>0)}" class="form-control" readonly style="background-color: transparent;border-right: 0;">
+                                    <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="padding-bottom: 4px;" data-bind="style:{cursor:assignmentType().length>0 ? 'pointer':'not-allowed'}">
+                                        <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="openUserOrRoleSelectionModal(this)">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- Select role for task modal form -->
+            <div class="modal fade" id="selectRoleModal" role="dialog" style="z-index: 2999;">
+                <div class="modal-content cc-modal-content" style="margin-top: 5%; width:70%; height: 75%;">
+                    <div class="modal-header cc-modal-header">
+                        <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;"/>
+                        </button>
+                        <h3 data-translatable="true">Select a role</h3>
+                    </div>
+                    <div class="modal-body cc-modal-body">
+                        <div id="id_rolesList" class="col-md-12 col-sm-12 cc-list">
+                            <div class="input-group" style="margin-bottom: 10px;">
+                                <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse" id="input_roleListSearchFilter" placeholder="Search by role name.">
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;">
+                                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllRoles()">
+                                </span>
+                            </div>
+                            <table class="table cc-border">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;"></th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">Name</th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">Display name</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:RolesList">
+                                    <tr data-bind="click:$root.selectRoleRadioButton">
+                                        <td>
+                                            <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onRoleRowRadioButtonValueChanged}"></div>
+                                        </td>
+                                        <td data-bind="text:Name.text"></td>
+                                        <td data-bind="text:IdentityDisplayName.text"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="cc-modal-footer modal-footer text-align-left">
+                        <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="selectRoleYes" data-translatable="true"><span data-translatable="true">Select</span></button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="selectRoleNo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Select group for task modal form -->
+            <div class="modal fade" id="selectGroupModal" role="dialog" style="z-index: 2999;">
+                <div class="modal-content cc-modal-content" style="margin-top: 5%; width:70%; height: 75%;">
+                    <div class="modal-header cc-modal-header">
+                        <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;"/>
+                        </button>
+                        <h3 data-translatable="true">Select a group</h3>
+                    </div>
+                    <div class="modal-body cc-modal-body">
+                        <div id="id_groupsList" class="col-md-12 cc-list">
+                            <div class="input-group" style="margin-bottom: 10px;">
+                                <input type="text" data-translatable="true" class="form-control cc-input-browse rtl-input-browse" id="input_groupListSearchFilter" placeholder="Search by group name.">
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;">
+                                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllGroups()">
+                                </span>
+                            </div>
+                            <table class="table cc-border">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;"></th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">Name</th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">Display name</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:GroupsList">
+                                    <tr data-bind="click:$root.selectGroupRadioButton">
+                                        <td>
+                                            <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onGroupRowRadioButtonValueChanged}"></div>
+                                        </td>
+                                        <td data-bind="text:Name.text"></td>
+                                        <td data-bind="text:IdentityDisplayName.text"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="cc-modal-footer modal-footer text-align-left">
+                        <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="selectGroupYes" data-translatable="true"><span data-translatable="true">Select</span></button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="selectGroupNo" data-translatable="true"><span data-translatable="true">Cancel</span></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Select user for task modal form -->
+            <div class="modal fade" id="selectIndividualModal" role="dialog" style="z-index: 2999;">
+                <div class="modal-content cc-modal-content" style="margin-top: 5%; width:70%; height: 75%;">
+                    <div class="modal-header cc-modal-header">
+                        <button type="button" data-dismiss="modal" style="float: right;border: none;background-color: transparent;">
+                            <img src="../../../../../com/opentext/apps/utils/img/Close_black.svg" style="width: 11px; height: 11px;"/>
+                        </button>
+                        <h3 data-translatable="true">Select a user</h3>
+                    </div>
+                    <div class="modal-body cc-modal-body">
+                        <div id="id_userssList" class="col-md-12 cc-list">
+                            <div class="input-group" style="margin-bottom: 10px;">
+                                <input type="text" data-translatable = "true" class="form-control cc-input-browse rtl-input-browse" id="input_userListSearchFilter" placeholder="Search by User name.">
+                                <span class="input-group-addon cc-input-browse-icon rtl-input-browse-icon" style="cursor: pointer;">
+                                    <img class="cc-input-icon" alt="Search" src="../../../../../com/opentext/apps/utils/img/search.svg" onclick="ListAllUsers()">
+                                </span>
+                            </div>
+                            <table class="table cc-border" data-bind="if:showOrgMembers()">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;"></th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">User name</th>
+                                        <th style="width: 45%;" data-translatable="true" scope="col" data-translatable="true">Organization</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:UsersList">
+                                    <tr data-bind="click:$root.selectMemberRadioButton">
+                                        <td>
+                                            <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onMemberRowRadioButtonValueChanged}"></div>
+                                        </td>
+                                        <td data-bind="text:getTextValue(ParticipatingPerson.User_ID)"></td>
+                                        <td data-bind="text:getTextValue(Owner.Name)"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table cc-border" data-bind="if:!showOrgMembers()">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 10%;"></th>
+                                        <th style="width: 90%;" data-translatable="true" scope="col" data-translatable="true">User name</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-bind="foreach:UsersList">
+                                    <tr data-bind="click:$root.selectUserRadioButton">
+                                        <td>
+                                            <div class="cc-select-column cc-radio-off" data-bind="event:{click:$root.onUserRowRadioButtonValueChanged}"></div>
+                                        </td>
+                                        <td data-bind="text:getTextValue(UserId)"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="cc-modal-footer modal-footer text-align-left">
+                        <button type="submit" class="cc-btn cc-btn-primary" data-dismiss="modal" id="selectIndividualYes"><span data-translatable="true">Select</span></button>
+                        <button type="cancel" class="cc-btn cc-btn-secondary" data-dismiss="modal" id="selectIndividualNo"><span data-translatable="true">Cancel</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

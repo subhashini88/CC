@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-91C5-AB103AEAE510">
+	<DocumentID>484D7EE5-DBB0-A1E9-91C5-AB103AEAA510</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-91C5-AB103AEAA510</Name>
+	<Description>Independent Sub-Process</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-03-15T12:03:14.266</CreationDate>
+	<Notes/>
+	<Text>Independent Sub-Process</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-91C5-AB103AEA2510"
+		/>
+	</TextIdentifier>
+</TranslatedText>

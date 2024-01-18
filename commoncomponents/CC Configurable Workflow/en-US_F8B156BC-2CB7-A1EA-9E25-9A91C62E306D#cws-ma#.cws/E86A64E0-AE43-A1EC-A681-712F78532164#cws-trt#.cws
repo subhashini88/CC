@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="E86A64E0-AE43-A1EC-A681-712F78536164">
+	<DocumentID>E86A64E0-AE43-A1EC-A681-712F78532164</DocumentID>
+	<Name>E86A64E0-AE43-A1EC-A681-712F78532164</Name>
+	<Description>SetDuration</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-03-02T09:13:15.644</CreationDate>
+	<Notes/>
+	<Text>SetDuration</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="E86A64E0-AE43-A1EC-A681-712F7852A164"
+		/>
+	</TextIdentifier>
+</TranslatedText>

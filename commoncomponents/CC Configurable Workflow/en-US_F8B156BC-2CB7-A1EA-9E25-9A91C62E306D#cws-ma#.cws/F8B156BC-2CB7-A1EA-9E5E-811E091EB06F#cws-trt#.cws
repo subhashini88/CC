@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-9E5E-811E091EF06F">
+	<DocumentID>F8B156BC-2CB7-A1EA-9E5E-811E091EB06F</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-9E5E-811E091EB06F</Name>
+	<Description>RuleConditionOperand_HistoryLog</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-04-08T09:20:18.546</CreationDate>
+	<Notes/>
+	<Text>RuleConditionOperand_HistoryLog</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E5E-811E091E306F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

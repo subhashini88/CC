@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A537-C79467FFFB73">
+	<DocumentID>00505601-B4D8-A1ED-A537-C79467FFBB73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A537-C79467FFBB73</Name>
+	<Description>Enter a sub-organization name.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:16:48.366</CreationDate>
+	<Notes/>
+	<Text>Enter a sub-organization name.</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-B4D8-A1ED-A537-C79467FF3B73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E39-7AABCDDE4348">
+	<DocumentID>FC7774E9-506A-A1EA-8E39-7AABCDDE0348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E39-7AABCDDE0348</Name>
+	<Description>missing section name!!</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-17T10:08:51.445</CreationDate>
+	<Notes/>
+	<Text>missing section name!!</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC149A4DC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E9-506A-A1EA-8E39-7AABCDDD8348"
+		/>
+	</TextIdentifier>
+</TranslatedText>

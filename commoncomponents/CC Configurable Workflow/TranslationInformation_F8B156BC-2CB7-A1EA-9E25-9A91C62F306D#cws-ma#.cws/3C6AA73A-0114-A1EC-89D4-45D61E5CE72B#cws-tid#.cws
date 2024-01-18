@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-89D4-45D61E5D272B">
+	<DocumentID>3C6AA73A-0114-A1EC-89D4-45D61E5CE72B</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-89D4-45D61E5CE72B</Name>
+	<Description>Cliam</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-07T09:42:03.44</CreationDate>
+	<Notes/>
+	<DefaultText>Cliam</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62FB06D"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA73A-0114-A1EC-89D4-45D61E5D672B"
+		/>
+	</Translations>
+</TextIdentifier>

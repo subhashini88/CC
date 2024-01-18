@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-8F72-133A82432C0B">
+	<DocumentID>50EB711A-AD5A-A1EE-8F72-133A8242EC0B</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-8F72-133A8242EC0B</Name>
+	<Description>GetFilterGCChartDetails</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-18T13:13:23.477</CreationDate>
+	<Notes/>
+	<Text>GetFilterGCChartDetails</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-8F72-133A82426C0B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

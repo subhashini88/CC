@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1EC-B066-8B259554E75F">
+	<DocumentID>3C6AA73A-0114-A1EC-B066-8B259554A75F</DocumentID>
+	<Name>3C6AA73A-0114-A1EC-B066-8B259554A75F</Name>
+	<Description>ReadConditionalContent</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-04-21T17:42:52.519</CreationDate>
+	<Notes/>
+	<Text>ReadConditionalContent</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1EC-B066-8B259554275F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

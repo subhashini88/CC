@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B1E8-B9D7D8B00876">
+	<DocumentID>B4B676CD-53D8-A1E8-B1E8-B9D7D8AFC876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B1E8-B9D7D8AFC876</Name>
+	<Description>ReadGCTemplate</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-04T07:03:18.658</CreationDate>
+	<Notes/>
+	<Text>ReadGCTemplate</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B1E8-B9D7D8AF4876"
+		/>
+	</TextIdentifier>
+</TranslatedText>

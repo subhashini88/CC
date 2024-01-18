@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-980E-600F715E6636">
+	<DocumentID>3C6AA73A-0114-A1E9-980E-600F715E2636</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-980E-600F715E2636</Name>
+	<Description>Z_INT_ClauseVersionList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-17T06:30:33.941</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ClauseVersionList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-980E-600F715DA636"
+		/>
+	</TextIdentifier>
+</TranslatedText>

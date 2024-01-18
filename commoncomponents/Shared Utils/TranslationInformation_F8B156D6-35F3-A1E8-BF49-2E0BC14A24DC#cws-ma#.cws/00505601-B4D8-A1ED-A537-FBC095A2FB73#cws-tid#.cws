@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A537-FBC095A33B73">
+	<DocumentID>00505601-B4D8-A1ED-A537-FBC095A2FB73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A537-FBC095A2FB73</Name>
+	<Description>Remove additional access for selected members?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:22:43.783</CreationDate>
+	<Notes/>
+	<DefaultText>Remove additional access for selected members?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B4D8-A1ED-A537-FBC095A37B73"
+		/>
+	</Translations>
+</TextIdentifier>

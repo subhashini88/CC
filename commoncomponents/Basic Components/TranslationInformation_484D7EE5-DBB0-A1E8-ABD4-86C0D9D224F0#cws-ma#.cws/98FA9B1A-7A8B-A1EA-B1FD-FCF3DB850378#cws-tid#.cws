@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-B1FD-FCF3DB854378">
+	<DocumentID>98FA9B1A-7A8B-A1EA-B1FD-FCF3DB850378</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-B1FD-FCF3DB850378</Name>
+	<Description>Z_INT_SpecialAccessMembersList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-17T06:54:17.721</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_SpecialAccessMembersList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-B1FD-FCF3DB858378"
+		/>
+	</Translations>
+</TextIdentifier>

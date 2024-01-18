@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-A1A5-FD18CBECE529">
+	<DocumentID>484D7EEB-7112-A1E9-A1A5-FD18CBECA529</DocumentID>
+	<Name>BCWebDir</Name>
+	<Description>BCWebDir</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-06-04T11:59:34.474</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="484D7EEB-7112-A1E9-A1A5-FD18CBEDA529"
+			path="Basic Components/Webdirs"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

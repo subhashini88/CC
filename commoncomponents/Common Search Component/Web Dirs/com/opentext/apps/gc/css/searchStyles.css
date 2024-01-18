@@ -1,0 +1,172 @@
+#searchContainer {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+}
+#searchField{
+    width: 100%;
+    height: 37px !important;
+    outline: none;
+    border: solid 2px !important;
+    border-color: rgb(102, 102, 102) !important;
+    border-right: none !important;
+    padding-left: 6px;
+}
+#searchPath{
+    width: 100%;
+    height: 37px;
+    outline: none;
+    margin-left: -4px;
+    border: solid 2px;
+    border-color: rgb(102, 102, 102);
+    background-repeat: no-repeat;
+    background-image: url(../img/caret_down.svg);
+    background-position: 99%;
+    background-size: 20px 20px;
+    -webkit-appearance: none;
+    padding: 5px 10px;
+    border-left: 1px solid;
+    cursor: pointer;
+}
+#searchButton{
+    width: 100px;
+    outline: none;
+    border-radius: 2em 2em 2em 2em;
+    height: 32px;
+    margin-bottom: 3px;
+    background-color: #232E72;
+    border-color: #232E72;
+}
+#advanceSearch{
+    position: absolute;
+    background-color:#ebebeb;
+    width:100%;
+    z-index: 1;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.25);
+}
+#closeIcon,#searchChevron{
+    width:19px;
+    height:19px;
+    vertical-align: unset;
+    cursor: pointer;
+}
+.label-no-bold,td{
+    font-weight: normal !important;
+    color: #666666;
+}
+#searchAllVersions, #hasComments, #hasLikes{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+th{
+    font-weight: normal;
+}
+#searchResultsTable {
+    position: absolute;
+    width: 100%;
+    bottom: 35px;
+    top: 155px;
+    overflow: auto;
+}
+#paginationID{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    background-color: #efefef !important;
+}
+#incrementer,#decrementer{
+    cursor: pointer;
+}
+table { 
+    width: 100%; 
+}
+th, td { 
+    padding: 8px 16px; 
+    border-bottom: 2px solid #ddd;
+}
+th {
+    background: #eee;
+    position: sticky;
+    top: 0;
+}
+::-webkit-scrollbar-track {
+    background: #DCDCDC;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #767676;
+    border-radius: 10px;
+}
+.form-control {
+    border: 1px solid rgba(102, 102, 102, 1);
+}
+#ascButton1, #descButton1 {
+    background-color: transparent;
+    border: 0;
+}
+#orderBy {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+}
+.fromDiv > .ui-datepicker-trigger {
+    position: relative;
+    float: right;
+    height: 25px;
+    margin-top: -37px;
+    margin-right: 5px;
+}
+.toDiv > .ui-datepicker-trigger {
+    position: relative;
+    float: right;
+    height: 25px;
+    margin-top: -37px;
+    margin-right: 5px;
+}
+.date-error {
+    border: 1px solid #df3324;
+    background-color: #fae9ea;
+}
+.validationMessages {
+    min-height: 16px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #df3324;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+    border-left: 3px solid #df3324;
+    border-radius: 2px;
+    padding: 0px 9px;
+}
+#createdFromDate, #createdToDate, #modifiedFromDate, #modifiedToDate {
+    margin-bottom: 8px;
+}
+
+.advance-heading-div{
+    float: left;
+}
+.advance-heading-img-div{
+    float: right;
+}
+
+#div_docDetails {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+}
+#div_docDetails.show {
+    visibility: visible;
+    text-align: center;
+}

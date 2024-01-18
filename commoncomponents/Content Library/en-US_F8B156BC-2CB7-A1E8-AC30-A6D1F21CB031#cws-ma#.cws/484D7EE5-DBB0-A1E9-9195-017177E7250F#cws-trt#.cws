@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9195-017177E7650F">
+	<DocumentID>484D7EE5-DBB0-A1E9-9195-017177E7250F</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9195-017177E7250F</Name>
+	<Description>Move to archieve</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-03-14T12:55:42.187</CreationDate>
+	<Notes/>
+	<Text>Move to archieve</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9195-017177E6A50F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

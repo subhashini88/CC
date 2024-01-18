@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-B4D8-A1ED-A537-C79468057B73">
+	<DocumentID>00505601-B4D8-A1ED-A537-C79468053B73</DocumentID>
+	<Name>00505601-B4D8-A1ED-A537-C79468053B73</Name>
+	<Description>Email address</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-01-15T14:16:48.37</CreationDate>
+	<Notes/>
+	<DefaultText>Email address</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-B4D8-A1ED-A537-C7946805BB73"
+		/>
+	</Translations>
+</TextIdentifier>

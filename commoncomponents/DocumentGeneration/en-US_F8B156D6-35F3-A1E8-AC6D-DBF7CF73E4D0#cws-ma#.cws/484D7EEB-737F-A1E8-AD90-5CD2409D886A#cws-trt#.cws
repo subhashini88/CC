@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1E8-AD90-5CD2409DC86A">
+	<DocumentID>484D7EEB-737F-A1E8-AD90-5CD2409D886A</DocumentID>
+	<Name>484D7EEB-737F-A1E8-AD90-5CD2409D886A</Name>
+	<Description>Pattern starts with</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-12T07:01:50.317</CreationDate>
+	<Notes/>
+	<Text>Pattern starts with</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1E8-AD90-5CD2409D086A"
+		/>
+	</TextIdentifier>
+</TranslatedText>

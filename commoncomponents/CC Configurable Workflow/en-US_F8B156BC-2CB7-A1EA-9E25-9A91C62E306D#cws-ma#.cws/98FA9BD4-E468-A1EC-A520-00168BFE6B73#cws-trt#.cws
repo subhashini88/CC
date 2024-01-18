@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9BD4-E468-A1EC-A520-00168BFEAB73">
+	<DocumentID>98FA9BD4-E468-A1EC-A520-00168BFE6B73</DocumentID>
+	<Name>98FA9BD4-E468-A1EC-A520-00168BFE6B73</Name>
+	<Description>Z_INT_AuthoringRulesList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-02-23T08:10:31.173</CreationDate>
+	<Notes/>
+	<Text>Z_INT_AuthoringRulesList</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9BD4-E468-A1EC-A520-00168BFDEB73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-A860-6D9541ADF077">
+	<DocumentID>F8B156BC-2CB7-A1EA-A860-6D9541ADB077</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-A860-6D9541ADB077</Name>
+	<Description>Process to execute</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-05-29T08:21:39.382</CreationDate>
+	<Notes/>
+	<Text>Process to execute</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-A860-6D9541AD3077"
+		/>
+	</TextIdentifier>
+</TranslatedText>

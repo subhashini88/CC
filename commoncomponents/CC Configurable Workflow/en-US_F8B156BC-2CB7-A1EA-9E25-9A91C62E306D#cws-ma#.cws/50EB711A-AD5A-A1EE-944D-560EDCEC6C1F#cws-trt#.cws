@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EE-944D-560EDCECAC1F">
+	<DocumentID>50EB711A-AD5A-A1EE-944D-560EDCEC6C1F</DocumentID>
+	<Name>50EB711A-AD5A-A1EE-944D-560EDCEC6C1F</Name>
+	<Description>NotifyTaskAssigned1</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-12T06:28:01.003</CreationDate>
+	<Notes/>
+	<Text>NotifyTaskAssigned1</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EE-944D-560EDCEBEC1F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

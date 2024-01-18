@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="00505601-7DE6-A1EB-A794-6CCD5658B02A">
+	<DocumentID>00505601-7DE6-A1EB-A794-6CCD5658702A</DocumentID>
+	<Name>00505601-7DE6-A1EB-A794-6CCD5658702A</Name>
+	<Description>Search configurations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-04-16T01:22:23.896</CreationDate>
+	<Notes/>
+	<DefaultText>Search configurations</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDDA523"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="00505601-7DE6-A1EB-A794-6CCD5658F02A"
+		/>
+	</Translations>
+</TextIdentifier>

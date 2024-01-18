@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-AD67-C25A2C91A4F4">
+	<DocumentID>484D7EE5-DBB0-A1E8-AD67-C25A2C9164F4</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-AD67-C25A2C9164F4</Name>
+	<Description>Received Unread</Description>
+	<CreatedBy>Harley</CreatedBy>
+	<CreationDate>2018-09-11T08:45:53.123</CreationDate>
+	<Notes/>
+	<Text>Received Unread</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-AD67-C25A2C90E4F4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

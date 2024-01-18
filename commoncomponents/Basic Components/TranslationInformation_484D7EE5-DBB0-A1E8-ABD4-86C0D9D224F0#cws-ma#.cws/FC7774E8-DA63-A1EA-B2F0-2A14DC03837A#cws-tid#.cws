@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-B2F0-2A14DC03C37A">
+	<DocumentID>FC7774E8-DA63-A1EA-B2F0-2A14DC03837A</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-B2F0-2A14DC03837A</Name>
+	<Description>GetAllSpecialAccess Members</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-07-22T02:22:19.123</CreationDate>
+	<Notes/>
+	<DefaultText>GetAllSpecialAccess Members</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E8-DA63-A1EA-B2F0-2A14DC04037A"
+		/>
+	</Translations>
+</TextIdentifier>

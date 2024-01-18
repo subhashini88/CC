@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="484D7EEB-7112-A1E9-96AA-D44B3CDFA523">
+	<DocumentID>484D7EEB-7112-A1E9-96AA-D44B3CDF6523</DocumentID>
+	<Name>Common Search Component</Name>
+	<Description>Common Search Component</Description>
+	<CreatedBy>dsrivard</CreatedBy>
+	<CreationDate>2019-04-09T11:12:15.822</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-96AA-D44B3CDE6523">
+			<DocumentID>484D7EEB-7112-A1E9-96AA-D44B3CDE2523</DocumentID>
+			<Name>OpenText Common Search Component</Name>
+			<Description>OpenText Common Search Component</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-04-09T11:12:15.822</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Common Search Component</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Common Search Component</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="484D7EEB-7112-A1E9-96AA-D44B3CDEE523"
+			path="Common Search Component"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="484D7EEB-7112-A1E9-96AA-D44B3CDDE523">
+			<DocumentID>484D7EEB-7112-A1E9-96AA-D44B3CDDA523</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>dsrivard</CreatedBy>
+			<CreationDate>2019-04-09T11:12:15.825</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="484D7EEB-7112-A1E9-96AA-D44B3CDCE523">
+					<DocumentID>484D7EEB-7112-A1E9-96AA-D44B3CDCA523</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>dsrivard</CreatedBy>
+					<CreationDate>2019-04-09T11:12:15.823</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="484D7EEB-7112-A1E9-96AA-D44B3CDC2523"
+							path="Common Search Component/en-US_484D7EEB-7112-A1E9-96AA-D44B3CDC2523"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="484D7EEB-7112-A1E9-96AA-D44B3CDDA523"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="484D7EEB-7112-A1E9-96AA-D44B3CDCA523"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="484D7EEB-7112-A1E9-96AA-D44B3CDD2523"
+					path="Common Search Component/TranslationInformation_484D7EEB-7112-A1E9-96AA-D44B3CDD2523"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

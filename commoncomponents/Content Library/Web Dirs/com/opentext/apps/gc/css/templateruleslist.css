@@ -1,0 +1,39 @@
+#table_ruleConditionsTable>tbody>tr:hover{
+    background-color: transparent !important;
+}
+#table_ruleConditionsTable>tbody>tr>td{
+    vertical-align: top !important;
+    line-height: 25px !important;
+}
+#table_rulesTable>tbody>tr:hover{
+    background-color: transparent !important;
+}
+.cchideelement {
+    display: none;
+}
+.cc-filter-body>div>select {
+	background-image: none !important;
+}
+#div_ruleLogicValidationMessage {
+    min-width: 250px;
+    background-color: #FFF6EE;
+    color: black;
+    padding: 10px;
+    border-bottom: 2px solid #DF6800;
+}
+ruleconditionbold {
+    font-weight: bold;
+}
+.rule_row{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.input-group-addon.cc-input-browse-icon {
+    height: 28px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

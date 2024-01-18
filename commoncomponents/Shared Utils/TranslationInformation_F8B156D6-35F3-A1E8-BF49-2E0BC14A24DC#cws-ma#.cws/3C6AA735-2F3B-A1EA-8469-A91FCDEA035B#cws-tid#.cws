@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3C6AA735-2F3B-A1EA-8469-A91FCDEA435B">
+	<DocumentID>3C6AA735-2F3B-A1EA-8469-A91FCDEA035B</DocumentID>
+	<Name>3C6AA735-2F3B-A1EA-8469-A91FCDEA035B</Name>
+	<Description>Are you sure you want to retreive and update external contacts from salesforce?</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-11-28T06:17:51.594</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure you want to retreive and update external contacts from salesforce?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3C6AA735-2F3B-A1EA-8469-A91FCDEA835B"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-1FCE1953B068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-1FCE19523068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-95A3-1FCE1950F068"
+		/>
+	</Translations>
+</TextIdentifier>

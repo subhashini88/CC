@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-BA69-1A196D626504">
+	<DocumentID>484D7EE5-DBB0-A1E8-BA69-1A196D622504</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-BA69-1A196D622504</Name>
+	<Description>Delete doc layout</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-16T13:35:36.564</CreationDate>
+	<Notes/>
+	<DefaultText>Delete doc layout</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7264D0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-BA66-1662678FA504"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EE-96D4-5172E87344B8">
+	<DocumentID>98FA9B1A-7A8B-A1EE-96D4-5172E87304B8</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EE-96D4-5172E87304B8</Name>
+	<Description>ApproveOrRejectOblTask</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-09-25T04:28:05.219</CreationDate>
+	<Notes/>
+	<Text>ApproveOrRejectOblTask</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1EA-9E25-9A91C62EB06D"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1EE-96D4-5172E87284B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

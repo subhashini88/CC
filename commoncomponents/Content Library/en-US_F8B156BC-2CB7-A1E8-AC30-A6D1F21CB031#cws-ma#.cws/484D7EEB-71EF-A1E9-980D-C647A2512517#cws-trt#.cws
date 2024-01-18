@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E9-980D-C647A2516517">
+	<DocumentID>484D7EEB-71EF-A1E9-980D-C647A2512517</DocumentID>
+	<Name>484D7EEB-71EF-A1E9-980D-C647A2512517</Name>
+	<Description>Append</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-16T11:02:48.462</CreationDate>
+	<Notes/>
+	<Text>Append</Text>
+	<Language>
+		<uri
+			id="F8B156BC-2CB7-A1E8-AC01-6819377F3031"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E9-980D-C647A250A517"
+		/>
+	</TextIdentifier>
+</TranslatedText>

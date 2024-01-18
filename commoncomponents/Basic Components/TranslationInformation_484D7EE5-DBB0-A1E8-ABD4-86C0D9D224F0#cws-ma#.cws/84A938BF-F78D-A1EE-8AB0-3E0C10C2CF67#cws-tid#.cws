@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="84A938BF-F78D-A1EE-8AB0-3E0C10C30F67">
+	<DocumentID>84A938BF-F78D-A1EE-8AB0-3E0C10C2CF67</DocumentID>
+	<Name>84A938BF-F78D-A1EE-8AB0-3E0C10C2CF67</Name>
+	<Description>Default BC log</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-07-25T08:00:15.24</CreationDate>
+	<Notes/>
+	<DefaultText>Default BC log</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="84A938BF-F78D-A1EE-8AB0-3E0C10C34F67"
+		/>
+	</Translations>
+</TextIdentifier>

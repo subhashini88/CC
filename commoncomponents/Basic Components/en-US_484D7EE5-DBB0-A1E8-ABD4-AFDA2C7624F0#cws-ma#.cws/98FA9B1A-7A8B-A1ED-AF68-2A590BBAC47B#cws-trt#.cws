@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1ED-AF68-2A590BBB047B">
+	<DocumentID>98FA9B1A-7A8B-A1ED-AF68-2A590BBAC47B</DocumentID>
+	<Name>98FA9B1A-7A8B-A1ED-AF68-2A590BBAC47B</Name>
+	<Description>ConcatenateAllRoles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-08T11:09:36.891</CreationDate>
+	<Notes/>
+	<Text>ConcatenateAllRoles</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B1A-7A8B-A1ED-AF68-2A590BBA447B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

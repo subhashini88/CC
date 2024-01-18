@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-B256-93B4AAF1F162">
+	<DocumentID>F8E4E399-CF40-A1ED-B256-93B4AAF1B162</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-B256-93B4AAF1B162</Name>
+	<Description>Z_INT_InactiveDocumentLayouts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-03-23T09:09:29.462</CreationDate>
+	<Notes/>
+	<Text>Z_INT_InactiveDocumentLayouts</Text>
+	<Language>
+		<uri
+			id="F8B156D6-35F3-A1E8-AC6D-DBF7CF7364D0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8E4E399-CF40-A1ED-B256-93B4AAF13162"
+		/>
+	</TextIdentifier>
+</TranslatedText>

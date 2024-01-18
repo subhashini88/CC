@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9B1A-7A8B-A1EA-BAFE-FB21AF7C8393">
+	<DocumentID>98FA9B1A-7A8B-A1EA-BAFE-FB21AF7C4393</DocumentID>
+	<Name>98FA9B1A-7A8B-A1EA-BAFE-FB21AF7C4393</Name>
+	<Description>steateslist</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-09-01T05:20:48.599</CreationDate>
+	<Notes/>
+	<DefaultText>steateslist</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9B1A-7A8B-A1EA-BAFE-FB21AF7CC393"
+		/>
+	</Translations>
+</TextIdentifier>

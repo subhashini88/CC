@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8E4E399-CF40-A1ED-9673-BD5FF810314F">
+	<DocumentID>F8E4E399-CF40-A1ED-9673-BD5FF80FF14F</DocumentID>
+	<Name>F8E4E399-CF40-A1ED-9673-BD5FF80FF14F</Name>
+	<Description>Link all existing organizations</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-11-01T10:22:28.347</CreationDate>
+	<Notes/>
+	<DefaultText>Link all existing organizations</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D2A4F0"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8E4E399-CF40-A1ED-9673-BD5FF810714F"
+		/>
+	</Translations>
+</TextIdentifier>

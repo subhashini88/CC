@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E8-B1B5-EE3DFE300876">
+	<DocumentID>B4B676CD-53D8-A1E8-B1B5-EE3DFE2FC876</DocumentID>
+	<Name>B4B676CD-53D8-A1E8-B1B5-EE3DFE2FC876</Name>
+	<Description>ReadGCTerm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T06:52:13.597</CreationDate>
+	<Notes/>
+	<Text>ReadGCTerm</Text>
+	<Language>
+		<uri
+			id="484D7EE5-DBB0-A1E8-ABD4-86C0D9D1A4F0"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E8-B1B5-EE3DFE2F4876"
+		/>
+	</TextIdentifier>
+</TranslatedText>

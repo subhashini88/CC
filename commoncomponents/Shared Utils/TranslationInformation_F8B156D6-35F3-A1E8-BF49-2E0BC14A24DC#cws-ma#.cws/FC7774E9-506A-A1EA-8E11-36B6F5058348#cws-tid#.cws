@@ -1,0 +1,33 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="FC7774E9-506A-A1EA-8E11-36B6F505C348">
+	<DocumentID>FC7774E9-506A-A1EA-8E11-36B6F5058348</DocumentID>
+	<Name>FC7774E9-506A-A1EA-8E11-36B6F5058348</Name>
+	<Description>Are you sure you want to delete ?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2020-01-16T09:48:56.76</CreationDate>
+	<Notes/>
+	<DefaultText>Are you sure you want to delete ?</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D6-35F3-A1E8-BF49-2E0BC14AA4DC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="FC7774E9-506A-A1EA-8E11-36B6F5060348"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-29C1C5537068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-29C1C551F068"
+		/>
+		<uri
+			id="F8B156BC-2CB7-A1EA-959F-29C1C550B068"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="98FA9BD4-E468-A1ED-9376-E07109A52BA0">
+	<DocumentID>98FA9BD4-E468-A1ED-9376-E07109A4EBA0</DocumentID>
+	<Name>98FA9BD4-E468-A1ED-9376-E07109A4EBA0</Name>
+	<Description>DeleteRelatedAttrDefinition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2022-10-17T05:25:08.223</CreationDate>
+	<Notes/>
+	<DefaultText>DeleteRelatedAttrDefinition</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1EB-BEAD-A6BEA231A714"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="98FA9BD4-E468-A1ED-9376-E07109A56BA0"
+		/>
+	</Translations>
+</TextIdentifier>
