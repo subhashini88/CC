@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-BA2C-BDF758B06504">
+	<DocumentID>484D7EEB-71EF-A1E8-BA2C-BDF758B02504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-BA2C-BDF758B02504</Name>
+	<Description>Process action</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-15T09:06:38.908</CreationDate>
+	<Notes/>
+	<Text>Process action</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-BA2C-BDF758AFA504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

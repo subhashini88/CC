@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-831F-A887C519AB4E">
+	<DocumentID>50EB711A-AD5A-A1EC-831F-A887C5196B4E</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-831F-A887C5196B4E</Name>
+	<Description>ReadRelatedProcessState</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-03T06:42:33.533</CreationDate>
+	<Notes/>
+	<Text>ReadRelatedProcessState</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-831F-A887C518EB4E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

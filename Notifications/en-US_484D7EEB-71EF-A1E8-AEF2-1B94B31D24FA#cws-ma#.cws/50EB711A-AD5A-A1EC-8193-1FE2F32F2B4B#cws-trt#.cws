@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8193-1FE2F32F6B4B">
+	<DocumentID>50EB711A-AD5A-A1EC-8193-1FE2F32F2B4B</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8193-1FE2F32F2B4B</Name>
+	<Description>getProcessFilterState</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-26T09:10:09.171</CreationDate>
+	<Notes/>
+	<Text>getProcessFilterState</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-8193-1FE2F32EAB4B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

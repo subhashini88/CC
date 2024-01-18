@@ -1,0 +1,19 @@
+
+<EmailTemplateBuildingBlock
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.buildingblocks.emailtemplate.EmailTemplateBuildingBlock"
+	typeVersion="37B215D1-B4AB-40A1-B3E3-3DE39BF492DA"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8C64-41783880AB5D">
+	<DocumentID>50EB711A-AD5A-A1EC-8C64-417838806B5D</DocumentID>
+	<Name>EmailTemplates</Name>
+	<Description>EmailTemplates</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-20T10:33:38.327</CreationDate>
+	<Notes/>
+	<EmailTemplates/>
+	<Entity>
+		<uri
+			id="50EB711A-AD5A-A1EC-8C64-417838866B5D"
+		/>
+	</Entity>
+</EmailTemplateBuildingBlock>

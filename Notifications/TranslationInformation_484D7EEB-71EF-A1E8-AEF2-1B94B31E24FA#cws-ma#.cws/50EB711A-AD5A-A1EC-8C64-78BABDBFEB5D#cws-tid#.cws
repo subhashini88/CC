@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8C64-78BABDC02B5D">
+	<DocumentID>50EB711A-AD5A-A1EC-8C64-78BABDBFEB5D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8C64-78BABDBFEB5D</Name>
+	<Description>Disable all</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-20T10:40:48.681</CreationDate>
+	<Notes/>
+	<DefaultText>Disable all</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-8C64-78BABDC06B5D"
+		/>
+	</Translations>
+</TextIdentifier>

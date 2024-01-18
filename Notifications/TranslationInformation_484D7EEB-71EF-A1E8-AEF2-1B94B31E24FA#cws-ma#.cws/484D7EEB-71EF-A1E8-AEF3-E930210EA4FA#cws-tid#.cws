@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AEF3-E930210EE4FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AEF3-E930210EA4FA</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-AEF3-E930210EA4FA</Name>
+	<Description>DiableDefaultForm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-19T06:00:36.801</CreationDate>
+	<Notes/>
+	<DefaultText>DiableDefaultForm</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF3-E930210F24FA"
+		/>
+	</Translations>
+</TextIdentifier>

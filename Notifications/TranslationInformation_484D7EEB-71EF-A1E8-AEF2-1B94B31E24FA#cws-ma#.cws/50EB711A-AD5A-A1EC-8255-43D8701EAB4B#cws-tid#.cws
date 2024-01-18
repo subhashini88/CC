@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8255-43D8701EEB4B">
+	<DocumentID>50EB711A-AD5A-A1EC-8255-43D8701EAB4B</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8255-43D8701EAB4B</Name>
+	<Description>Z_INT_ConfiguratorDisplayNonStateList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-30T05:43:08.022</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_ConfiguratorDisplayNonStateList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-8255-43D8701F2B4B"
+		/>
+	</Translations>
+</TextIdentifier>

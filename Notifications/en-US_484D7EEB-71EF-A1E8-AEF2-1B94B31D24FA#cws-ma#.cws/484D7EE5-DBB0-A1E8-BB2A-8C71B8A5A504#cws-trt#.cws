@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-BB2A-8C71B8A5E504">
+	<DocumentID>484D7EE5-DBB0-A1E8-BB2A-8C71B8A5A504</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-BB2A-8C71B8A5A504</Name>
+	<Description>ConfiguratorHistoryLog</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-20T09:58:51.437</CreationDate>
+	<Notes/>
+	<Text>ConfiguratorHistoryLog</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-BB2A-8C71B8A52504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

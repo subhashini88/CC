@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-818B-7360768E6B4B">
+	<DocumentID>50EB711A-AD5A-A1EC-818B-7360768E2B4B</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-818B-7360768E2B4B</Name>
+	<Description>Z_INT_ActionFilteredList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-26T06:00:28.489</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ActionFilteredList</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-818B-7360768DAB4B"
+		/>
+	</TextIdentifier>
+</TranslatedText>

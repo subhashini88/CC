@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-AA85-803B933EA653">
+	<DocumentID>8C1645B9-0967-A1E9-AA85-803B933E6653</DocumentID>
+	<Name>8C1645B9-0967-A1E9-AA85-803B933E6653</Name>
+	<Description>Form mail Ids</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-19T11:24:57.215</CreationDate>
+	<Notes/>
+	<Text>Form mail Ids</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-AA85-803B933DE653"
+		/>
+	</TextIdentifier>
+</TranslatedText>

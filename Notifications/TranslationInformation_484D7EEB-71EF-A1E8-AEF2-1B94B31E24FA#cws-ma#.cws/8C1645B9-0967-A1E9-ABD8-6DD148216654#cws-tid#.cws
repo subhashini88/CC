@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-ABD8-6DD14821A654">
+	<DocumentID>8C1645B9-0967-A1E9-ABD8-6DD148216654</DocumentID>
+	<Name>8C1645B9-0967-A1E9-ABD8-6DD148216654</Name>
+	<Description>ParseAdditoinalMailIds (TOList)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-26T05:46:55.652</CreationDate>
+	<Notes/>
+	<DefaultText>ParseAdditoinalMailIds (TOList)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="8C1645B9-0967-A1E9-ABD8-6DD14821E654"
+		/>
+	</Translations>
+</TextIdentifier>

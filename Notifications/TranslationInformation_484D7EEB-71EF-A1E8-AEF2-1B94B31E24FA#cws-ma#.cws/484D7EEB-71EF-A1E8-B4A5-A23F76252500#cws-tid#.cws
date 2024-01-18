@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B4A5-A23F76256500">
+	<DocumentID>484D7EEB-71EF-A1E8-B4A5-A23F76252500</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B4A5-A23F76252500</Name>
+	<Description>Send to list (seperated by ;)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-18T05:59:04.851</CreationDate>
+	<Notes/>
+	<DefaultText>Send to list (seperated by ;)</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-B4A5-A23F7625A500"
+		/>
+	</Translations>
+</TextIdentifier>

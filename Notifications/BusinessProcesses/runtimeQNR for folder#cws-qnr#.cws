@@ -1,0 +1,13 @@
+
+<QualifiedNameRoot
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	typeVersion="9bd1dc20-2f5e-11e3-aa6e-0800200c9a66"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-AF24-16A48CE118B3">
+	<DocumentID>3417EB96-8F1F-A1E8-AF24-16A48CE0D8B3</DocumentID>
+	<Name>runtimeQNR for folder</Name>
+	<Description>runtimeQNR for folder</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-09-20T04:50:02.096</CreationDate>
+	<Notes/>
+</QualifiedNameRoot>

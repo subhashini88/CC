@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-737F-A1EC-8263-87A95F3F8893">
+	<DocumentID>484D7EEB-737F-A1EC-8263-87A95F3F4893</DocumentID>
+	<Name>484D7EEB-737F-A1EC-8263-87A95F3F4893</Name>
+	<Description>Expiry date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-08-30T12:57:46.624</CreationDate>
+	<Notes/>
+	<Text>Expiry date</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-737F-A1EC-8263-87A95F3EC893"
+		/>
+	</TextIdentifier>
+</TranslatedText>

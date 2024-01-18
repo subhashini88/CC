@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-BB83-1C8CF556A504">
+	<DocumentID>484D7EE5-DBB0-A1E8-BB83-1C8CF5566504</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-BB83-1C8CF5566504</Name>
+	<Description>Clear Email Ids</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-22T04:12:31.395</CreationDate>
+	<Notes/>
+	<DefaultText>Clear Email Ids</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-BB83-1C8CF556E504"
+		/>
+	</Translations>
+</TextIdentifier>

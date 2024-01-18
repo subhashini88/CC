@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AF26-907A1FBCA4FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AF26-907A1FBC64FA</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-AF26-907A1FBC64FA</Name>
+	<Description>clear relationships</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T06:28:59.599</CreationDate>
+	<Notes/>
+	<Text>clear relationships</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-AF26-907A1FBBE4FA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

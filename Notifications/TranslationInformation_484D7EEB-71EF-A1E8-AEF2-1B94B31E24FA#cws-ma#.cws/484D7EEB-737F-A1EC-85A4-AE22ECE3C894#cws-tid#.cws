@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EC-85A4-AE22ECE40894">
+	<DocumentID>484D7EEB-737F-A1EC-85A4-AE22ECE3C894</DocumentID>
+	<Name>484D7EEB-737F-A1EC-85A4-AE22ECE3C894</Name>
+	<Description>target CC Notifications</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-16T02:20:39.207</CreationDate>
+	<Notes/>
+	<DefaultText>target CC Notifications</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EC-85A4-AE22ECE44894"
+		/>
+	</Translations>
+</TextIdentifier>

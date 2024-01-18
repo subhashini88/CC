@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B1C0-6E21F475A4FC">
+	<DocumentID>484D7EEB-71EF-A1E8-B1C0-6E21F47564FC</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B1C0-6E21F47564FC</Name>
+	<Description>Static folder</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-10-03T11:44:54.381</CreationDate>
+	<Notes/>
+	<Text>Static folder</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B1C0-6E21F474E4FC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-79C2-A1EC-891A-495CE3BAED69">
+	<DocumentID>00505601-79C2-A1EC-891A-495CE3BAAD69</DocumentID>
+	<Name>00505601-79C2-A1EC-891A-495CE3BAAD69</Name>
+	<Description>Triggered on date</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-03T16:56:54.601</CreationDate>
+	<Notes/>
+	<Text>Triggered on date</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-79C2-A1EC-891A-495CE3BA2D69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

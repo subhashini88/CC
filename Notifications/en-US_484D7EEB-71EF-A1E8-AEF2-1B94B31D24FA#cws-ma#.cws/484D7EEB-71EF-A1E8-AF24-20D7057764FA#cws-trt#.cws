@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AF24-20D70577A4FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AF24-20D7057764FA</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-AF24-20D7057764FA</Name>
+	<Description>Hide state</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T04:51:14.422</CreationDate>
+	<Notes/>
+	<Text>Hide state</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-AF24-20D70576E4FA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

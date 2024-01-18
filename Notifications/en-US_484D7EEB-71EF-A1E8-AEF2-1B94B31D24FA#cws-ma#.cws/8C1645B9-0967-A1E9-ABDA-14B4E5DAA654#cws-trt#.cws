@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="8C1645B9-0967-A1E9-ABDA-14B4E5DAE654">
+	<DocumentID>8C1645B9-0967-A1E9-ABDA-14B4E5DAA654</DocumentID>
+	<Name>8C1645B9-0967-A1E9-ABDA-14B4E5DAA654</Name>
+	<Description>ParseAdditoinalMailIds(CCList)</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-07-26T05:50:10.531</CreationDate>
+	<Notes/>
+	<Text>ParseAdditoinalMailIds(CCList)</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="8C1645B9-0967-A1E9-ABDA-14B4E5DA2654"
+		/>
+	</TextIdentifier>
+</TranslatedText>

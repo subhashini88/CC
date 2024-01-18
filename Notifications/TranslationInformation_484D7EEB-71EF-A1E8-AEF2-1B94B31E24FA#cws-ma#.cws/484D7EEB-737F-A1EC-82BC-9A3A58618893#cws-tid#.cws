@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-737F-A1EC-82BC-9A3A5861C893">
+	<DocumentID>484D7EEB-737F-A1EC-82BC-9A3A58618893</DocumentID>
+	<Name>484D7EEB-737F-A1EC-82BC-9A3A58618893</Name>
+	<Description>User notification targets</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-01T07:08:25.499</CreationDate>
+	<Notes/>
+	<DefaultText>User notification targets</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-737F-A1EC-82BC-9A3A58620893"
+		/>
+	</Translations>
+</TextIdentifier>

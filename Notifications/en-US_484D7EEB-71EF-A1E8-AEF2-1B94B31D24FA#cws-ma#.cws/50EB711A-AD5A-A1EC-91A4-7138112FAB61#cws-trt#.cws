@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-91A4-7138112FEB61">
+	<DocumentID>50EB711A-AD5A-A1EC-91A4-7138112FAB61</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-91A4-7138112FAB61</Name>
+	<Description>EmailEnabled</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-16T04:16:59.592</CreationDate>
+	<Notes/>
+	<Text>EmailEnabled</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-91A4-7138112F2B61"
+		/>
+	</TextIdentifier>
+</TranslatedText>

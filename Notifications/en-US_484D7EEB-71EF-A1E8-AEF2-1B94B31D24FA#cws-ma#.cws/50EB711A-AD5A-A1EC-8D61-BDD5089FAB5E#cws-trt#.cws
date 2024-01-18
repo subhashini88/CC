@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8D61-BDD5089FEB5E">
+	<DocumentID>50EB711A-AD5A-A1EC-8D61-BDD5089FAB5E</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8D61-BDD5089FAB5E</Name>
+	<Description>Z_INT_UserNotificationConfigList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-25T11:35:47.051</CreationDate>
+	<Notes/>
+	<Text>Z_INT_UserNotificationConfigList</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-8D61-BDD5089F2B5E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

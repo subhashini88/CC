@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8C64-5ADB34A86B5D">
+	<DocumentID>50EB711A-AD5A-A1EC-8C64-5ADB34A82B5D</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8C64-5ADB34A82B5D</Name>
+	<Description>EmailSubscribed</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-10-20T10:38:16.269</CreationDate>
+	<Notes/>
+	<Text>EmailSubscribed</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-8C64-5ADB34A7AB5D"
+		/>
+	</TextIdentifier>
+</TranslatedText>

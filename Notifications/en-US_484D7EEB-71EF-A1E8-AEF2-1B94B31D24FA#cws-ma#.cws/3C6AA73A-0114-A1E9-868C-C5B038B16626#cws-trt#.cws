@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-868C-C5B038B1A626">
+	<DocumentID>3C6AA73A-0114-A1E9-868C-C5B038B16626</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-868C-C5B038B16626</Name>
+	<Description>ImportProcess</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-17T08:37:28.044</CreationDate>
+	<Notes/>
+	<Text>ImportProcess</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-868C-C5B038B0E626"
+		/>
+	</TextIdentifier>
+</TranslatedText>

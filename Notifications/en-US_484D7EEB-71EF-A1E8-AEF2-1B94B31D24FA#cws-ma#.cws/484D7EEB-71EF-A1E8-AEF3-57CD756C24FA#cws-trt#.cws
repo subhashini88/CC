@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AEF3-57CD756C64FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AEF3-57CD756C24FA</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-AEF3-57CD756C24FA</Name>
+	<Description>Related process state</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-19T05:34:40.547</CreationDate>
+	<Notes/>
+	<Text>Related process state</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF3-57CD756BA4FA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

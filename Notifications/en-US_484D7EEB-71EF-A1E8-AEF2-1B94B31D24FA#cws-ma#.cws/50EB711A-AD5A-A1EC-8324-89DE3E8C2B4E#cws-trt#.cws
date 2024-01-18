@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-8324-89DE3E8C6B4E">
+	<DocumentID>50EB711A-AD5A-A1EC-8324-89DE3E8C2B4E</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-8324-89DE3E8C2B4E</Name>
+	<Description>Z_INT_ConfiguratorRolesList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-09-03T08:43:48.486</CreationDate>
+	<Notes/>
+	<Text>Z_INT_ConfiguratorRolesList</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-AD5A-A1EC-8324-89DE3E8BAB4E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

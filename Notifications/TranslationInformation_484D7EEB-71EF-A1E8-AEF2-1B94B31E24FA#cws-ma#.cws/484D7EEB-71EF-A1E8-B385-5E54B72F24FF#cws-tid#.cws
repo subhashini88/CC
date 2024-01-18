@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B385-5E54B72F64FF">
+	<DocumentID>484D7EEB-71EF-A1E8-B385-5E54B72F24FF</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B385-5E54B72F24FF</Name>
+	<Description>Process layout</Description>
+	<CreatedBy>nareshp</CreatedBy>
+	<CreationDate>2018-10-15T08:18:25.53</CreationDate>
+	<Notes/>
+	<DefaultText>Process layout</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EEB-71EF-A1E8-B385-5E54B72FA4FF"
+		/>
+	</Translations>
+</TextIdentifier>

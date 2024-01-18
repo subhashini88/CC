@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-BA2C-BDF758BC6504">
+	<DocumentID>484D7EEB-71EF-A1E8-BA2C-BDF758BC2504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-BA2C-BDF758BC2504</Name>
+	<Description>configurator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-15T08:53:38.744</CreationDate>
+	<Notes/>
+	<Text>configurator</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-BA2C-BDF758BBA504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

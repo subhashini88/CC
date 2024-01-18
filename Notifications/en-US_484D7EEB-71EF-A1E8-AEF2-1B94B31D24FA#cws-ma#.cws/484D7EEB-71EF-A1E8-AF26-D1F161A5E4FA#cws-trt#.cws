@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-AF26-D1F161A624FA">
+	<DocumentID>484D7EEB-71EF-A1E8-AF26-D1F161A5E4FA</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-AF26-D1F161A5E4FA</Name>
+	<Description>clearActions</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-09-20T06:07:55.933</CreationDate>
+	<Notes/>
+	<Text>clearActions</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-AF26-D1F161A564FA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

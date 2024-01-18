@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="50EB711A-AD5A-A1EC-90DA-EB9E48502B61">
+	<DocumentID>50EB711A-AD5A-A1EC-90DA-FC09AD4AEB61</DocumentID>
+	<Name>50EB711A-AD5A-A1EC-90DA-FC09AD4AEB61</Name>
+	<Description>RelatedProcessRoles</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2021-11-12T03:52:43.875</CreationDate>
+	<Notes/>
+	<DefaultText>RelatedProcessRoles</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31EA4FA"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="50EB711A-AD5A-A1EC-90DA-EB9E48506B61"
+		/>
+	</Translations>
+</TextIdentifier>

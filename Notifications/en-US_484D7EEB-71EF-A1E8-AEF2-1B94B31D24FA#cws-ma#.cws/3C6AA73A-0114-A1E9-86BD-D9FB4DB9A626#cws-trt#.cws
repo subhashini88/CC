@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-86BD-D9FB4DB9E626">
+	<DocumentID>3C6AA73A-0114-A1E9-86BD-D9FB4DB9A626</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-86BD-D9FB4DB9A626</Name>
+	<Description>ImportConfigurators</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-01-18T08:02:37.383</CreationDate>
+	<Notes/>
+	<Text>ImportConfigurators</Text>
+	<Language>
+		<uri
+			id="484D7EEB-71EF-A1E8-AEF2-1B94B31DA4FA"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-86BD-D9FB4DB92626"
+		/>
+	</TextIdentifier>
+</TranslatedText>
