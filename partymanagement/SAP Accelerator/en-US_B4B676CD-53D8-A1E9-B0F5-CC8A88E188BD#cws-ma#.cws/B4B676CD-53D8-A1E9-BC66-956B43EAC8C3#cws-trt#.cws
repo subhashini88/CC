@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-BC66-956B43EB08C3">
+	<DocumentID>B4B676CD-53D8-A1E9-BC66-956B43EAC8C3</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-BC66-956B43EAC8C3</Name>
+	<Description>Mapping name</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-18T11:31:18.949</CreationDate>
+	<Notes/>
+	<Text>Mapping name</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-BC66-956B43EA48C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

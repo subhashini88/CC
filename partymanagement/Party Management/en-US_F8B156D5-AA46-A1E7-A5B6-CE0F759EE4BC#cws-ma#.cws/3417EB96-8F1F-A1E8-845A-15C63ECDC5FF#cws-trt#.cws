@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-845A-15C63ECE05FF">
+	<DocumentID>3417EB96-8F1F-A1E8-845A-15C63ECDC5FF</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-845A-15C63ECDC5FF</Name>
+	<Description>Replacemnet manager</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2018-02-14T11:42:18.876</CreationDate>
+	<Notes/>
+	<Text>Replacemnet manager</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-845A-15C63ECD45FF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

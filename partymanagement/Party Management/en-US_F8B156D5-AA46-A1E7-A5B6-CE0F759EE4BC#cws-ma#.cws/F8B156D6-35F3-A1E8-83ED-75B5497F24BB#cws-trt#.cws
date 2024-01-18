@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-83ED-75B5497F64BB">
+	<DocumentID>F8B156D6-35F3-A1E8-83ED-75B5497F24BB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-83ED-75B5497F24BB</Name>
+	<Description>Set manager name</Description>
+	<CreatedBy>Yogesh Chaube</CreatedBy>
+	<CreationDate>2018-02-12T05:33:28.109</CreationDate>
+	<Notes/>
+	<Text>Set manager name</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-83ED-75B5497EA4BB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

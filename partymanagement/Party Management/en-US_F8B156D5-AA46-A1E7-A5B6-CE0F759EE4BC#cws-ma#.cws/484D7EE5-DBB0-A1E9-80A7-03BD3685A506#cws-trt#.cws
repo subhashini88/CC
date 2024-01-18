@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-80A7-03BD3685E506">
+	<DocumentID>484D7EE5-DBB0-A1E9-80A7-03BD3685A506</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-80A7-03BD3685A506</Name>
+	<Description>Email validation on change</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-12-18T08:11:08.262</CreationDate>
+	<Notes/>
+	<Text>Email validation on change</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-80A7-03BD36852506"
+		/>
+	</TextIdentifier>
+</TranslatedText>

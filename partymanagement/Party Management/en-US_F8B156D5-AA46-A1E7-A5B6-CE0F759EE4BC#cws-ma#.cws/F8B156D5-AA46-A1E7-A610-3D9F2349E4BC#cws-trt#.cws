@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A610-3D9F234A24BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A610-3D9F2349E4BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A610-3D9F2349E4BC</Name>
+	<Description>Hide company</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-13T05:22:44.11</CreationDate>
+	<Notes/>
+	<Text>Hide company</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A610-3D9F234964BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

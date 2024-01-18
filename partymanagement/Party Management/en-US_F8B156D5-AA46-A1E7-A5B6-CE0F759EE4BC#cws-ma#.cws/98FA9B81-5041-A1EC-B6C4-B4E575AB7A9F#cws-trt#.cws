@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="98FA9B81-5041-A1EC-B6C4-B4E575ABBA9F">
+	<DocumentID>98FA9B81-5041-A1EC-B6C4-B4E575AB7A9F</DocumentID>
+	<Name>98FA9B81-5041-A1EC-B6C4-B4E575AB7A9F</Name>
+	<Description>getContactswithFilters</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2022-05-24T03:37:53.726</CreationDate>
+	<Notes/>
+	<Text>getContactswithFilters</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="98FA9B81-5041-A1EC-B6C4-B4E575AAFA9F"
+		/>
+	</TextIdentifier>
+</TranslatedText>

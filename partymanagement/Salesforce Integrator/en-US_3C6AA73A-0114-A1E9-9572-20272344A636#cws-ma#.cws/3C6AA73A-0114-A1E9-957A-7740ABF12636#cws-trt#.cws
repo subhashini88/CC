@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-957A-7740ABF16636">
+	<DocumentID>3C6AA73A-0114-A1E9-957A-7740ABF12636</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-957A-7740ABF12636</Name>
+	<Description>Client Secret</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-03T08:39:53.388</CreationDate>
+	<Notes/>
+	<Text>Client Secret</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-957A-7740ABF0A636"
+		/>
+	</TextIdentifier>
+</TranslatedText>

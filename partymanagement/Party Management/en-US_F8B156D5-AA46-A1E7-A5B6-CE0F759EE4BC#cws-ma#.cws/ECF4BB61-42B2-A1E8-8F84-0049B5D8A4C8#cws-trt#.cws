@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="ECF4BB61-42B2-A1E8-8F84-0049B5D8E4C8">
+	<DocumentID>ECF4BB61-42B2-A1E8-8F84-0049B5D8A4C8</DocumentID>
+	<Name>ECF4BB61-42B2-A1E8-8F84-0049B5D8A4C8</Name>
+	<Description>SAP sold to account</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-04-12T05:17:23.445</CreationDate>
+	<Notes/>
+	<Text>SAP sold to account</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="ECF4BB61-42B2-A1E8-8F84-0049B5D824C8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

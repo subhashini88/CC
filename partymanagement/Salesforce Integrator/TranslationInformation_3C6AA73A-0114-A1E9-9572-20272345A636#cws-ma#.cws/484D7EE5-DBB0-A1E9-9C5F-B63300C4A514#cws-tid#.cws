@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9C5F-B63300C4E514">
+	<DocumentID>484D7EE5-DBB0-A1E9-9C5F-B63300C4A514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9C5F-B63300C4A514</Name>
+	<Description>FetchSalesforceContactByAccountId</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-08T10:50:18.853</CreationDate>
+	<Notes/>
+	<DefaultText>FetchSalesforceContactByAccountId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723462636"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9C5F-B63300C52514"
+		/>
+	</Translations>
+</TextIdentifier>

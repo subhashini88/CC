@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B640-446EA12C08BF">
+	<DocumentID>B4B676CD-53D8-A1E9-B640-446EA12BC8BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B640-446EA12BC8BF</Name>
+	<Description>BAPI_COMPANY_GETDETAIL</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-17T14:26:03.521</CreationDate>
+	<Notes/>
+	<Text>BAPI_COMPANY_GETDETAIL</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-B640-446EA12B48BF"
+		/>
+	</TextIdentifier>
+</TranslatedText>

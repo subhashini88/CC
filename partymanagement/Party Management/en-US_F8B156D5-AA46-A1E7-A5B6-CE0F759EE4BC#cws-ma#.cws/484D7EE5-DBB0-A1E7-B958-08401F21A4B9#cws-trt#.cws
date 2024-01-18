@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-B958-08401F21E4B9">
+	<DocumentID>484D7EE5-DBB0-A1E7-B958-08401F21A4B9</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-B958-08401F21A4B9</Name>
+	<Description>Collection account action</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2017-12-20T08:59:52.575</CreationDate>
+	<Notes/>
+	<Text>Collection account action</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E7-B958-08401F2124B9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

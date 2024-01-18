@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A7D9-1F45521364BD">
+	<DocumentID>F8B156D5-AA46-A1E7-A7D9-1F45521324BD</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A7D9-1F45521324BD</Name>
+	<Description>All account number list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-22T07:50:05.618</CreationDate>
+	<Notes/>
+	<Text>All account number list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A7D9-1F455212A4BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

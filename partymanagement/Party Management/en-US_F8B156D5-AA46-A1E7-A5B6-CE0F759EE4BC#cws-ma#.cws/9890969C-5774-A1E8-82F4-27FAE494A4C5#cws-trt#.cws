@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E8-82F4-27FAE494E4C5">
+	<DocumentID>9890969C-5774-A1E8-82F4-27FAE494A4C5</DocumentID>
+	<Name>9890969C-5774-A1E8-82F4-27FAE494A4C5</Name>
+	<Description>check</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2018-02-07T06:34:32.308</CreationDate>
+	<Notes/>
+	<Text>check</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E8-82F4-27FAE49424C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

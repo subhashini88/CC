@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="4889E768-8755-A1E9-B3B9-8C1680CE033E">
+	<DocumentID>4889E768-8755-A1E9-B3B9-8C1680CDC33E</DocumentID>
+	<Name>4889E768-8755-A1E9-B3B9-8C1680CDC33E</Name>
+	<Description>warning-sign</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-04T09:07:04.073</CreationDate>
+	<Notes/>
+	<DefaultText>warning-sign</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="4889E768-8755-A1E9-B3B9-8C1680CE433E"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-BF0B-DB402344A4BC">
+	<DocumentID>484D7EE5-DBB0-A1E7-BF0B-DB40234464BC</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-BF0B-DB40234464BC</Name>
+	<Description>Collection account_7</Description>
+	<CreatedBy>cadmin</CreatedBy>
+	<CreationDate>2018-01-18T09:16:32.468</CreationDate>
+	<Notes/>
+	<DefaultText>Collection account_7</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-BF0B-DB402344E4BC"
+		/>
+	</Translations>
+</TextIdentifier>

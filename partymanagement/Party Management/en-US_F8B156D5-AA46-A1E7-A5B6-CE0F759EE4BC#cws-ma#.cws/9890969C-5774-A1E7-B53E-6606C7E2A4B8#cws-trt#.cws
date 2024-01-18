@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B53E-6606C7E2E4B8">
+	<DocumentID>9890969C-5774-A1E7-B53E-6606C7E2A4B8</DocumentID>
+	<Name>9890969C-5774-A1E7-B53E-6606C7E2A4B8</Name>
+	<Description>Client accounts list</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-29T11:37:17.29</CreationDate>
+	<Notes/>
+	<Text>Client accounts list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B53E-6606C7E224B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="4889E768-8755-A1E9-B384-29E15313833C">
+	<DocumentID>4889E768-8755-A1E9-B384-29E15313433C</DocumentID>
+	<Name>4889E768-8755-A1E9-B384-29E15313433C</Name>
+	<Description>Consider the impact before making changes to the external contact details because the changes will reflect globally.</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-03T06:29:33.579</CreationDate>
+	<Notes/>
+	<Text>Consider the impact before making changes to the external contact details because the changes will reflect globally.</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="4889E768-8755-A1E9-B384-29E15312C33C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

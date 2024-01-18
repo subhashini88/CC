@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="FC7774E8-DA63-A1EA-885C-513E22418344">
+	<DocumentID>FC7774E8-DA63-A1EA-885C-513E22414344</DocumentID>
+	<Name>FC7774E8-DA63-A1EA-885C-513E22414344</Name>
+	<Description>SalesforceConfiguratorHistoryLogs</Description>
+	<CreatedBy>varshakabilan</CreatedBy>
+	<CreationDate>2019-12-18T08:35:42.869</CreationDate>
+	<Notes/>
+	<Text>SalesforceConfiguratorHistoryLogs</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="FC7774E8-DA63-A1EA-885C-513E2240C344"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CB4-97A4CFB4A4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CB4-97A4CFB464DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CB4-97A4CFB464DE</Name>
+	<Description>Managers list_164</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T09:10:04.054</CreationDate>
+	<Notes/>
+	<Text>Managers list_164</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CB4-97A4CFB3E4DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

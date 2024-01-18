@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B1ED-9E46468D08BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B1ED-9E46468CC8BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B1ED-9E46468CC8BD</Name>
+	<Description>CreateOrUpdateSAPCustAccounts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-26T04:03:35.587</CreationDate>
+	<Notes/>
+	<Text>CreateOrUpdateSAPCustAccounts</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-B1ED-9E46468C48BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A8D9-9340BEC024BE">
+	<DocumentID>F8B156D5-AA46-A1E7-A8D9-9340BEBFE4BE</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A8D9-9340BEBFE4BE</Name>
+	<Description>Config account manager list</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-27T09:35:52.577</CreationDate>
+	<Notes/>
+	<Text>Config account manager list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A8D9-9340BEBF64BE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

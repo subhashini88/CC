@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-BC5C-96F9BD2F48C3">
+	<DocumentID>B4B676CD-53D8-A1E9-BC5C-96F9BD2F08C3</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-BC5C-96F9BD2F08C3</Name>
+	<Description>CreateOrUpdateSAPContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-18T06:41:51.562</CreationDate>
+	<Notes/>
+	<Text>CreateOrUpdateSAPContacts</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-BC5C-96F9BD2E88C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

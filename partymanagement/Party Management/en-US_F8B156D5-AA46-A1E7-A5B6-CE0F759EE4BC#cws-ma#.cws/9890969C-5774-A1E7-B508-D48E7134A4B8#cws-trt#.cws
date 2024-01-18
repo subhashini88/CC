@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B508-D48E7134E4B8">
+	<DocumentID>9890969C-5774-A1E7-B508-D48E7134A4B8</DocumentID>
+	<Name>9890969C-5774-A1E7-B508-D48E7134A4B8</Name>
+	<Description>Collection account</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-28T11:08:07.564</CreationDate>
+	<Notes/>
+	<Text>Collection account</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B508-D48E713424B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

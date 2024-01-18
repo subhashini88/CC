@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-9DE7-F15D52874894">
+	<DocumentID>B4B676CD-53D8-A1E9-9DE7-F15D52870894</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-9DE7-F15D52870894</Name>
+	<Description>FetchSalesforceAccountById</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-16T08:15:37.328</CreationDate>
+	<Notes/>
+	<Text>FetchSalesforceAccountById</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-9DE7-F15D52868894"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B6BD-9776915708BF">
+	<DocumentID>B4B676CD-53D8-A1E9-B6BD-97769156C8BF</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B6BD-97769156C8BF</Name>
+	<Description>BAPI_CUSTOMER_GETCONTACTLIST</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-19T16:03:05.394</CreationDate>
+	<Notes/>
+	<DefaultText>BAPI_CUSTOMER_GETCONTACTLIST</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E308BD"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-B6BD-9776915748BF"
+		/>
+	</Translations>
+</TextIdentifier>

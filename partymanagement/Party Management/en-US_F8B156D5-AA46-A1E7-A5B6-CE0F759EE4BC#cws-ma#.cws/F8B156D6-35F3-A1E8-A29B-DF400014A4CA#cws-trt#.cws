@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A29B-DF400014E4CA">
+	<DocumentID>F8B156D6-35F3-A1E8-A29B-DF400014A4CA</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A29B-DF400014A4CA</Name>
+	<Description>account manager</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-18T09:47:35.148</CreationDate>
+	<Notes/>
+	<Text>account manager</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A29B-DF40001424CA"
+		/>
+	</TextIdentifier>
+</TranslatedText>

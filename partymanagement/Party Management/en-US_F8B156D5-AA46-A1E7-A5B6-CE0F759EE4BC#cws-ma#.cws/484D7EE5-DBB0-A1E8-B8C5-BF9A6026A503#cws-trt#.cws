@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B8C5-BF9A6026E503">
+	<DocumentID>484D7EE5-DBB0-A1E8-B8C5-BF9A6026A503</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B8C5-BF9A6026A503</Name>
+	<Description>Party list action bar</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-11-08T05:36:20.594</CreationDate>
+	<Notes/>
+	<Text>Party list action bar</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B8C5-BF9A60262503"
+		/>
+	</TextIdentifier>
+</TranslatedText>

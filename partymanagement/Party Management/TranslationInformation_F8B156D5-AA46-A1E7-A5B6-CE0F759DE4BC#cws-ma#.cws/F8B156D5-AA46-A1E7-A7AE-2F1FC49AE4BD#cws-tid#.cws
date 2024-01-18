@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A7AD-4424E85364BD">
+	<DocumentID>F8B156D5-AA46-A1E7-A7AE-2F1FC49AE4BD</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A7AE-2F1FC49AE4BD</Name>
+	<Description>Related account numbers form</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-21T10:36:51.035</CreationDate>
+	<Notes/>
+	<DefaultText>Related account numbers form</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A7AD-4424E853A4BD"
+		/>
+	</Translations>
+</TextIdentifier>

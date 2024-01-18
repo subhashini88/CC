@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="80000B02-C91A-A1E8-8B32-4F01278A64C5">
+	<DocumentID>80000B02-C91A-A1E8-8B32-4F01278A24C5</DocumentID>
+	<Name>80000B02-C91A-A1E8-8B32-4F01278A24C5</Name>
+	<Description>Product group/Region</Description>
+	<CreatedBy>kasim</CreatedBy>
+	<CreationDate>2018-03-21T05:36:09.581</CreationDate>
+	<Notes/>
+	<Text>Product group/Region</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="80000B02-C91A-A1E8-8B32-4F012789A4C5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

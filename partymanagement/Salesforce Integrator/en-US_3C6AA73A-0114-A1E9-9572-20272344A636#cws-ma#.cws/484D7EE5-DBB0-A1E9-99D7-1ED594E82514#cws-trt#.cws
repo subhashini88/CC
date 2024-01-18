@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-99D7-1ED594E86514">
+	<DocumentID>484D7EE5-DBB0-A1E9-99D7-1ED594E82514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-99D7-1ED594E82514</Name>
+	<Description>Contact esists??</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-04-25T13:18:40.751</CreationDate>
+	<Notes/>
+	<Text>Contact esists??</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-99D7-1ED594E7A514"
+		/>
+	</TextIdentifier>
+</TranslatedText>

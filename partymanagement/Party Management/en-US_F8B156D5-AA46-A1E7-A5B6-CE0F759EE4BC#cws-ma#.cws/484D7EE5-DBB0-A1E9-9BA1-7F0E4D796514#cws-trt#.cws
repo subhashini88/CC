@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E9-9BA1-7F0E4D79A514">
+	<DocumentID>484D7EE5-DBB0-A1E9-9BA1-7F0E4D796514</DocumentID>
+	<Name>484D7EE5-DBB0-A1E9-9BA1-7F0E4D796514</Name>
+	<Description>Sales force</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2019-05-06T06:34:28.322</CreationDate>
+	<Notes/>
+	<Text>Sales force</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E9-9BA1-7F0E4D78E514"
+		/>
+	</TextIdentifier>
+</TranslatedText>

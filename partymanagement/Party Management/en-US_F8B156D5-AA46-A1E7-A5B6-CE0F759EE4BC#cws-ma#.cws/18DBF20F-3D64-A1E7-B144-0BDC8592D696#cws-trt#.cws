@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18DBF20F-3D64-A1E7-B144-0BDC85931696">
+	<DocumentID>18DBF20F-3D64-A1E7-B144-0BDC8592D696</DocumentID>
+	<Name>18DBF20F-3D64-A1E7-B144-0BDC8592D696</Name>
+	<Description>GetAllContacts</Description>
+	<CreatedBy>pchandra</CreatedBy>
+	<CreationDate>2017-11-09T05:41:14.256</CreationDate>
+	<Notes/>
+	<Text>GetAllContacts</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18DBF20F-3D64-A1E7-B144-0BDC85925696"
+		/>
+	</TextIdentifier>
+</TranslatedText>

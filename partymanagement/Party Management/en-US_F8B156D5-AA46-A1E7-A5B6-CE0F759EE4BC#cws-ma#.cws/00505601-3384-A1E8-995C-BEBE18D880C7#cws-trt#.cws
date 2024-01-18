@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-3384-A1E8-995C-BEBE18D8C0C7">
+	<DocumentID>00505601-3384-A1E8-995C-BEBE18D880C7</DocumentID>
+	<Name>00505601-3384-A1E8-995C-BEBE18D880C7</Name>
+	<Description>DeleteParty</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-01T08:12:13.549</CreationDate>
+	<Notes/>
+	<Text>DeleteParty</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-3384-A1E8-995C-BEBE18D800C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9E18-38BBF309F024">
+	<DocumentID>F8B156BC-2CB7-A1E8-9E18-38BBF309B024</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9E18-38BBF309B024</Name>
+	<Description>BN_My accounts list</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-25T11:12:59.512</CreationDate>
+	<Notes/>
+	<Text>BN_My accounts list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9E18-38BBF3093024"
+		/>
+	</TextIdentifier>
+</TranslatedText>

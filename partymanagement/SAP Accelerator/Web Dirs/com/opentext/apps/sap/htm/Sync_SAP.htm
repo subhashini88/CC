@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../../../thirdparty/bootstrap/css/bootstrap.min.css">
+    </link>
+    <link rel="stylesheet" href="../css/appscommon.css">
+    </link>
+    <script src="../../../../../thirdparty/jquery/jquery.js" type="text/javascript"></script>
+    <script src="../../../../../html5/cordys.html5sdk.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/knockout/knockout.js" type="text/javascript"></script>
+    <script src="../../../../../thirdparty/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="../../../../../com/opentext/apps/utils/js/translationsUtil.js" type="text/javascript"></script>
+    <script src="../js/appscommon.js"></script>
+    <script src="../js/synchronizeSAP.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			var i_locale = getlocale();
+			var rtl_css = '../../../../../com/opentext/apps/utils/css/rtlappscommon.css';
+			translateLabels("com/opentext/apps/accountmanagement/SAP/SAP", i_locale);
+			loadRTLIfRequired(i_locale,rtl_css);
+		});
+	</script>
+    <style type="text/css">
+        .import-div {
+            margin-top: 30px;
+            margin-left: 16px;
+        }
+
+        .second-row {
+            margin-top: 16px;
+        }
+
+        .header-label {
+            margin-right: 28px;
+        }
+
+        .margin-right-28 {
+            margin-right: 28px;
+        }
+
+        .margin-top16 {
+            margin-top: 16px;
+        }
+
+        .main-container {
+            margin: 0;
+        }
+
+        body {
+            font-size: 14px;
+            color: #333333;
+        }
+
+        .inner-container {
+            margin-left: -15px;
+        }
+
+        td {
+            border: none;
+        }
+    </style>
+</head>
+
+<body class="cc-ltr">
+    <div id="successToast" style="font-size: 18px;color: #211e1eeb;"></div>
+    <div id="errorToast" class="hide">
+        <div id="toastHeading">
+            <div id="headingContent" style="float:left;padding-left: 1em;">
+                <h5 id="header-content"> </h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="container  main-container">
+        <div class="header"></div>
+        <div class="inner-container">
+            <div class="import-div">
+                <table>
+                    <tr>
+                        <td>
+                            <h5 class="header-label" data-translatable="true">Vendors</h5>
+                        </td>
+                        <td>
+                            <div class="margin-right-28">
+                                <button type="button" class="apps-btn btn apps-btn-primary btn_width_custom" onclick="syncVendors()">
+                                    <span data-translatable="true">Sync vendors</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 class="header-label" data-translatable="true">Customers</h5>
+                        </td>
+                        <td>
+                            <div class="margin-right-28">
+                                <button type="button" class="apps-btn btn apps-btn-primary btn_width_custom" onclick="syncCustomers()">
+                                    <span data-translatable="true">Sync customers</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5 class="header-label" data-translatable="true">Companies</h5>
+                        </td>
+                        <td>
+                            <div class="margin-right-28">
+                                <button type="button" class="apps-btn btn apps-btn-primary btn_width_custom" onclick="syncCompanies()">
+                                    <span data-translatable="true">Sync companies</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+					 <tr>
+                        <td>
+                            <h5 class="header-label" data-translatable="true">Customer contacts</h5>
+                        </td>
+                        <td>
+                            <div class="margin-right-28">
+                                <button type="button" class="apps-btn btn apps-btn-primary btn_width_custom" onclick="syncCustomerContacts()">
+                                    <span data-translatable="true">Sync customer contacts</span>
+                                </button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer"> </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B507-61DF87E3A4B8">
+	<DocumentID>9890969C-5774-A1E7-B507-61DF87E364B8</DocumentID>
+	<Name>9890969C-5774-A1E7-B507-61DF87E364B8</Name>
+	<Description>Accounts with no party list</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-28T09:53:43.463</CreationDate>
+	<Notes/>
+	<Text>Accounts with no party list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B507-61DF87E2E4B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

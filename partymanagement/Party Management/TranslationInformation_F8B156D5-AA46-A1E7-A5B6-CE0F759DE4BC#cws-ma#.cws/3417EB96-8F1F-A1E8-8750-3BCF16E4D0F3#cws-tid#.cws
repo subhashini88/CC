@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8750-3BCF16E510F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8750-3BCF16E4D0F3</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8750-3BCF16E4D0F3</Name>
+	<Description>Z_INT_CollectionAccountList</Description>
+	<CreatedBy>nareshp nareshp</CreatedBy>
+	<CreationDate>2018-03-02T04:16:17.677</CreationDate>
+	<Notes/>
+	<DefaultText>Z_INT_CollectionAccountList</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="3417EB96-8F1F-A1E8-8750-3BCF16E550F3"
+		/>
+	</Translations>
+</TextIdentifier>

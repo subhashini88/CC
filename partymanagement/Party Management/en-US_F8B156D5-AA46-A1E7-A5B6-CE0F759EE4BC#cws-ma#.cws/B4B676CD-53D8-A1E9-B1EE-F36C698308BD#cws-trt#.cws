@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B1EE-F36C698348BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B1EE-F36C698308BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B1EE-F36C698308BD</Name>
+	<Description>SAP</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-26T04:43:40.883</CreationDate>
+	<Notes/>
+	<Text>SAP</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-B1EE-F36C698288BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

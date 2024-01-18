@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A60F-518A4FCDA4BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A60F-518A4FCD64BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A60F-518A4FCD64BC</Name>
+	<Description>Related addresses form</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-13T04:47:37.986</CreationDate>
+	<Notes/>
+	<Text>Related addresses form</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D5-AA46-A1E7-A60F-518A4FCCE4BC"
+		/>
+	</TextIdentifier>
+</TranslatedText>

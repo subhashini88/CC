@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EEB-71EF-A1E8-B995-AAFF4700E504">
+	<DocumentID>484D7EEB-71EF-A1E8-B995-AAFF4700A504</DocumentID>
+	<Name>484D7EEB-71EF-A1E8-B995-AAFF4700A504</Name>
+	<Description>ManagerActiveStatusList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-11-12T09:15:10.242</CreationDate>
+	<Notes/>
+	<Text>ManagerActiveStatusList</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EEB-71EF-A1E8-B995-AAFF47002504"
+		/>
+	</TextIdentifier>
+</TranslatedText>

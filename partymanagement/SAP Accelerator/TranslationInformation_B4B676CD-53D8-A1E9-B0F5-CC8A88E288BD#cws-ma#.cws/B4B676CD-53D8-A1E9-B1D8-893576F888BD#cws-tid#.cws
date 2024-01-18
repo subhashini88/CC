@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B1D8-893576F8C8BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B1D8-893576F888BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B1D8-893576F888BD</Name>
+	<Description>GetPartyByRegId</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-25T18:03:22.991</CreationDate>
+	<Notes/>
+	<DefaultText>GetPartyByRegId</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E308BD"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-B1D8-893576F908BD"
+		/>
+	</Translations>
+</TextIdentifier>

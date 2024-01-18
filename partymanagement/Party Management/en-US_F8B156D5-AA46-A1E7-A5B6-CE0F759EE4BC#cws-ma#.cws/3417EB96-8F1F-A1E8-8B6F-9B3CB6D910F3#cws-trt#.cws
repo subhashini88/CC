@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3417EB96-8F1F-A1E8-8B6F-9B3CB6D950F3">
+	<DocumentID>3417EB96-8F1F-A1E8-8B6F-9B3CB6D910F3</DocumentID>
+	<Name>3417EB96-8F1F-A1E8-8B6F-9B3CB6D910F3</Name>
+	<Description>Pagination client list</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-03-23T08:12:36.573</CreationDate>
+	<Notes/>
+	<Text>Pagination client list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3417EB96-8F1F-A1E8-8B6F-9B3CB6D890F3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

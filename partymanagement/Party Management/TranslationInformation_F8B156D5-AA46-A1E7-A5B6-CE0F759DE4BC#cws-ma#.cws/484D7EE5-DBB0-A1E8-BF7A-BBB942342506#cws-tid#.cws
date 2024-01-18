@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-BF7A-BBB942346506">
+	<DocumentID>484D7EE5-DBB0-A1E8-BF7A-BBB942342506</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-BF7A-BBB942342506</Name>
+	<Description>Please enter a valid email</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-12-12T08:52:44.706</CreationDate>
+	<Notes/>
+	<DefaultText>Please enter a valid email</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E8-BF7A-BBB94234A506"
+		/>
+	</Translations>
+</TextIdentifier>

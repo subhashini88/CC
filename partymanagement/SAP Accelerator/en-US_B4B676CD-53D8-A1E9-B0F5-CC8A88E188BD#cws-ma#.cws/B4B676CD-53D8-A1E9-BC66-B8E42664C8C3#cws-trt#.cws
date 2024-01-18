@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-BC66-B8E4266508C3">
+	<DocumentID>B4B676CD-53D8-A1E9-BC66-B8E42664C8C3</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-BC66-B8E42664C8C3</Name>
+	<Description>GetCustomerContactsMapping</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-10-18T11:32:50.803</CreationDate>
+	<Notes/>
+	<Text>GetCustomerContactsMapping</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-BC66-B8E4266448C3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

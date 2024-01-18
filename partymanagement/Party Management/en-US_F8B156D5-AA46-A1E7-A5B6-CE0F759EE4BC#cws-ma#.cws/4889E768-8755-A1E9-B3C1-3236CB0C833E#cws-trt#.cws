@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="4889E768-8755-A1E9-B3C1-3236CB0CC33E">
+	<DocumentID>4889E768-8755-A1E9-B3C1-3236CB0C833E</DocumentID>
+	<Name>4889E768-8755-A1E9-B3C1-3236CB0C833E</Name>
+	<Description>exclamationNew</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-04T11:13:09.211</CreationDate>
+	<Notes/>
+	<Text>exclamationNew</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="4889E768-8755-A1E9-B3C1-3236CB0C033E"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-B5AB-4A3E81D52502">
+	<DocumentID>484D7EE5-DBB0-A1E8-B5AB-4A3E81D4E502</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-B5AB-4A3E81D4E502</Name>
+	<Description>ActionBar</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-10-23T10:45:08.711</CreationDate>
+	<Notes/>
+	<Text>ActionBar</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-B5AB-4A3E81D46502"
+		/>
+	</TextIdentifier>
+</TranslatedText>

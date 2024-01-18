@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B3EE-D91750EDC8BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B3EE-D91750ED88BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B3EE-D91750ED88BD</Name>
+	<Description>Z_INT_AllAccountsList</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-05T10:26:00.964</CreationDate>
+	<Notes/>
+	<Text>Z_INT_AllAccountsList</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-B3EE-D91750ED08BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

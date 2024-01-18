@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-841E-C07E025DA4BB">
+	<DocumentID>F8B156D6-35F3-A1E8-841E-C07E025D64BB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-841E-C07E025D64BB</Name>
+	<Description>Update party on manager change</Description>
+	<CreatedBy>Yogesh Chaube</CreatedBy>
+	<CreationDate>2018-02-13T05:19:30.786</CreationDate>
+	<Notes/>
+	<Text>Update party on manager change</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-841E-C07E025CE4BB"
+		/>
+	</TextIdentifier>
+</TranslatedText>

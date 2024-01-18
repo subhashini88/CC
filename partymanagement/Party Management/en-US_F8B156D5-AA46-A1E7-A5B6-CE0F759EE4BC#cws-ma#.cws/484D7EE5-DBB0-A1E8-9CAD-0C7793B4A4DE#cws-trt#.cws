@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CAD-0C7793B4E4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CAD-0C7793B4A4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CAD-0C7793B4A4DE</Name>
+	<Description>BN_Edit form</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T04:58:25.939</CreationDate>
+	<Notes/>
+	<Text>BN_Edit form</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CAD-0C7793B424DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

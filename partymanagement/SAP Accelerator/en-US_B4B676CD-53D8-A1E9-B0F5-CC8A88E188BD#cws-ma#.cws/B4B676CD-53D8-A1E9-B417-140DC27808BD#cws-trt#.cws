@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B417-140DC27848BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B417-140DC27808BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B417-140DC27808BD</Name>
+	<Description>GetAccountsByRegIdCreatTypeCategory</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-09-06T04:32:40.703</CreationDate>
+	<Notes/>
+	<Text>GetAccountsByRegIdCreatTypeCategory</Text>
+	<Language>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E208BD"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-B417-140DC27788BD"
+		/>
+	</TextIdentifier>
+</TranslatedText>

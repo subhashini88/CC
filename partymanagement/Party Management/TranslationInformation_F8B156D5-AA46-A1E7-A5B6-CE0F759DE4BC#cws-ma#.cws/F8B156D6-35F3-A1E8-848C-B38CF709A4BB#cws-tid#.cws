@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-848C-B38CF709E4BB">
+	<DocumentID>F8B156D6-35F3-A1E8-848C-B38CF709A4BB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-848C-B38CF709A4BB</Name>
+	<Description>Manager user IDs</Description>
+	<CreatedBy>Yogesh Chaube</CreatedBy>
+	<CreationDate>2018-02-15T09:33:21.532</CreationDate>
+	<Notes/>
+	<DefaultText>Manager user IDs</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D6-35F3-A1E8-848C-B38CF70A24BB"
+		/>
+	</Translations>
+</TextIdentifier>

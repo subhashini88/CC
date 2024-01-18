@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E7-A718-A52748965D39">
+	<DocumentID>B4B676CD-53D8-A1E7-A718-A52748961D39</DocumentID>
+	<Name>B4B676CD-53D8-A1E7-A718-A52748961D39</Name>
+	<Description>Active contacts list external</Description>
+	<CreatedBy>skanamat</CreatedBy>
+	<CreationDate>2017-09-18T11:19:32.029</CreationDate>
+	<Notes/>
+	<Text>Active contacts list external</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E7-A718-A52748959D39"
+		/>
+	</TextIdentifier>
+</TranslatedText>

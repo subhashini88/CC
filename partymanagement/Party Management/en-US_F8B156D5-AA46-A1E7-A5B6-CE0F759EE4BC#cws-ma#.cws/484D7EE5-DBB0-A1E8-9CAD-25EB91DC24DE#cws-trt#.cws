@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CAD-25EB91DC64DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CAD-25EB91DC24DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CAD-25EB91DC24DE</Name>
+	<Description>External contacts</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T05:05:16.567</CreationDate>
+	<Notes/>
+	<Text>External contacts</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CAD-25EB91DBA4DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

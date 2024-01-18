@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B515-4DDCE14964B8">
+	<DocumentID>9890969C-5774-A1E7-B515-4DDCE14924B8</DocumentID>
+	<Name>9890969C-5774-A1E7-B515-4DDCE14924B8</Name>
+	<Description>UpdatePartyWithEmptyCollectionString</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-28T16:04:47.538</CreationDate>
+	<Notes/>
+	<Text>UpdatePartyWithEmptyCollectionString</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B515-4DDCE148A4B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

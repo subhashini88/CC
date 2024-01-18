@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CAE-AD650F23A4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CAE-AD650F2364DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CAE-AD650F2364DE</Name>
+	<Description>BN_Party filter list</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T05:49:16.115</CreationDate>
+	<Notes/>
+	<Text>BN_Party filter list</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CAE-AD650F22E4DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A646-CAF119AB64BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A646-CAF119AB24BC</DocumentID>
+	<Name>F8B156D5-AA46-A1E7-A646-CAF119AB24BC</Name>
+	<Description>Party action bar_3</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-14T08:48:50.571</CreationDate>
+	<Notes/>
+	<DefaultText>Party action bar_3</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="F8B156D5-AA46-A1E7-A646-CAF119ABA4BC"
+		/>
+	</Translations>
+</TextIdentifier>

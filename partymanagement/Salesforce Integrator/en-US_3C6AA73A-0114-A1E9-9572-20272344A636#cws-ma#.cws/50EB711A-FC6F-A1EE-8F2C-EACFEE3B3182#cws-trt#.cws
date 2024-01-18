@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-8F2C-EACFEE3B7182">
+	<DocumentID>50EB711A-FC6F-A1EE-8F2C-EACFEE3B3182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-8F2C-EACFEE3B3182</Name>
+	<Description>Encrypt password</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-17T04:19:53.783</CreationDate>
+	<Notes/>
+	<Text>Encrypt password</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-8F2C-EACFEE3AB182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-9CB1-32D937DDE4DE">
+	<DocumentID>484D7EE5-DBB0-A1E8-9CB1-32D937DDA4DE</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-9CB1-32D937DDA4DE</Name>
+	<Description>Account manager ID</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-06-18T06:58:54.473</CreationDate>
+	<Notes/>
+	<Text>Account manager ID</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-9CB1-32D937DD24DE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

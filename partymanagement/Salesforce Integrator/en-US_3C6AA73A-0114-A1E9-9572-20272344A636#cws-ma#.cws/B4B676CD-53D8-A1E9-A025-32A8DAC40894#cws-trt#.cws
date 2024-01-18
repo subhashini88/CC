@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-A025-32A8DAC44894">
+	<DocumentID>B4B676CD-53D8-A1E9-A025-32A8DAC40894</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-A025-32A8DAC40894</Name>
+	<Description>DeleteRelatedContacts</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-05-27T15:38:39.314</CreationDate>
+	<Notes/>
+	<Text>DeleteRelatedContacts</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="B4B676CD-53D8-A1E9-A025-32A8DAC38894"
+		/>
+	</TextIdentifier>
+</TranslatedText>

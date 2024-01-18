@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="C4D98747-A6D9-A1E7-B66B-743EF5AAE4E4">
+	<DocumentID>C4D98747-A6D9-A1E7-B66B-743EF5AAA4E4</DocumentID>
+	<Name>C4D98747-A6D9-A1E7-B66B-743EF5AAA4E4</Name>
+	<Description>GetContactByNameAndParty</Description>
+	<CreatedBy>setup</CreatedBy>
+	<CreationDate>2017-12-05T11:18:13.13</CreationDate>
+	<Notes/>
+	<DefaultText>GetContactByNameAndParty</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="C4D98747-A6D9-A1E7-B66B-743EF5AB24E4"
+		/>
+	</Translations>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="50EB711A-FC6F-A1EE-8F2E-21B612E53182">
+	<DocumentID>50EB711A-FC6F-A1EE-8F2E-21B612E4F182</DocumentID>
+	<Name>50EB711A-FC6F-A1EE-8F2E-21B612E4F182</Name>
+	<Description>CreateSalesforceConfigurator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2023-08-17T04:45:54.497</CreationDate>
+	<Notes/>
+	<Text>CreateSalesforceConfigurator</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="50EB711A-FC6F-A1EE-8F2E-21B612E47182"
+		/>
+	</TextIdentifier>
+</TranslatedText>

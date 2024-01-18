@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E7-BAE9-E036DEA564BA">
+	<DocumentID>484D7EE5-DBB0-A1E7-BAE9-E036DEA524BA</DocumentID>
+	<Name>484D7EE5-DBB0-A1E7-BAE9-E036DEA524BA</Name>
+	<Description>Contracting entities list</Description>
+	<CreatedBy>CC Contract Admin</CreatedBy>
+	<CreationDate>2017-12-28T08:44:09.217</CreationDate>
+	<Notes/>
+	<DefaultText>Contracting entities list</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="484D7EE5-DBB0-A1E7-BAE9-E036DEA5A4BA"
+		/>
+	</Translations>
+</TextIdentifier>

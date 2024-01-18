@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="9890969C-5774-A1E7-B39F-4B231A79E4B8">
+	<DocumentID>9890969C-5774-A1E7-B39F-4B231A79A4B8</DocumentID>
+	<Name>9890969C-5774-A1E7-B39F-4B231A79A4B8</Name>
+	<Description>Containing organizational unit</Description>
+	<CreatedBy>Aakriti Dhir</CreatedBy>
+	<CreationDate>2017-11-21T05:37:17.52</CreationDate>
+	<Notes/>
+	<Text>Containing organizational unit</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="9890969C-5774-A1E7-B39F-4B231A7924B8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="00505601-3384-A1E8-995C-BEBE18EE00C7">
+	<DocumentID>00505601-3384-A1E8-995C-BEBE18EDC0C7</DocumentID>
+	<Name>00505601-3384-A1E8-995C-BEBE18EDC0C7</Name>
+	<Description>contains Collection account?</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2018-06-01T08:09:59.669</CreationDate>
+	<Notes/>
+	<Text>contains Collection account?</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="00505601-3384-A1E8-995C-BEBE18ED40C7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

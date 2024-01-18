@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="484D7EE5-DBB0-A1E8-BF7B-61532F622506">
+	<DocumentID>484D7EE5-DBB0-A1E8-BF7B-61532F61E506</DocumentID>
+	<Name>484D7EE5-DBB0-A1E8-BF7B-61532F61E506</Name>
+	<Description>Email validation on create</Description>
+	<CreatedBy>harley</CreatedBy>
+	<CreationDate>2018-12-12T09:20:41.278</CreationDate>
+	<Notes/>
+	<Text>Email validation on create</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="484D7EE5-DBB0-A1E8-BF7B-61532F616506"
+		/>
+	</TextIdentifier>
+</TranslatedText>

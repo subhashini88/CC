@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-9572-202723482636">
+	<DocumentID>3C6AA73A-0114-A1E9-9572-20272347E636</DocumentID>
+	<Name>Salesforce Integrator</Name>
+	<Description>Salesforce Integrator</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-03T05:54:56.915</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="3C6AA73A-0114-A1E9-9572-20272346E636">
+			<DocumentID>3C6AA73A-0114-A1E9-9572-20272346A636</DocumentID>
+			<Name>OpenText Salesforce Integrator</Name>
+			<Description>OpenText Salesforce Integrator</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-04-03T05:54:56.914</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Salesforce Integrator</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Salesforce Integrator</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723476636"
+			path="Salesforce Integrator"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="3C6AA73A-0114-A1E9-9572-202723466636">
+			<DocumentID>3C6AA73A-0114-A1E9-9572-202723462636</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2019-04-03T05:54:56.914</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="3C6AA73A-0114-A1E9-9572-202723456636">
+					<DocumentID>3C6AA73A-0114-A1E9-9572-202723452636</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2019-04-03T05:54:56.915</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="3C6AA73A-0114-A1E9-9572-20272344A636"
+							path="Salesforce Integrator/en-US_3C6AA73A-0114-A1E9-9572-20272344A636"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="3C6AA73A-0114-A1E9-9572-202723462636"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="3C6AA73A-0114-A1E9-9572-202723452636"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="3C6AA73A-0114-A1E9-9572-20272345A636"
+					path="Salesforce Integrator/TranslationInformation_3C6AA73A-0114-A1E9-9572-20272345A636"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

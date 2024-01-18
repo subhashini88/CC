@@ -1,0 +1,104 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="F8B156D5-AA46-A1E7-A5B6-CE0F759D24BC">
+	<DocumentID>F8B156D5-AA46-A1E7-A5B6-CE0F759CE4BC</DocumentID>
+	<Name>Party Management</Name>
+	<Description>Party Management</Description>
+	<CreatedBy>adhir</CreatedBy>
+	<CreationDate>2017-09-11T10:23:18.249</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A5B6-CE0F75A024BC">
+			<DocumentID>F8B156D5-AA46-A1E7-A5B6-CE0F759FE4BC</DocumentID>
+			<Name>OpenText Party Management</Name>
+			<Description>OpenText Party Management</Description>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-11T10:23:18.248</CreationDate>
+			<Notes/>
+			<BuildNumber>1</BuildNumber>
+			<GenerateModelPackage>true</GenerateModelPackage>
+			<ISVPackageFileName>OpenText Party Management</ISVPackageFileName>
+			<ISVPackageOwner>OpenText</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Party Management</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+				<cws:item>ORGANIZATION</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>23.4.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759F64BC"
+			path="Party Management"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="F8B156D5-AA46-A1E7-A5B6-CE0F759DA4BC">
+			<DocumentID>F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description/>
+			<CreatedBy>adhir</CreatedBy>
+			<CreationDate>2017-09-11T10:23:18.249</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="F8B156D5-AA46-A1E7-A5B6-CE0F759EA4BC">
+					<DocumentID>F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC</DocumentID>
+					<Name>en-US</Name>
+					<Description/>
+					<CreatedBy>adhir</CreatedBy>
+					<CreationDate>2017-09-11T10:23:18.249</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="F8B156D5-AA46-A1E7-A5B6-CE0F759EE4BC"
+							path="Party Management/en-US_F8B156D5-AA46-A1E7-A5B6-CE0F759EE4BC"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="F8B156D5-AA46-A1E7-A5B6-CE0F759D64BC"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="F8B156D5-AA46-A1E7-A5B6-CE0F759DE4BC"
+					path="Party Management/TranslationInformation_F8B156D5-AA46-A1E7-A5B6-CE0F759DE4BC"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

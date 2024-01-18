@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="B4B676CD-53D8-A1E9-B28F-1AE1DC8908BD">
+	<DocumentID>B4B676CD-53D8-A1E9-B28F-1AE1DC88C8BD</DocumentID>
+	<Name>B4B676CD-53D8-A1E9-B28F-1AE1DC88C8BD</Name>
+	<Description>CreateOrUpdateSAPVendors</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-08-29T11:20:12.399</CreationDate>
+	<Notes/>
+	<DefaultText>CreateOrUpdateSAPVendors</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="B4B676CD-53D8-A1E9-B0F5-CC8A88E308BD"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="B4B676CD-53D8-A1E9-B28F-1AE1DC8948BD"
+		/>
+	</Translations>
+</TextIdentifier>

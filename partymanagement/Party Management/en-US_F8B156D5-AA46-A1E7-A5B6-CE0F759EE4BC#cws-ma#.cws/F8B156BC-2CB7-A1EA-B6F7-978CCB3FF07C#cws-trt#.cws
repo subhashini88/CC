@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1EA-B6F7-978CCB40307C">
+	<DocumentID>F8B156BC-2CB7-A1EA-B6F7-978CCB3FF07C</DocumentID>
+	<Name>F8B156BC-2CB7-A1EA-B6F7-978CCB3FF07C</Name>
+	<Description>Map existing contacts onto the party using the &quot;Map existing contact&quot; button.</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2020-08-11T14:38:43.921</CreationDate>
+	<Notes/>
+	<Text>Map existing contacts onto the party using the &quot;Map existing contact&quot; button.</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1EA-B6F7-978CCB3F707C"
+		/>
+	</TextIdentifier>
+</TranslatedText>

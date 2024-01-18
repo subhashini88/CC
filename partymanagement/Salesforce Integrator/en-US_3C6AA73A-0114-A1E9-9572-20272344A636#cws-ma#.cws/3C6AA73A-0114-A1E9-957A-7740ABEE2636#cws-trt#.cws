@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="3C6AA73A-0114-A1E9-957A-7740ABEE6636">
+	<DocumentID>3C6AA73A-0114-A1E9-957A-7740ABEE2636</DocumentID>
+	<Name>3C6AA73A-0114-A1E9-957A-7740ABEE2636</Name>
+	<Description>Access Token</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2019-04-03T08:39:53.387</CreationDate>
+	<Notes/>
+	<Text>Access Token</Text>
+	<Language>
+		<uri
+			id="3C6AA73A-0114-A1E9-9572-202723452636"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="3C6AA73A-0114-A1E9-957A-7740ABEDA636"
+		/>
+	</TextIdentifier>
+</TranslatedText>

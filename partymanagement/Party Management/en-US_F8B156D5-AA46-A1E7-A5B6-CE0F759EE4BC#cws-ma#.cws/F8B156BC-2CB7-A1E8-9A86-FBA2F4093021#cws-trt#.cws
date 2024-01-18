@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156BC-2CB7-A1E8-9A86-FBA2F4097021">
+	<DocumentID>F8B156BC-2CB7-A1E8-9A86-FBA2F4093021</DocumentID>
+	<Name>F8B156BC-2CB7-A1E8-9A86-FBA2F4093021</Name>
+	<Description>is linked to Party?</Description>
+	<CreatedBy>superman</CreatedBy>
+	<CreationDate>2018-06-07T06:29:51.758</CreationDate>
+	<Notes/>
+	<Text>is linked to Party?</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156BC-2CB7-A1E8-9A86-FBA2F408B021"
+		/>
+	</TextIdentifier>
+</TranslatedText>

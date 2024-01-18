@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="F8B156D6-35F3-A1E8-A432-6AA7DE0664CB">
+	<DocumentID>F8B156D6-35F3-A1E8-A432-6AA7DE0624CB</DocumentID>
+	<Name>F8B156D6-35F3-A1E8-A432-6AA7DE0624CB</Name>
+	<Description>Delete collection accounts</Description>
+	<CreatedBy>ychaube</CreatedBy>
+	<CreationDate>2018-07-26T11:49:34.633</CreationDate>
+	<Notes/>
+	<Text>Delete collection accounts</Text>
+	<Language>
+		<uri
+			id="F8B156D5-AA46-A1E7-A5B6-CE0F759E64BC"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="F8B156D6-35F3-A1E8-A432-6AA7DE05A4CB"
+		/>
+	</TextIdentifier>
+</TranslatedText>
